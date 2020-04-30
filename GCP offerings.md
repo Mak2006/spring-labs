@@ -5,9 +5,13 @@
 3. App Engine - Here in you bring your code in supported languages and rest everything is managed. 
 4. Kubernetes Engine - Managed K8s offereing from G.  
 5. Storage services 
-   1. aas
-   2. 
+   1. Bigtable
+   2. Cloud storage
+   3. Cloud SQL
+   4. Cloud spanner
+   5. Cloud datastore
+   6. 
 7. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyOTc1MjEwOCwtMTIwMTY4Njg2OV19
+eyJoaXN0b3J5IjpbMTkzODkzNDIxMCwtMTIwMTY4Njg2OV19
 -->
