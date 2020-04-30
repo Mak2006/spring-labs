@@ -6,8 +6,9 @@ Backend - MySQL
 Microservice tracking - Zipkin
 
 ## Architecture
-A client server app with two microservices Spring based.  
+A client server app with 3 microservices Spring based.  
+1
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIyMTU5NTE1XX0=
+eyJoaXN0b3J5IjpbMTUxNjI5MjMxN119
 -->
