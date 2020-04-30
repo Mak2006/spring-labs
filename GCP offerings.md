@@ -10,8 +10,15 @@
    3. Cloud SQL
    4. Cloud spanner
    5. Cloud datastore
-   6. 
-7. 
+6. Big data services
+   1. Big query
+   2. Pub/Sub
+   3. Cloud Dataflow
+   4. Dataproc
+   5. Cloud datalab
+7. ML 
+	1. vS
+9. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzODkzNDIxMCwtMTIwMTY4Njg2OV19
+eyJoaXN0b3J5IjpbODcyODg3MzM2LC0xMjAxNjg2ODY5XX0=
 -->
