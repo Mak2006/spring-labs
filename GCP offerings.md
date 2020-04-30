@@ -23,9 +23,13 @@
 	4. Translational API
 	5. Natural Language API
 8. Spring meets the GCP - Spring cloud GCP
+	1. GCP Stackdriver - tracing app
+	2. Zipkin - tracing microservices calls
+	3. Rabbit MQ - 
+	4. MySQL - 
 9. 
 10. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDU1NDE2MjksLTEyMDE2ODY4NjldfQ
-==
+eyJoaXN0b3J5IjpbLTE4MTM3NTY0NTgsLTE3NDU1NDE2MjksLT
+EyMDE2ODY4NjldfQ==
 -->
