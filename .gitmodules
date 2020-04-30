@@ -1,0 +1,3 @@
+[submodule "spring-cloud-gcp-guestbook"]
+	path = spring-cloud-gcp-guestbook
+	url = https://github.com/saturnism/spring-cloud-gcp-guestbook.git
