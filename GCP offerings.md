@@ -22,9 +22,10 @@
 	3. Speech Engine
 	4. Translational API
 	5. Natural Language API
-	6. 
+8. Spring meets the GCP - Spring cloud GCP
 9. 
+10. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjExNTY3MjMsLTEyMDE2ODY4NjldfQ
+eyJoaXN0b3J5IjpbLTE3NDU1NDE2MjksLTEyMDE2ODY4NjldfQ
 ==
 -->
