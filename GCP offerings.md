@@ -17,8 +17,14 @@
    4. Dataproc
    5. Cloud datalab
 7. ML 
-	1. vS
+	1. Vision API
+	2. ML engine
+	3. Speech Engine
+	4. Translational API
+	5. Natural Language API
+	6. 
 9. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcyODg3MzM2LC0xMjAxNjg2ODY5XX0=
+eyJoaXN0b3J5IjpbLTEyNjExNTY3MjMsLTEyMDE2ODY4NjldfQ
+==
 -->
