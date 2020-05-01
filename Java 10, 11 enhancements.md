@@ -9,7 +9,7 @@
 	5.  
 4. A cleaner interface to garbage collector interface.  GC is parallel
 5. CDS - More features -  AppCDS - saves memory
-6. Java Safe points - Suspend all threads for 
+6. Java Safe points - Global Safe Points are points in the code where all threads are at a well described state, All the threads have to reach a safe point before its possible to do a Stop-The-World full garbage collection or a JNI call to native code. More [here](http://robsjava.blogspot.com/2014/02/how-safe-points-effect-jni-and-garbage.html) 
 7. Time based release versioning - 
 
 ## Java 8 
@@ -25,6 +25,6 @@
 ## Other things
 1. CACerts - the Java trust strore, which is the CA. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzkyNzM3OTMsLTg2NzA3MTE4NiwzNT
-U4NjgzMzddfQ==
+eyJoaXN0b3J5IjpbMTYyNjA1MzcwNywtMTQzOTI3Mzc5MywtOD
+Y3MDcxMTg2LDM1NTg2ODMzN119
 -->
