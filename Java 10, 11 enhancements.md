@@ -6,7 +6,7 @@
 4. Java intepretor works on Java files - `java Example.java` works. It must be a single source file. 
 5. 
 6. Java Flight Recorder - This is java's own profiler, like JProfiler. A continuous and configurable dump of events of the java runtime. Introduces jdk.jfr.Event class with which you can crete custom events. 
-7. TLS 1.3 support
+7. TLS 1.3 support, ChaCha20 algorithms
 8. 
 ## Java 10
 2. Backward compatibilty is present
@@ -38,7 +38,7 @@
 ## Other things
 1. CACerts - the Java trust strore, which is the CA. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MjczNDIzNCwxMDEzNTIzOTUwLC0xMT
+eyJoaXN0b3J5IjpbLTgxNTgwNjI0NCwxMDEzNTIzOTUwLC0xMT
 c0MDY3MDQ2LDg1NjY0MzYyNCwtMTQzOTI3Mzc5MywtODY3MDcx
 MTg2LDM1NTg2ODMzN119
 -->
