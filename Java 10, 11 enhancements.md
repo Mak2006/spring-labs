@@ -8,7 +8,7 @@
 	4. `var` is a keyword now.
 	5.  
 4. A cleaner interface to garbage collector interface.  GC is parallel
-5. CDS - Class Data Sharing - 
+5. CDS - More features -  AppCDS - saves memory
 
 ## Java 8 
 1. Lambda - A much awaited one, I must say. 
@@ -18,6 +18,7 @@
 6. 
 ## New features in Java 5
 1. Generics - 
+2. CDS 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU1ODY4MzM3XX0=
+eyJoaXN0b3J5IjpbLTg2NzA3MTE4NiwzNTU4NjgzMzddfQ==
 -->
