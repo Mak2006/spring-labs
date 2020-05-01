@@ -1,5 +1,7 @@
 # Run down of new features in Java 
-## Java 10, 11
+## Java 11
+
+## Java 10
 2. Backward compatibilty is present
 3. Variable declaration Local variable type inference-  
 	1. `List <String> list = new ArrayList<String>();` 
@@ -10,7 +12,7 @@
 4. A cleaner interface to garbage collector interface.  GC is parallel
 5. CDS - More features -  AppCDS - saves memory
 6. Java Safe points - Global Safe Points are points in the code where all threads are at a well described state, All the threads have to reach a safe point before its possible to do a Stop-The-World full garbage collection or a JNI call to native code. More [here](http://robsjava.blogspot.com/2014/02/how-safe-points-effect-jni-and-garbage.html) 
-7. Time based release versioning - 
+7. Time based release versioning - Six months release cycle.
 
 ## Java 8 
 1. Lambda - A much awaited one, I must say. 
@@ -25,6 +27,6 @@
 ## Other things
 1. CACerts - the Java trust strore, which is the CA. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNjA1MzcwNywtMTQzOTI3Mzc5MywtOD
+eyJoaXN0b3J5IjpbMTA4MTcwMTI3NSwtMTQzOTI3Mzc5MywtOD
 Y3MDcxMTg2LDM1NTg2ODMzN119
 -->
