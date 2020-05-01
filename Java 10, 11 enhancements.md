@@ -9,7 +9,7 @@
 	5.  
 4. A cleaner interface to garbage collector interface.  GC is parallel
 5. CDS - More features -  AppCDS - saves memory
-6. Java Safe points - Suspend al
+6. Java Safe points - Suspend all threads for 
 7. Time based release versioning - 
 
 ## Java 8 
@@ -25,6 +25,6 @@
 ## Other things
 1. CACerts - the Java trust strore, which is the CA. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDAwNzk5MzUsLTg2NzA3MTE4NiwzNT
+eyJoaXN0b3J5IjpbLTE0MzkyNzM3OTMsLTg2NzA3MTE4NiwzNT
 U4NjgzMzddfQ==
 -->
