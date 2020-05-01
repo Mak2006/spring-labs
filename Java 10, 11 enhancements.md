@@ -4,9 +4,10 @@
 2. HTTPClient - asynchronous, future support for HTTP2. This is class which provides all HTTP methods and feature to make HTTP requests.
 3. GC enhancements - Epsilon introduced, scalable low latency Gabage collector. 
 4. Java intepretor works on Java files - `java Example.java` works. It must be a single source file. 
-5. JShell - a 
+5. 
 6. Java Flight Recorder - This is java's own profiler, like JProfiler. A continuous and configurable dump of events of the java runtime. Introduces jdk.jfr.Event class with which you can crete custom events. 
-7. 
+7. TLS 1.3 support
+8. 
 ## Java 10
 2. Backward compatibilty is present
 3. Variable declaration Local variable type inference-  
@@ -23,6 +24,7 @@
 
 ## Java 9 
 1. JIT - Graal introduced.
+2. JShell introduced - a python like interpreter. 
 ## Java 8 
 1. Lambda - A much awaited one, I must say. 
 2. 
@@ -36,7 +38,7 @@
 ## Other things
 1. CACerts - the Java trust strore, which is the CA. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMzUyMzk1MCwtMTE3NDA2NzA0Niw4NT
-Y2NDM2MjQsLTE0MzkyNzM3OTMsLTg2NzA3MTE4NiwzNTU4Njgz
-MzddfQ==
+eyJoaXN0b3J5IjpbMTM3MjczNDIzNCwxMDEzNTIzOTUwLC0xMT
+c0MDY3MDQ2LDg1NjY0MzYyNCwtMTQzOTI3Mzc5MywtODY3MDcx
+MTg2LDM1NTg2ODMzN119
 -->
