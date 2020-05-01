@@ -9,12 +9,13 @@
 	5.  
 4. 
 ## Java 8 
-1. Lambda - much await
+1. Lambda - A much awaited one, I must say. 
+2. 
 ## Java 7 
 1. Diamond operator
 6. 
 ## New features in Java 5
 1. Generics - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4Mzg3MDg5NV19
+eyJoaXN0b3J5IjpbMjA0NDA1ODUyMF19
 -->
