@@ -19,6 +19,10 @@
 ## New features in Java 5
 1. Generics - 
 2. CDS 
+
+## Other things
+1. CACerts - the Java trust strore, which is the CA. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NzA3MTE4NiwzNTU4NjgzMzddfQ==
+eyJoaXN0b3J5IjpbLTEwNDY0NDE2NzQsLTg2NzA3MTE4NiwzNT
+U4NjgzMzddfQ==
 -->
