@@ -2,7 +2,7 @@
 ## Java 11
 1. can use var in lambda
 2. HTTPClient - asynchronous, future support for HTTP2.
-3. GC enhancements - Epsilon introduced, scalable low latency Gag
+3. GC enhancements - Epsilon introduced, scalable low latency Gabage collector. 
 4. 
 ## Java 10
 2. Backward compatibilty is present
@@ -33,7 +33,7 @@
 ## Other things
 1. CACerts - the Java trust strore, which is the CA. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjI1MzI3MDcsLTExNzQwNjcwNDYsOD
-U2NjQzNjI0LC0xNDM5MjczNzkzLC04NjcwNzExODYsMzU1ODY4
-MzM3XX0=
+eyJoaXN0b3J5IjpbMTIwMjc5NjM5OCwtMTE3NDA2NzA0Niw4NT
+Y2NDM2MjQsLTE0MzkyNzM3OTMsLTg2NzA3MTE4NiwzNTU4Njgz
+MzddfQ==
 -->
