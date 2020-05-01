@@ -1,8 +1,9 @@
 # Run down of new features in Java 
 ## Java 11
 1. can use var in lambda
-2. HTTP Client 
-3. 
+2. HTTPClient - asynchronous, future support for HTTP2.
+3. GC enhancements - Epsilon introduced, scalable low latency Gag
+4. 
 ## Java 10
 2. Backward compatibilty is present
 3. Variable declaration Local variable type inference-  
@@ -32,6 +33,7 @@
 ## Other things
 1. CACerts - the Java trust strore, which is the CA. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzQwNjcwNDYsODU2NjQzNjI0LC0xND
-M5MjczNzkzLC04NjcwNzExODYsMzU1ODY4MzM3XX0=
+eyJoaXN0b3J5IjpbLTE2NjI1MzI3MDcsLTExNzQwNjcwNDYsOD
+U2NjQzNjI0LC0xNDM5MjczNzkzLC04NjcwNzExODYsMzU1ODY4
+MzM3XX0=
 -->
