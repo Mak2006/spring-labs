@@ -7,7 +7,8 @@
 	3. Still it is statically typed (not like python);
 	4. `var` is a keyword now.
 	5.  
-4. 
+4. A cleaner interface to garbage collector interface. 
+
 ## Java 8 
 1. Lambda - A much awaited one, I must say. 
 2. 
@@ -17,5 +18,5 @@
 ## New features in Java 5
 1. Generics - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDA1ODUyMF19
+eyJoaXN0b3J5IjpbNDA3MjI1NDIyXX0=
 -->
