@@ -1,6 +1,8 @@
 # Run down of new features in Java 
 ## Java 11
-
+1. can use var in lambda
+2. HTTP Client 
+3. 
 ## Java 10
 2. Backward compatibilty is present
 3. Variable declaration Local variable type inference-  
@@ -8,7 +10,7 @@
 	2. `var = new ArrayList<String>();`  The type is deciphed from how you are initializing it. It means you cannot have `var x;`
 	3. Still it is statically typed (not like python);
 	4. `var` is a keyword now.
-	5.  
+	5.  Cannot use them in lamdas
 4. A cleaner interface to garbage collector interface.  GC is parallel
 5. CDS - More features -  AppCDS - saves memory
 6. Java Safe points - Global Safe Points are points in the code where all threads are at a well described state, All the threads have to reach a safe point before its possible to do a Stop-The-World full garbage collection or a JNI call to native code. More [here](http://robsjava.blogspot.com/2014/02/how-safe-points-effect-jni-and-garbage.html) 
@@ -30,6 +32,6 @@
 ## Other things
 1. CACerts - the Java trust strore, which is the CA. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU2NjQzNjI0LC0xNDM5MjczNzkzLC04Nj
-cwNzExODYsMzU1ODY4MzM3XX0=
+eyJoaXN0b3J5IjpbLTExNzQwNjcwNDYsODU2NjQzNjI0LC0xND
+M5MjczNzkzLC04NjcwNzExODYsMzU1ODY4MzM3XX0=
 -->
