@@ -1,10 +1,11 @@
 # Run down of new features in Java 
 ## Java 11
 1. can use var in lambda
-2. HTTPClient - asynchronous, future support for HTTP2.
+2. HTTPClient - asynchronous, future support for HTTP2. 
 3. GC enhancements - Epsilon introduced, scalable low latency Gabage collector. 
-4. Java intepretor works on Java files - java
-5. 
+4. Java intepretor works on Java files - `java Example.java` works. It must be a single source file. 
+5. JShell - a 
+6. 
 ## Java 10
 2. Backward compatibilty is present
 3. Variable declaration Local variable type inference-  
@@ -34,7 +35,7 @@
 ## Other things
 1. CACerts - the Java trust strore, which is the CA. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDMyMzM5NCwtMTE3NDA2NzA0Niw4NT
+eyJoaXN0b3J5IjpbLTY2OTQ4ODkyNywtMTE3NDA2NzA0Niw4NT
 Y2NDM2MjQsLTE0MzkyNzM3OTMsLTg2NzA3MTE4NiwzNTU4Njgz
 MzddfQ==
 -->
