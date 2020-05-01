@@ -9,6 +9,7 @@
 	5.  
 4. A cleaner interface to garbage collector interface.  GC is parallel
 5. CDS - More features -  AppCDS - saves memory
+6. Java Safe points - 
 
 ## Java 8 
 1. Lambda - A much awaited one, I must say. 
@@ -23,6 +24,6 @@
 ## Other things
 1. CACerts - the Java trust strore, which is the CA. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDY0NDE2NzQsLTg2NzA3MTE4NiwzNT
-U4NjgzMzddfQ==
+eyJoaXN0b3J5IjpbMTM0Nzg4NTE3OSwtODY3MDcxMTg2LDM1NT
+g2ODMzN119
 -->
