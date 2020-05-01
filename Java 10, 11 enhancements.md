@@ -5,7 +5,7 @@
 3. GC enhancements - Epsilon introduced, scalable low latency Gabage collector. 
 4. Java intepretor works on Java files - `java Example.java` works. It must be a single source file. 
 5. JShell - a 
-6. Java Flight Recorder - A continuous and configurable dump of events of the java runtime. Introduces jdk.jfr.Event class with which you can crete custom events.
+6. Java Flight Recorder - This is java's own profiler, like JProfiler. A continuous and configurable dump of events of the java runtime. Introduces jdk.jfr.Event class with which you can crete custom events. 
 7. 
 ## Java 10
 2. Backward compatibilty is present
@@ -36,7 +36,7 @@
 ## Other things
 1. CACerts - the Java trust strore, which is the CA. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNjI3Mzg5NSwtMTE3NDA2NzA0Niw4NT
+eyJoaXN0b3J5IjpbMTAxMzUyMzk1MCwtMTE3NDA2NzA0Niw4NT
 Y2NDM2MjQsLTE0MzkyNzM3OTMsLTg2NzA3MTE4NiwzNTU4Njgz
 MzddfQ==
 -->
