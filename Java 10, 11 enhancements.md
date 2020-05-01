@@ -7,7 +7,8 @@
 5. 
 6. Java Flight Recorder - This is java's own profiler, like JProfiler. A continuous and configurable dump of events of the java runtime. Introduces jdk.jfr.Event class with which you can crete custom events. 
 7. TLS 1.3 support, ChaCha20 algorithms
-8.  Java 
+8.  Java EE and CORBA removed. 
+9. Unicode 10 support. 
 ## Java 10
 2. Backward compatibilty is present
 3. Variable declaration Local variable type inference-  
@@ -38,7 +39,7 @@
 ## Other things
 1. CACerts - the Java trust strore, which is the CA. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDQwMDYxMTQsMTAxMzUyMzk1MCwtMT
-E3NDA2NzA0Niw4NTY2NDM2MjQsLTE0MzkyNzM3OTMsLTg2NzA3
-MTE4NiwzNTU4NjgzMzddfQ==
+eyJoaXN0b3J5IjpbMjA5NDY2MTI4OCwtMTQ0NDAwNjExNCwxMD
+EzNTIzOTUwLC0xMTc0MDY3MDQ2LDg1NjY0MzYyNCwtMTQzOTI3
+Mzc5MywtODY3MDcxMTg2LDM1NTg2ODMzN119
 -->
