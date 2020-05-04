@@ -7,10 +7,10 @@
 	3. This is more easily done usin IDE Plugin. 
 3. Get to the src and launch the application. Point browser to 
 localhost:8080/ we shall see this. 
-[Imgur](https://i.imgur.com/rmaQeHP.png)
+![Initial application](https://imgur.com/rmaQeHP)
 5. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzIzODg4OTMsMTI4Nzg5MzM5OSwtNz
-QwNzg5NTk3LC0xNDI0MTA2NDg3LC0xNDYzNzMyOTg5LDc3Mzky
-NDYyMywyMDU1Njk3NjUyXX0=
+eyJoaXN0b3J5IjpbMTMwMTUzNDA5MCwxMjg3ODkzMzk5LC03ND
+A3ODk1OTcsLTE0MjQxMDY0ODcsLTE0NjM3MzI5ODksNzczOTI0
+NjIzLDIwNTU2OTc2NTJdfQ==
 -->
