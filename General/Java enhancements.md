@@ -1,6 +1,6 @@
 # New features in Java 
 ## Java 14 
-
+In progress. 
 ## Java 11
 1. Can use var in lambda.
 2. HTTPClient - asynchronous, future support for HTTP2. This is class which provides all HTTP methods and feature to make HTTP requests.
@@ -41,5 +41,5 @@
 ## Other things
 1. CACerts - the Java trust strore, which is the CA. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzQ0OTg3MjddfQ==
+eyJoaXN0b3J5IjpbMTE1NjUxNjU4M119
 -->
