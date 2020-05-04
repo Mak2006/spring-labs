@@ -1,6 +1,6 @@
-# Run down of new features in Java 
+# New features in Java 
 ## Java 11
-1. can use var in lambda
+1. Can use var in lambda.
 2. HTTPClient - asynchronous, future support for HTTP2. This is class which provides all HTTP methods and feature to make HTTP requests.
 3. GC enhancements - Epsilon introduced, scalable low latency Gabage collector. 
 4. Java intepretor works on Java files - `java Example.java` works. It must be a single source file. 
@@ -39,5 +39,5 @@
 ## Other things
 1. CACerts - the Java trust strore, which is the CA. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NDY2MTI4OF19
+eyJoaXN0b3J5IjpbLTcwNDgwMTE1MF19
 -->
