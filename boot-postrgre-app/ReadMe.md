@@ -14,13 +14,13 @@ localhost:8080/ we shall see this.
 4. Take aways, 
 	 1. The @SpringBootApplication is the trigger for Spring Boot Autoconfiguration. This is the application file. Corresponding to this a test file is also generated. 
 	 2. pom.xml  and application.properties are also present. 
-5. At this point we will bring in a db.  For this we create a mock schema and some data. We use [https://mockaroo.com/](https://mockaroo.com/) for this purpose.  We generate a ddl and data.  
+5. At this point we will bring in a db.  For this we create a mock schema and some data. We use [Generatedata.com](Generatedata.com) for this purpose.  We generate a ddl and data.  
 
-
-7. 
+![enter image description here](https://i.imgur.com/YeHcNx7.png)
+8. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NTEyNDYwNywtMTcxNjUwOTQ2MSwtNT
-Y1MjM1NjAwLDU4NTY3ODYzNCwtNTA3OTA4MzMwLC0xMjg0ODI1
-NTQ4LDEyODc4OTMzOTksLTc0MDc4OTU5NywtMTQyNDEwNjQ4Ny
-wtMTQ2MzczMjk4OSw3NzM5MjQ2MjMsMjA1NTY5NzY1Ml19
+eyJoaXN0b3J5IjpbNDQ5NzI3MjYsLTE3MTY1MDk0NjEsLTU2NT
+IzNTYwMCw1ODU2Nzg2MzQsLTUwNzkwODMzMCwtMTI4NDgyNTU0
+OCwxMjg3ODkzMzk5LC03NDA3ODk1OTcsLTE0MjQxMDY0ODcsLT
+E0NjM3MzI5ODksNzczOTI0NjIzLDIwNTU2OTc2NTJdfQ==
 -->
