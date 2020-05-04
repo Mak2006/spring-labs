@@ -1,7 +1,10 @@
 # Boot Postgre App
 
 1. Simple app to use spring Initializer to creat Spring boot application with Postgre backend
-	1. Java 11, Postgre on Docker, Spring Web, Spring Boot, Maven, 
+	1. Java 11, 
+	2. Database - H2 and Postgre on Docker,
+	3. Spring framework - Spring Web, Spring Boot, Spring Data 
+	4. Build - Maven, 
 2. **Creating a boot using Initializer -**  Two ways of going, either you can use the IDE plugins or use Spring Initializer
 	1. Head over to [https://start.spring.io/](https://start.spring.io/), select the bits, Java, Spring boot version, select Jar package and choose the dependencies, we use Spring-Web, Thymeleaf and download the zip.  
 	2. Unzip and use maven import of the project. 
@@ -38,9 +41,10 @@ logging.level.org.springframework.jdbc.datasource.init.ScriptUtils=debug
 ```
 9. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1MzU4NTEwLDQ0Njg3NzY2MiwtMjM0MD
-YyMTA3LC0xMTk4MzA3NTkyLC0xNzE2NTA5NDYxLC01NjUyMzU2
-MDAsNTg1Njc4NjM0LC01MDc5MDgzMzAsLTEyODQ4MjU1NDgsMT
-I4Nzg5MzM5OSwtNzQwNzg5NTk3LC0xNDI0MTA2NDg3LC0xNDYz
-NzMyOTg5LDc3MzkyNDYyMywyMDU1Njk3NjUyXX0=
+eyJoaXN0b3J5IjpbNzM0MzYyNDY0LDUwNTM1ODUxMCw0NDY4Nz
+c2NjIsLTIzNDA2MjEwNywtMTE5ODMwNzU5MiwtMTcxNjUwOTQ2
+MSwtNTY1MjM1NjAwLDU4NTY3ODYzNCwtNTA3OTA4MzMwLC0xMj
+g0ODI1NTQ4LDEyODc4OTMzOTksLTc0MDc4OTU5NywtMTQyNDEw
+NjQ4NywtMTQ2MzczMjk4OSw3NzM5MjQ2MjMsMjA1NTY5NzY1Ml
+19
 -->
