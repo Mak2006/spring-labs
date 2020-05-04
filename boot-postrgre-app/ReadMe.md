@@ -17,11 +17,11 @@ localhost:8080/ we shall see this.
 5. At this point we will bring in a db.  For this we create a mock schema and some data. We use [Generatedata.com](Generatedata.com) for this purpose.  We generate a ddl and data.  
 
 ![enter image description here](https://i.imgur.com/YeHcNx7.png)
-8. We now create a H2Database and use JPA to connect to it. For this we use  
+8. We now create a H2Database and use JPA to connect to it. To get  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTgzMDc1OTIsLTE3MTY1MDk0NjEsLT
-U2NTIzNTYwMCw1ODU2Nzg2MzQsLTUwNzkwODMzMCwtMTI4NDgy
-NTU0OCwxMjg3ODkzMzk5LC03NDA3ODk1OTcsLTE0MjQxMDY0OD
-csLTE0NjM3MzI5ODksNzczOTI0NjIzLDIwNTU2OTc2NTJdfQ==
-
+eyJoaXN0b3J5IjpbLTE0NTYzNjcyNTMsLTExOTgzMDc1OTIsLT
+E3MTY1MDk0NjEsLTU2NTIzNTYwMCw1ODU2Nzg2MzQsLTUwNzkw
+ODMzMCwtMTI4NDgyNTU0OCwxMjg3ODkzMzk5LC03NDA3ODk1OT
+csLTE0MjQxMDY0ODcsLTE0NjM3MzI5ODksNzczOTI0NjIzLDIw
+NTU2OTc2NTJdfQ==
 -->
