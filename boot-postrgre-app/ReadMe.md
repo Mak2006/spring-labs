@@ -17,6 +17,9 @@ localhost:8080/ we shall see this.
 5. At this point we will bring in a db.  For this we create a mock schema and some data. We use [Generatedata.com](Generatedata.com) for this purpose.  We generate a ddl and data.  
 
 ![enter image description here](https://i.imgur.com/YeHcNx7.png)
+
+(There are two hacks that we have to do to make this compatible with H2, that is replace " with ' on the data and omit the `.)
+
 6. We now create a H2Database and use JPA to connect to it. To get Spring to include this we change the pom to include H2 and JPA dependency.  We include the following 
 ```
 <dependency>  
@@ -35,9 +38,9 @@ logging.level.org.springframework.jdbc.datasource.init.ScriptUtils=debug
 ```
 9. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ2ODc3NjYyLC0yMzQwNjIxMDcsLTExOT
-gzMDc1OTIsLTE3MTY1MDk0NjEsLTU2NTIzNTYwMCw1ODU2Nzg2
-MzQsLTUwNzkwODMzMCwtMTI4NDgyNTU0OCwxMjg3ODkzMzk5LC
-03NDA3ODk1OTcsLTE0MjQxMDY0ODcsLTE0NjM3MzI5ODksNzcz
-OTI0NjIzLDIwNTU2OTc2NTJdfQ==
+eyJoaXN0b3J5IjpbNTA1MzU4NTEwLDQ0Njg3NzY2MiwtMjM0MD
+YyMTA3LC0xMTk4MzA3NTkyLC0xNzE2NTA5NDYxLC01NjUyMzU2
+MDAsNTg1Njc4NjM0LC01MDc5MDgzMzAsLTEyODQ4MjU1NDgsMT
+I4Nzg5MzM5OSwtNzQwNzg5NTk3LC0xNDI0MTA2NDg3LC0xNDYz
+NzMyOTg5LDc3MzkyNDYyMywyMDU1Njk3NjUyXX0=
 -->
