@@ -4,9 +4,10 @@
 2.  **Two IOC containers available** = Bean context, Application context – app context used most as it supports i18n
 3.  **POJO's term variations** – POJO is Plain Old Java Object, can have business methods. Javabeans = POJO with only setter and getters and Spring beans – POJO that is loaded by spring context. DTO is javabeans which traverses layers.
 4. Spring ecosystem
-	1. Boot - framework supporting rapid prototyping, not only for web, can be used for batch, asynchronous or other application types. 
-	2. Spring Initializer - light weight web interface to configure a boot app. 
+	1. **Boot** - framework supporting rapid prototyping, not only for web, can be used for batch, asynchronous or other application types. 
+	2. **Spring Initializer** - light weight web interface to configure a boot app. 
 5. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTA5MDk4OCw4OTI0ODA3MjJdfQ==
+eyJoaXN0b3J5IjpbLTE2MjcyNzcyMDQsMTkzNTA5MDk4OCw4OT
+I0ODA3MjJdfQ==
 -->
