@@ -1,5 +1,5 @@
 # Spring-labs
-Different
+Different apps created with Spring GCP and other technologies.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MjM1NDc2Nl19
+eyJoaXN0b3J5IjpbLTE0NDY2NzgyMzRdfQ==
 -->
