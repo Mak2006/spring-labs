@@ -17,12 +17,22 @@ localhost:8080/ we shall see this.
 5. At this point we will bring in a db.  For this we create a mock schema and some data. We use [Generatedata.com](Generatedata.com) for this purpose.  We generate a ddl and data.  
 
 ![enter image description here](https://i.imgur.com/YeHcNx7.png)
-6. We now create a H2Database and use JPA to connect to it. To get Spring to include this we change the pom to include H2 and JPA dependency. 
-7.  
+6. We now create a H2Database and use JPA to connect to it. To get Spring to include this we change the pom to include H2 and JPA dependency.  We include the following 
+```
+<dependency>  
+   <groupId>org.springframework.boot</groupId>  
+   <artifactId>spring-boot-starter-data-jpa</artifactId>  
+</dependency>  
+<dependency>  
+   <groupId>com.h2database</groupId>  
+   <artifactId>h2</artifactId>  
+</dependency>
+```
+8.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNDA2MjEwNywtMTE5ODMwNzU5MiwtMT
-cxNjUwOTQ2MSwtNTY1MjM1NjAwLDU4NTY3ODYzNCwtNTA3OTA4
-MzMwLC0xMjg0ODI1NTQ4LDEyODc4OTMzOTksLTc0MDc4OTU5Ny
-wtMTQyNDEwNjQ4NywtMTQ2MzczMjk4OSw3NzM5MjQ2MjMsMjA1
-NTY5NzY1Ml19
+eyJoaXN0b3J5IjpbMTIwODU0NzIzMCwtMjM0MDYyMTA3LC0xMT
+k4MzA3NTkyLC0xNzE2NTA5NDYxLC01NjUyMzU2MDAsNTg1Njc4
+NjM0LC01MDc5MDgzMzAsLTEyODQ4MjU1NDgsMTI4Nzg5MzM5OS
+wtNzQwNzg5NTk3LC0xNDI0MTA2NDg3LC0xNDYzNzMyOTg5LDc3
+MzkyNDYyMywyMDU1Njk3NjUyXX0=
 -->
