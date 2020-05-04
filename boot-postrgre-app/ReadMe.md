@@ -30,14 +30,14 @@ localhost:8080/ we shall see this.
 ```
 7.  We further set two properties 
 ```
-sring.jpa.hibernate.ddl-auto=none
-logging.level.org.springframework.jdbc.datasour
+spring.jpa.hibernate.ddl-auto=none
+logging.level.org.springframework.jdbc.datasource.init.ScriptUtils=debug
 ```
 9. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTUyODY4MTYsLTIzNDA2MjEwNywtMT
-E5ODMwNzU5MiwtMTcxNjUwOTQ2MSwtNTY1MjM1NjAwLDU4NTY3
-ODYzNCwtNTA3OTA4MzMwLC0xMjg0ODI1NTQ4LDEyODc4OTMzOT
-ksLTc0MDc4OTU5NywtMTQyNDEwNjQ4NywtMTQ2MzczMjk4OSw3
-NzM5MjQ2MjMsMjA1NTY5NzY1Ml19
+eyJoaXN0b3J5IjpbNDQ2ODc3NjYyLC0yMzQwNjIxMDcsLTExOT
+gzMDc1OTIsLTE3MTY1MDk0NjEsLTU2NTIzNTYwMCw1ODU2Nzg2
+MzQsLTUwNzkwODMzMCwtMTI4NDgyNTU0OCwxMjg3ODkzMzk5LC
+03NDA3ODk1OTcsLTE0MjQxMDY0ODcsLTE0NjM3MzI5ODksNzcz
+OTI0NjIzLDIwNTU2OTc2NTJdfQ==
 -->
