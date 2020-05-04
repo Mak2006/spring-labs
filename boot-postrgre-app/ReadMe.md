@@ -28,11 +28,16 @@ localhost:8080/ we shall see this.
    <artifactId>h2</artifactId>  
 </dependency>
 ```
-8.  
+7.  We further set two properties 
+```
+sring.jpa.hibernate.ddl-auto=none
+logging.level.org.springframework.jdbc.datasour
+```
+9. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwODU0NzIzMCwtMjM0MDYyMTA3LC0xMT
-k4MzA3NTkyLC0xNzE2NTA5NDYxLC01NjUyMzU2MDAsNTg1Njc4
-NjM0LC01MDc5MDgzMzAsLTEyODQ4MjU1NDgsMTI4Nzg5MzM5OS
-wtNzQwNzg5NTk3LC0xNDI0MTA2NDg3LC0xNDYzNzMyOTg5LDc3
-MzkyNDYyMywyMDU1Njk3NjUyXX0=
+eyJoaXN0b3J5IjpbLTEwOTUyODY4MTYsLTIzNDA2MjEwNywtMT
+E5ODMwNzU5MiwtMTcxNjUwOTQ2MSwtNTY1MjM1NjAwLDU4NTY3
+ODYzNCwtNTA3OTA4MzMwLC0xMjg0ODI1NTQ4LDEyODc4OTMzOT
+ksLTc0MDc4OTU5NywtMTQyNDEwNjQ4NywtMTQ2MzczMjk4OSw3
+NzM5MjQ2MjMsMjA1NTY5NzY1Ml19
 -->
