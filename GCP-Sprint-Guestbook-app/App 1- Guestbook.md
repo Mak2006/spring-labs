@@ -44,8 +44,12 @@ guestbook  MYSQL_5_6        us-central1  db-n1-standard-1  92.3.4.5  RUNNABLE
 ```
 gcloud sql databases create messages --instance guestbook
 ```
-12.  
+12. The Cloud SQL is not able to connect from public IP
+	 1. -   Use a local Cloud SQL proxy.
+	2. -   Use  `gcloud`  to connect through a CLI client.
+	3,-   From the Java application, use the MySQL JDBC driver with an SSL socket factory for secured connection.
+14.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTgxNzA3NjMsLTYzNDM2NTU0MSw1OD
-Q3MTAyOTQsMTA2OTU3MTM1MywtNjAxMzIxMjM0XX0=
+eyJoaXN0b3J5IjpbLTc3NjY2MjY1NCwtNjM0MzY1NTQxLDU4ND
+cxMDI5NCwxMDY5NTcxMzUzLC02MDEzMjEyMzRdfQ==
 -->
