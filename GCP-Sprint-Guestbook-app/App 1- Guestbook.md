@@ -14,7 +14,7 @@ A client server app with 3 microservices Spring based.
 2. Config
 3. Busines tier microservice. 
 
-## Configuring and connecting to Cloud SQL
+### Configuring and connecting to Cloud SQL
  1. Creating a db using Cloud SQL and access it from spring application. 
  2. Get a cloud shell
  3. `export PROJECT_ID=$(gcloud config list --format 'value(core.project)')`
@@ -22,6 +22,7 @@ A client server app with 3 microservices Spring based.
  `gsutil ls gs://$PROJECT_ID`
  5.  use gsutil to copy the two microservices to local
 `gsutil -m cp -r gs://$PROJECT_ID/* ~/`
+### Create a Cloud SQL instance, database, and table
  1.  Open the  cloud editor 
  2.  Enable cloud API 
 `gcloud services enable sqladmin.googleapis.com`
@@ -61,9 +62,9 @@ CREATE TABLE guestbook_message (
 );
 
 ```  and we exit the mysql prompt. 
-### Task 2. Use Spring to add Cloud SQL support to your application
-17. 
+### Use Spring to add Cloud SQL support to your application
+17.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkwODQyOTUwLC02MzQzNjU1NDEsNTg0Nz
-EwMjk0LDEwNjk1NzEzNTMsLTYwMTMyMTIzNF19
+eyJoaXN0b3J5IjpbLTk4ODI2MDI4OCwtNjM0MzY1NTQxLDU4ND
+cxMDI5NCwxMDY5NTcxMzUzLC02MDEzMjEyMzRdfQ==
 -->
