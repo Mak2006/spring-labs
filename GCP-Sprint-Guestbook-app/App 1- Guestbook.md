@@ -60,9 +60,10 @@ CREATE TABLE guestbook_message (
   PRIMARY KEY (id)
 );
 
-``` 
+```  and we exit the mysql prompt. 
+### Task 2. Use Spring to add Cloud SQL support to your application
 17. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMTAyNzg0MiwtNjM0MzY1NTQxLDU4ND
-cxMDI5NCwxMDY5NTcxMzUzLC02MDEzMjEyMzRdfQ==
+eyJoaXN0b3J5IjpbNjkwODQyOTUwLC02MzQzNjU1NDEsNTg0Nz
+EwMjk0LDEwNjk1NzEzNTMsLTYwMTMyMTIzNF19
 -->
