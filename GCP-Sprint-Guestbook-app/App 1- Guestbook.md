@@ -88,7 +88,7 @@ CREATE TABLE guestbook_message (
                 </repository>
         </repositories>
 
-20. ### **Disable Cloud SQL in the default profile**
+20. ### Disable Cloud SQL in the default profile
 
 For local testing, you can continue to use a local database or an embedded database. The demo application is initially configured to use an embedded HSQL database.
 
@@ -100,24 +100,20 @@ To continue to use the demo application for local runs, you disable the Cloud SQ
 
 ### Configure an application profile to use Cloud SQL
 
-## Task 3. Configure an application profile to use Cloud SQL
-
 In this task, you create an application profile that contains the properties that are required by the Spring Boot Cloud SQL starter to connect to your Cloud SQL database.
 
-### **Configure a cloud profile**
+### Configure a cloud profile
 
 When deploying the demo application into the cloud, you want to use the production-managed Cloud SQL instance.
 
 You create an application profile called  `cloud`  profile. The  `cloud`  profile leaves the Cloud SQL starter that is defined in the Spring configuration profile enabled. And it includes properties used by the Cloud SQL starter to provide the connection details for your Cloud SQL instance and database.
 
-1.  In the Cloud Shell find the instance connection name by running the following command:
-    
+1.  In the Cloud Shell find the instance connection name by running the following command
 
 ```
 gcloud sql instances describe guestbook --format='value(connectionName)'
 
 ```
-
 This command format filters out the  `connectionName`  property from the description of the guestbook Cloud SQL object. The entire string that is returned is the instance's connection name. The string looks like the following example:
 
 ```bash
@@ -266,8 +262,8 @@ chmod 700 mvnw
 had to change the jvm
 sudo update-java-alternatives -s java-1.8.0-openjdk-amd64 && export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxOTg2NzM4MCwtMTI3MzQ3ODgxMiwyMD
-MyNDc5MDcxLDE2NzUyNzA4MjEsLTE1MTU5ODE2MjgsLTEyODM4
-OTk4ODcsNjAxNTQ1MTA1LC02MzQzNjU1NDEsNTg0NzEwMjk0LD
-EwNjk1NzEzNTMsLTYwMTMyMTIzNF19
+eyJoaXN0b3J5IjpbLTY4Nzc5ODc5NywxNDE5ODY3MzgwLC0xMj
+czNDc4ODEyLDIwMzI0NzkwNzEsMTY3NTI3MDgyMSwtMTUxNTk4
+MTYyOCwtMTI4Mzg5OTg4Nyw2MDE1NDUxMDUsLTYzNDM2NTU0MS
+w1ODQ3MTAyOTQsMTA2OTU3MTM1MywtNjAxMzIxMjM0XX0=
 -->
