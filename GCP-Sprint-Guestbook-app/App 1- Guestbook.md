@@ -15,6 +15,9 @@ A client server app with 3 microservices Spring based.
 ## Git
 1. 
 
+## Configuring and connecting to Cloud SQL
+ 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjA0Nzk2OTldfQ==
+eyJoaXN0b3J5IjpbLTIwMzc2ODA3MV19
 -->
