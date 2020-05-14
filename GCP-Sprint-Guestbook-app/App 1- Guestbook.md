@@ -21,10 +21,12 @@ A client server app with 3 microservices Spring based.
  3. `export PROJECT_ID=$(gcloud config list --format 'value(core.project)')`
  4.  use gsutil to access a cloud storage, 
  `gsutil ls gs://$PROJECT_ID`
- 5.  use gsutil to copy the files to local
+ 5.  use gsutil to copy the two microservices to local
 `gsutil -m cp -r gs://$PROJECT_ID/* ~/`
+ 1.  Open the  cloud editor 
+ 2. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzI0MzY4MjcsMTA2OTU3MTM1MywtNj
-AxMzIxMjM0XX0=
+eyJoaXN0b3J5IjpbNTg0NzEwMjk0LDEwNjk1NzEzNTMsLTYwMT
+MyMTIzNF19
 -->
