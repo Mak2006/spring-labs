@@ -17,7 +17,10 @@ A client server app with 3 microservices Spring based.
 
 ## Configuring and connecting to Cloud SQL
  1. Creating a db using Cloud SQL and access it from spring application. 
+ 2. Get a cloud shell
+ 3. `export PROJECT_ID=$(gcloud config list --format 'value(core.project)')`
+ 4.  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMTMyMTIzNF19
+eyJoaXN0b3J5IjpbMTA2OTU3MTM1MywtNjAxMzIxMjM0XX0=
 -->
