@@ -94,10 +94,12 @@ For local testing, you can continue to use a local database or an embedded datab
 
 To continue to use the demo application for local runs, you disable the Cloud SQL starter in the default application profile by updating the  `application.properties`  file.
 
-1.  In the Cloud Shell code editor, open  `guestbook-service/src/main/resources/application.properties`.
-2. 
+1.  In the Cloud Shell code editor, open  `guestbook-service/src/main/resources/application.properties`.  
+2. add the property 
+`spring.cloud.gcp.sql.enabled=false`
+4. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NDE3NTA2Myw2MDE1NDUxMDUsLTYzND
-M2NTU0MSw1ODQ3MTAyOTQsMTA2OTU3MTM1MywtNjAxMzIxMjM0
-XX0=
+eyJoaXN0b3J5IjpbLTEyODM4OTk4ODcsNjAxNTQ1MTA1LC02Mz
+QzNjU1NDEsNTg0NzEwMjk0LDEwNjk1NzEzNTMsLTYwMTMyMTIz
+NF19
 -->
