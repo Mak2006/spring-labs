@@ -47,9 +47,9 @@ gcloud sql databases create messages --instance guestbook
 	1. -   Use a local Cloud SQL proxy.
 	2. -   Use  `gcloud`  to connect through a CLI client.
 	3. -   From the Java application, use the MySQL JDBC driver with an SSL socket factory for secured connection.
-	4. We use the gloud method `gcloud sql connect guestbook` After this it is in SQL territory
-14. 
+	4. We use the gloud method `gcloud sql connect guestbook` After this it is in SQL territory.
+14.  `show databases`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjcyOTM1MTAsLTYzNDM2NTU0MSw1OD
-Q3MTAyOTQsMTA2OTU3MTM1MywtNjAxMzIxMjM0XX0=
+eyJoaXN0b3J5IjpbLTc5NTYyODA1MywtNjM0MzY1NTQxLDU4ND
+cxMDI5NCwxMDY5NTcxMzUzLC02MDEzMjEyMzRdfQ==
 -->
