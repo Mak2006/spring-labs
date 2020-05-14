@@ -24,9 +24,15 @@ A client server app with 3 microservices Spring based.
  5.  use gsutil to copy the two microservices to local
 `gsutil -m cp -r gs://$PROJECT_ID/* ~/`
  1.  Open the  cloud editor 
- 2. 
+ 2.  Enable cloud API 
+`gcloud services enable sqladmin.googleapis.com`
+ 4.  Confirm that API is enabled
+ `gcloud services list | grep sqladmin`
+ 5. List the cloud instances
+ `gcloud sql instances list`
+ 7.  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0NzEwMjk0LDEwNjk1NzEzNTMsLTYwMT
-MyMTIzNF19
+eyJoaXN0b3J5IjpbLTk1NjA4MDc3OCw1ODQ3MTAyOTQsMTA2OT
+U3MTM1MywtNjAxMzIxMjM0XX0=
 -->
