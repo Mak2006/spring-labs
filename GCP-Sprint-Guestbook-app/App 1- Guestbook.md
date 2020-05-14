@@ -123,7 +123,6 @@ qwiklabs-gcp-4d0ab38f9ff2cc4c:us-central1:guestbook
 2.  In the Cloud Shell code editor create an  `application-cloud.properties`  file in the  `guestbook-service/src/main/resources`  directory.
     
 3.  In the Cloud Shell code editor, open  `guestbook-service/src/main/resources/application-cloud.properties`  and add the following properties:
-    
 
 ```
 spring.cloud.gcp.sql.enabled=true
@@ -138,12 +137,12 @@ If you worked in the Cloud Shell code editor, you screen looks like the followin
 
 ![c4982aa035f41b4.png](https://cdn.qwiklabs.com/4NXlfD3Um12BJUwXBz5jWuURH%2FXSTfAayCUx970XCag%3D)
 
-### **Configure the connection pool**
+### Configure the connection pool
 
 You use the  `spring.datasource.*`  configuration properties to configure the JDBC connection pool, as you do with other Spring Boot applications.
 
 1.  Add the following property to  `guestbook-service/src/main/resources/application-cloud.properties`  that should still be open in the Cloud Shell code editor to specify the connection pool size.
-    
+  
 
 ```
 spring.datasource.hikari.maximum-pool-size=5
@@ -164,6 +163,7 @@ cd ~/guestbook-service
 
 2.  Start the backend service application with the  `cloud`  profile.
     
+**Change the m**
 
 ```
 ./mvnw spring-boot:run -Dserver.port=8081 -Dspring.profiles.active=cloud
@@ -262,8 +262,8 @@ chmod 700 mvnw
 had to change the jvm
 sudo update-java-alternatives -s java-1.8.0-openjdk-amd64 && export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4Nzc5ODc5NywxNDE5ODY3MzgwLC0xMj
-czNDc4ODEyLDIwMzI0NzkwNzEsMTY3NTI3MDgyMSwtMTUxNTk4
-MTYyOCwtMTI4Mzg5OTg4Nyw2MDE1NDUxMDUsLTYzNDM2NTU0MS
-w1ODQ3MTAyOTQsMTA2OTU3MTM1MywtNjAxMzIxMjM0XX0=
+eyJoaXN0b3J5IjpbOTE4NDQxMDEsMTQxOTg2NzM4MCwtMTI3Mz
+Q3ODgxMiwyMDMyNDc5MDcxLDE2NzUyNzA4MjEsLTE1MTU5ODE2
+MjgsLTEyODM4OTk4ODcsNjAxNTQ1MTA1LC02MzQzNjU1NDEsNT
+g0NzEwMjk0LDEwNjk1NzEzNTMsLTYwMTMyMTIzNF19
 -->
