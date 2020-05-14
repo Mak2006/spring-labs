@@ -97,8 +97,161 @@ To continue to use the demo application for local runs, you disable the Cloud SQ
 1.  In the Cloud Shell code editor, open  `guestbook-service/src/main/resources/application.properties`.  
 2. add the property 
 `spring.cloud.gcp.sql.enabled=false`
+
+### Configure an application profile to use Cloud SQL
+
+## Task 3. Configure an application profile to use Cloud SQL
+
+In this task, you create an application profile that contains the properties that are required by the Spring Boot Cloud SQL starter to connect to your Cloud SQL database.
+
+### **Configure a cloud profile**
+
+When deploying the demo application into the cloud, you want to use the production-managed Cloud SQL instance.
+
+You create an application profile called  `cloud`  profile. The  `cloud`  profile leaves the Cloud SQL starter that is defined in the Spring configuration profile enabled. And it includes properties used by the Cloud SQL starter to provide the connection details for your Cloud SQL instance and database.
+
+1.  In the Cloud Shell find the instance connection name by running the following command:
+    
+
+```
+gcloud sql instances describe guestbook --format='value(connectionName)'
+
+```
+
+This command format filters out the  `connectionName`  property from the description of the guestbook Cloud SQL object. The entire string that is returned is the instance's connection name. The string looks like the following example:
+
+```bash
+qwiklabs-gcp-4d0ab38f9ff2cc4c:us-central1:guestbook
+```
+
+2.  In the Cloud Shell code editor create an  `application-cloud.properties`  file in the  `guestbook-service/src/main/resources`  directory.
+    
+3.  In the Cloud Shell code editor, open  `guestbook-service/src/main/resources/application-cloud.properties`  and add the following properties:
+    
+
+```
+spring.cloud.gcp.sql.enabled=true
+spring.cloud.gcp.sql.database-name=messages
+spring.cloud.gcp.sql.instance-connection-name=YOUR_INSTANCE_CONNECTION_NAME
+
+```
+
+4.  Replace the  `YOUR_INSTANCE_CONNECTION_NAME`  placeholder with the full connection name string returned in step 1 in this task.
+
+If you worked in the Cloud Shell code editor, you screen looks like the following screenshot:
+
+![c4982aa035f41b4.png](https://cdn.qwiklabs.com/4NXlfD3Um12BJUwXBz5jWuURH%2FXSTfAayCUx970XCag%3D)
+
+### **Configure the connection pool**
+
+You use the  `spring.datasource.*`  configuration properties to configure the JDBC connection pool, as you do with other Spring Boot applications.
+
+1.  Add the following property to  `guestbook-service/src/main/resources/application-cloud.properties`  that should still be open in the Cloud Shell code editor to specify the connection pool size.
+    
+
+```
+spring.datasource.hikari.maximum-pool-size=5
+
+```
+
+### **Test the backend service running on Cloud SQL**
+
+You relaunch the backend service for the demo application in Cloud Shell, using the new cloud profile that configures the service to use Cloud SQL instead of the embedded HSQL database.
+
+1.  In the Cloud Shell change to the  `guestbook-service`  directory.
+    
+
+```
+cd ~/guestbook-service
+
+```
+
+2.  Start the backend service application with the  `cloud`  profile.
+    
+
+```
+./mvnw spring-boot:run -Dserver.port=8081 -Dspring.profiles.active=cloud
+
+```
+
+3.  Verify that Cloud SQL connection logs appear during the application startup.
+    
+
+```
+... First Cloud SQL connection, generating RSA key pair.
+... Obtaining ephemeral certificate for Cloud SQL instance [springone17-sfo-1000:us-ce
+... Connecting to Cloud SQL instance [...:us-central1:guestbook] on ...
+... Connecting to Cloud SQL instance [...:us-central1:guestbook] on ...
+... Connecting to Cloud SQL instance [...:us-central1:guestbook] on ...
+...
+
+```
+
+4.  Open a new Cloud Shell tab and use  `curl`  to make a few calls.
+    
+
+```
+curl -XPOST -H "content-type: application/json" \
+  -d '{"name": "Ray", "message": "Hello Cloud SQL"}' \
+  http://localhost:8081/guestbookMessages
+
+```
+
+5.  List all the messages.
+    
+
+```
+curl http://localhost:8081/guestbookMessages
+
+```
+
+6.  Use the Cloud SQL client to validate that message records have been added to the database.
+    
+
+```
+gcloud sql connect guestbook
+
+```
+
+7.  Press ENTER at the Enter password prompt.
+    
+
+```bash
+Whitelisting your IP for incoming connection for 5 minutes...done.
+Connecting to database with SQL user [root].Enter password:
+```
+
+8.  Query the  `guestbook_message`  table in the messages database.
+    
+
+```
+use messages
+select * from guestbook_message;
+
+```
+
+The  `guestbook_messages`  table now contains a record of the test message that you sent using  `curl`  in a previous step.
+
+```bash
++----+------+----------------+-----------+
+| id | name | message        | image_uri |
++----+------+----------------+-----------+
+|  1 | Ray  | Hello Cloud SQL | NULL      |
++----+------+----------------+-----------+
+1 row in set (0.04 sec)
+```
+
+9.  Close the Cloud SQL interactive client.
+    
+
+```
+exit;
+
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyODIzNzgwOSwtMTI4Mzg5OTg4Nyw2MD
-E1NDUxMDUsLTYzNDM2NTU0MSw1ODQ3MTAyOTQsMTA2OTU3MTM1
-MywtNjAxMzIxMjM0XX0=
+eyJoaXN0b3J5IjpbLTE1MTU5ODE2MjgsLTEyODM4OTk4ODcsNj
+AxNTQ1MTA1LC02MzQzNjU1NDEsNTg0NzEwMjk0LDEwNjk1NzEz
+NTMsLTYwMTMyMTIzNF19
 -->
