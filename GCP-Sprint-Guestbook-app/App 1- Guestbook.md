@@ -29,10 +29,15 @@ A client server app with 3 microservices Spring based.
  4.  Confirm that API is enabled
  `gcloud services list | grep sqladmin`
  5. List the cloud instances
- `gcloud sql instances list`
- 7.  
+ `gcloud sql instances list`, there are no instances yet and we shall provision one. 
+ 7.  1.  ovision a new Cloud SQL instance.
+    
+
+```
+gcloud sql instances create guestbook --region=us-central1
+``` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NjA4MDc3OCw1ODQ3MTAyOTQsMTA2OT
+eyJoaXN0b3J5IjpbMTk0MTQzMTgxNSw1ODQ3MTAyOTQsMTA2OT
 U3MTM1MywtNjAxMzIxMjM0XX0=
 -->
