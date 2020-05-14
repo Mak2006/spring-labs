@@ -97,9 +97,8 @@ To continue to use the demo application for local runs, you disable the Cloud SQ
 1.  In the Cloud Shell code editor, open  `guestbook-service/src/main/resources/application.properties`.  
 2. add the property 
 `spring.cloud.gcp.sql.enabled=false`
-4. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODM4OTk4ODcsNjAxNTQ1MTA1LC02Mz
-QzNjU1NDEsNTg0NzEwMjk0LDEwNjk1NzEzNTMsLTYwMTMyMTIz
-NF19
+eyJoaXN0b3J5IjpbLTMyODIzNzgwOSwtMTI4Mzg5OTg4Nyw2MD
+E1NDUxMDUsLTYzNDM2NTU0MSw1ODQ3MTAyOTQsMTA2OTU3MTM1
+MywtNjAxMzIxMjM0XX0=
 -->
