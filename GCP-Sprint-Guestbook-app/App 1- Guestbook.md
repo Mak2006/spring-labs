@@ -67,11 +67,13 @@ CREATE TABLE guestbook_message (
 `<groupId>org.springframework.cloud</groupId> `
 `<artifactId>spring-cloud-gcp-dependencies</artifactId>` 
 `<scope>import</scope>`
-
-
-18. 
+18.  Insert mysql dependency 
+``
+<dependency> <groupId>org.springframework.cloud</groupId> <artifactId>spring-cloud-gcp-starter-sql-mysql</artifactId> </dependency>
+``
+20. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk1MTc5OTcyLDYwMTU0NTEwNSwtNjM0Mz
+eyJoaXN0b3J5IjpbNTUwMjcxNTU3LDYwMTU0NTEwNSwtNjM0Mz
 Y1NTQxLDU4NDcxMDI5NCwxMDY5NTcxMzUzLC02MDEzMjEyMzRd
 fQ==
 -->
