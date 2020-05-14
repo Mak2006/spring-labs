@@ -256,9 +256,16 @@ qwiklabs-gcp-04-94261e73db16:us-central1:guestbook
 chmod 700 mvnw
 
 
+<!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-gcp-starter-sql-mysql -->
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-gcp-starter-sql-mysql</artifactId>
+    <version>1.0.0.M2</version>
+</dependency>
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMjQ3OTA3MSwxNjc1MjcwODIxLC0xNT
-E1OTgxNjI4LC0xMjgzODk5ODg3LDYwMTU0NTEwNSwtNjM0MzY1
-NTQxLDU4NDcxMDI5NCwxMDY5NTcxMzUzLC02MDEzMjEyMzRdfQ
-==
+eyJoaXN0b3J5IjpbLTEyNzM0Nzg4MTIsMjAzMjQ3OTA3MSwxNj
+c1MjcwODIxLC0xNTE1OTgxNjI4LC0xMjgzODk5ODg3LDYwMTU0
+NTEwNSwtNjM0MzY1NTQxLDU4NDcxMDI5NCwxMDY5NTcxMzUzLC
+02MDEzMjEyMzRdfQ==
 -->
