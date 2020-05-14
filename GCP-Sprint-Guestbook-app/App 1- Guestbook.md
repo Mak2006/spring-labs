@@ -88,9 +88,16 @@ CREATE TABLE guestbook_message (
                 </repository>
         </repositories>
 
+20. ### **Disable Cloud SQL in the default profile**
 
+For local testing, you can continue to use a local database or an embedded database. The demo application is initially configured to use an embedded HSQL database.
+
+To continue to use the demo application for local runs, you disable the Cloud SQL starter in the default application profile by updating the  `application.properties`  file.
+
+1.  In the Cloud Shell code editor, open  `guestbook-service/src/main/resources/application.properties`.
+2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NDU1NzM4MSw2MDE1NDUxMDUsLTYzND
+eyJoaXN0b3J5IjpbLTM2NDE3NTA2Myw2MDE1NDUxMDUsLTYzND
 M2NTU0MSw1ODQ3MTAyOTQsMTA2OTU3MTM1MywtNjAxMzIxMjM0
 XX0=
 -->
