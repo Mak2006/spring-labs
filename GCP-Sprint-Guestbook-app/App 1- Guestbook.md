@@ -263,10 +263,11 @@ chmod 700 mvnw
     <version>1.0.0.M2</version>
 </dependency>
 
-had to change the j
+had to change the jvm
+sudo update-java-alternatives -s java-1.8.0-openjdk-amd64 && export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA0ODI3OTEsLTEyNzM0Nzg4MTIsMjAzMj
-Q3OTA3MSwxNjc1MjcwODIxLC0xNTE1OTgxNjI4LC0xMjgzODk5
-ODg3LDYwMTU0NTEwNSwtNjM0MzY1NTQxLDU4NDcxMDI5NCwxMD
-Y5NTcxMzUzLC02MDEzMjEyMzRdfQ==
+eyJoaXN0b3J5IjpbMTQxOTg2NzM4MCwtMTI3MzQ3ODgxMiwyMD
+MyNDc5MDcxLDE2NzUyNzA4MjEsLTE1MTU5ODE2MjgsLTEyODM4
+OTk4ODcsNjAxNTQ1MTA1LC02MzQzNjU1NDEsNTg0NzEwMjk0LD
+EwNjk1NzEzNTMsLTYwMTMyMTIzNF19
 -->
