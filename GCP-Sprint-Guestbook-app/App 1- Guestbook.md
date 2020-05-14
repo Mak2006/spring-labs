@@ -19,8 +19,12 @@ A client server app with 3 microservices Spring based.
  1. Creating a db using Cloud SQL and access it from spring application. 
  2. Get a cloud shell
  3. `export PROJECT_ID=$(gcloud config list --format 'value(core.project)')`
- 4.  
+ 4.  use gsutil to access a cloud storage, 
+ `gsutil ls gs://$PROJECT_ID`
+ 5.  use gsutil to copy the files to local
+`gsutil -m cp -r gs://$PROJECT_ID/* ~/`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2OTU3MTM1MywtNjAxMzIxMjM0XX0=
+eyJoaXN0b3J5IjpbLTIxMzI0MzY4MjcsMTA2OTU3MTM1MywtNj
+AxMzIxMjM0XX0=
 -->
