@@ -32,8 +32,19 @@ A client server app with 3 microservices Spring based.
  `gcloud sql instances list`, there are no instances yet and we shall provision one. 
  6.  Provision a new Cloud SQL instance.
  `gcloud sql instances create guestbook --region=us-central1` 
-1. 
+This would show like this
+Provisioning the Cloud SQL instance will take a couple of minutes to complete.
+```bash
+Creating Cloud SQL instance...done.
+Created [...].
+NAME       DATABASE_VERSION REGION       TIER              ADDRESS   STATUS
+guestbook  MYSQL_5_6        us-central1  db-n1-standard-1  92.3.4.5  RUNNABLE
+```
+11. Create a  `messages`  database in the MySQL instance.
+```
+gcloud sql databases create messages --instance guestbook
+``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTgxMzM3Niw1ODQ3MTAyOTQsMTA2OT
-U3MTM1MywtNjAxMzIxMjM0XX0=
+eyJoaXN0b3J5IjpbMjA2ODAwMDI4LDU4NDcxMDI5NCwxMDY5NT
+cxMzUzLC02MDEzMjEyMzRdfQ==
 -->
