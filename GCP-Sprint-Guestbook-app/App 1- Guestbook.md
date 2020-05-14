@@ -1,6 +1,8 @@
 # App - Guestbook applciation
 Application forked from Coursera Spring Course from Google. 
+
 Repo - https://github.com/saturnism/spring-cloud-gcp-guestbook.git
+
 ## Stack 
 1. Microservices communication - Rabbit MQ. 
 1. Backend - MySQL
@@ -11,9 +13,6 @@ A client server app with 3 microservices Spring based.
 1. GUI
 2. Config
 3. Busines tier microservice. 
-
-## Git
-1. 
 
 ## Configuring and connecting to Cloud SQL
  1. Creating a db using Cloud SQL and access it from spring application. 
@@ -45,11 +44,11 @@ guestbook  MYSQL_5_6        us-central1  db-n1-standard-1  92.3.4.5  RUNNABLE
 gcloud sql databases create messages --instance guestbook
 ```
 12. The Cloud SQL is not able to connect from public IP
-	 1. -   Use a local Cloud SQL proxy.
+	1. -   Use a local Cloud SQL proxy.
 	2. -   Use  `gcloud`  to connect through a CLI client.
-	3,-   From the Java application, use the MySQL JDBC driver with an SSL socket factory for secured connection.
+	3. -   From the Java application, use the MySQL JDBC driver with an SSL socket factory for secured connection.
 14.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NjY2MjY1NCwtNjM0MzY1NTQxLDU4ND
-cxMDI5NCwxMDY5NTcxMzUzLC02MDEzMjEyMzRdfQ==
+eyJoaXN0b3J5IjpbMjUyNzAwMDA3LC02MzQzNjU1NDEsNTg0Nz
+EwMjk0LDEwNjk1NzEzNTMsLTYwMTMyMTIzNF19
 -->
