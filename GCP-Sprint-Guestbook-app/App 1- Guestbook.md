@@ -69,11 +69,28 @@ CREATE TABLE guestbook_message (
 `<scope>import</scope>`
 18.  Insert mysql dependency 
 ``
-<dependency> <groupId>org.springframework.cloud</groupId> <artifactId>spring-cloud-gcp-starter-sql-mysql</artifactId> </dependency>
+<dependency> <groupId>org.springframework.cloud</groupId> 
+<artifactId>spring-cloud-gcp-starter-sql-mysql</artifactId>
+</dependency>
 ``
-20. 
+19. 4.  Insert a new section called  `<repositories>`  at the bottom of the file, after the  `<build>`  section and just before the closing  `</project>`  tag.
+    
+
+```
+        <repositories>
+                <repository>
+                        <id>spring-milestones</id>
+                        <name>Spring Milestones</name>
+                        <url>https://repo.spring.io/libs-milestone</url>
+                        <snapshots>
+                                <enabled>false</enabled>
+                        </snapshots>
+                </repository>
+        </repositories>
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwMjcxNTU3LDYwMTU0NTEwNSwtNjM0Mz
+eyJoaXN0b3J5IjpbNDg3NTk0MjAxLDYwMTU0NTEwNSwtNjM0Mz
 Y1NTQxLDU4NDcxMDI5NCwxMDY5NTcxMzUzLC02MDEzMjEyMzRd
 fQ==
 -->
