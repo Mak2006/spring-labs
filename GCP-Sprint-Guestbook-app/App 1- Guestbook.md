@@ -30,14 +30,10 @@ A client server app with 3 microservices Spring based.
  `gcloud services list | grep sqladmin`
  5. List the cloud instances
  `gcloud sql instances list`, there are no instances yet and we shall provision one. 
- 7.  1.  ovision a new Cloud SQL instance.
-    
-
-```
-gcloud sql instances create guestbook --region=us-central1
-``` 
-
+ 6.  Provision a new Cloud SQL instance.
+ `gcloud sql instances create guestbook --region=us-central1` 
+1. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MTQzMTgxNSw1ODQ3MTAyOTQsMTA2OT
+eyJoaXN0b3J5IjpbLTQ4NTgxMzM3Niw1ODQ3MTAyOTQsMTA2OT
 U3MTM1MywtNjAxMzIxMjM0XX0=
 -->
