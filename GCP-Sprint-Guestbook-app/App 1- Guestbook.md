@@ -40,11 +40,12 @@ Created [...].
 NAME       DATABASE_VERSION REGION       TIER              ADDRESS   STATUS
 guestbook  MYSQL_5_6        us-central1  db-n1-standard-1  92.3.4.5  RUNNABLE
 ```
-11. Create a  `messages`  database in the MySQL instance. The SQL is in the 
+11. Create a  `messages`  database in the MySQL instance. 
 ```
 gcloud sql databases create messages --instance guestbook
-``` 
+```
+12.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDM2NTU0MSw1ODQ3MTAyOTQsMTA2OT
-U3MTM1MywtNjAxMzIxMjM0XX0=
+eyJoaXN0b3J5IjpbLTE5MTgxNzA3NjMsLTYzNDM2NTU0MSw1OD
+Q3MTAyOTQsMTA2OTU3MTM1MywtNjAxMzIxMjM0XX0=
 -->
