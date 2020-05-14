@@ -16,8 +16,8 @@ A client server app with 3 microservices Spring based.
 1. 
 
 ## Configuring and connecting to Cloud SQL
- 
+ 1. Creating a db using Cloud SQL and access it from spring application. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzc2ODA3MV19
+eyJoaXN0b3J5IjpbLTYwMTMyMTIzNF19
 -->
