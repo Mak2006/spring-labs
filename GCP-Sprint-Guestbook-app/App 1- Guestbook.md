@@ -49,8 +49,20 @@ gcloud sql databases create messages --instance guestbook
 	3. -   From the Java application, use the MySQL JDBC driver with an SSL socket factory for secured connection.
 	4. We use the gloud method `gcloud sql connect guestbook` After this it is in SQL territory.
 13.  Show the db's `mysql> show databases;`
-14. 
+14.  Use the messages db `use messages;`
+15.  We fire a create sql now. 
+```
+CREATE TABLE guestbook_message (
+  id BIGINT NOT NULL AUTO_INCREMENT,
+  name CHAR(128) NOT NULL,
+  message CHAR(255),
+  image_uri CHAR(255),
+  PRIMARY KEY (id)
+);
+
+``` 
+17. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNjUyMDQ2MCwtNjM0MzY1NTQxLDU4ND
+eyJoaXN0b3J5IjpbMTYwMTAyNzg0MiwtNjM0MzY1NTQxLDU4ND
 cxMDI5NCwxMDY5NTcxMzUzLC02MDEzMjEyMzRdfQ==
 -->
