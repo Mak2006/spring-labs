@@ -64,13 +64,14 @@ CREATE TABLE guestbook_message (
 ```  and we exit the mysql prompt. 
 ### Use Spring to add Cloud SQL support to your application
 17.  To connet we use the starter - `spring-cloud-gcp-dependencies` we add this to the pom.xml, we head to the cloud editor and add the dependency. Now the front end would not require this so this would be the back end service i.e., guestbook-service/pom.xml
-```
-<dependencyManagement> <dependencies> <dependency> <groupId>org.springframework.cloud</groupId> <artifactId>spring-cloud-gcp-dependencies</artifactId> <version>1.1.0.M1</version> <type>pom</type> <scope>import</scope> </dependency> </dependencies> </dependencyManagement>
+`<groupId>org.springframework.cloud</groupId> `
+`<artifactId>spring-cloud-gcp-dependencies</artifactId>` 
+`<scope>import</scope>`
 
 
 18. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MjE5NTQzNSw2MDE1NDUxMDUsLTYzND
-M2NTU0MSw1ODQ3MTAyOTQsMTA2OTU3MTM1MywtNjAxMzIxMjM0
-XX0=
+eyJoaXN0b3J5IjpbOTk1MTc5OTcyLDYwMTU0NTEwNSwtNjM0Mz
+Y1NTQxLDU4NDcxMDI5NCwxMDY5NTcxMzUzLC02MDEzMjEyMzRd
+fQ==
 -->
