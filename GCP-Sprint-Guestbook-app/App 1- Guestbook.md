@@ -68,11 +68,15 @@ CREATE TABLE guestbook_message (
 `<artifactId>spring-cloud-gcp-dependencies</artifactId>` 
 `<scope>import</scope>`
 18.  Insert mysql dependency 
-``
-<dependency> <groupId>org.springframework.cloud</groupId> 
-<artifactId>spring-cloud-gcp-starter-sql-mysql</artifactId>
+<!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-gcp-starter-sql-mysql -->
+``<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-gcp-starter-sql-mysql</artifactId>
+    <version>1.0.0.M2</version>
 </dependency>
-``
+```
+**Make sure the version is included **
+
 19. 4.  Insert a new section called  `<repositories>`  at the bottom of the file, after the  `<build>`  section and just before the closing  `</project>`  tag.
     
 
@@ -252,8 +256,8 @@ qwiklabs-gcp-04-94261e73db16:us-central1:guestbook
 Had to change the jvm, as the project was created in java 8 while the shell was different. 
 sudo update-java-alternatives -s java-1.8.0-openjdk-amd64 && export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjMxNjI3ODQsMTQxOTg2NzM4MCwtMT
-I3MzQ3ODgxMiwyMDMyNDc5MDcxLDE2NzUyNzA4MjEsLTE1MTU5
-ODE2MjgsLTEyODM4OTk4ODcsNjAxNTQ1MTA1LC02MzQzNjU1ND
-EsNTg0NzEwMjk0LDEwNjk1NzEzNTMsLTYwMTMyMTIzNF19
+eyJoaXN0b3J5IjpbNjE3NjI0MzgyLDE0MTk4NjczODAsLTEyNz
+M0Nzg4MTIsMjAzMjQ3OTA3MSwxNjc1MjcwODIxLC0xNTE1OTgx
+NjI4LC0xMjgzODk5ODg3LDYwMTU0NTEwNSwtNjM0MzY1NTQxLD
+U4NDcxMDI5NCwxMDY5NTcxMzUzLC02MDEzMjEyMzRdfQ==
 -->
