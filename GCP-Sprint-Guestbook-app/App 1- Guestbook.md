@@ -88,9 +88,9 @@ CREATE TABLE guestbook_message (
                 </repository>
         </repositories>
 
-```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg3NTk0MjAxLDYwMTU0NTEwNSwtNjM0Mz
-Y1NTQxLDU4NDcxMDI5NCwxMDY5NTcxMzUzLC02MDEzMjEyMzRd
-fQ==
+eyJoaXN0b3J5IjpbLTU4NDU1NzM4MSw2MDE1NDUxMDUsLTYzND
+M2NTU0MSw1ODQ3MTAyOTQsMTA2OTU3MTM1MywtNjAxMzIxMjM0
+XX0=
 -->
