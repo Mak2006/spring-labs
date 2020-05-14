@@ -163,7 +163,7 @@ cd ~/guestbook-service
 
 2.  Start the backend service application with the  `cloud`  profile.
     
-**Change the m**
+**Change the mvnw to executable - chmod 700 mvnw**
 
 ```
 ./mvnw spring-boot:run -Dserver.port=8081 -Dspring.profiles.active=cloud
@@ -246,24 +246,14 @@ exit;
 ```
 
 
-ours was 
+Our project id was 
 qwiklabs-gcp-04-94261e73db16:us-central1:guestbook
 
-chmod 700 mvnw
-
-
-<!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-gcp-starter-sql-mysql -->
-<dependency>
-    <groupId>org.springframework.cloud</groupId>
-    <artifactId>spring-cloud-gcp-starter-sql-mysql</artifactId>
-    <version>1.0.0.M2</version>
-</dependency>
-
-had to change the jvm
+Had to change the jvm, as the project was created in java 8 while the shell was different. 
 sudo update-java-alternatives -s java-1.8.0-openjdk-amd64 && export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE4NDQxMDEsMTQxOTg2NzM4MCwtMTI3Mz
-Q3ODgxMiwyMDMyNDc5MDcxLDE2NzUyNzA4MjEsLTE1MTU5ODE2
-MjgsLTEyODM4OTk4ODcsNjAxNTQ1MTA1LC02MzQzNjU1NDEsNT
-g0NzEwMjk0LDEwNjk1NzEzNTMsLTYwMTMyMTIzNF19
+eyJoaXN0b3J5IjpbLTIwMjMxNjI3ODQsMTQxOTg2NzM4MCwtMT
+I3MzQ3ODgxMiwyMDMyNDc5MDcxLDE2NzUyNzA4MjEsLTE1MTU5
+ODE2MjgsLTEyODM4OTk4ODcsNjAxNTQ1MTA1LC02MzQzNjU1ND
+EsNTg0NzEwMjk0LDEwNjk1NzEzNTMsLTYwMTMyMTIzNF19
 -->
