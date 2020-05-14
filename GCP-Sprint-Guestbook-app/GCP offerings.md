@@ -7,7 +7,7 @@
 5. Storage services 
    1. Bigtable
    2. Cloud storage
-   3. Cloud SQL
+   3. Cloud SQL = Managed MySQL and PostgreSQL service. 
    4. Cloud spanner
    5. Cloud datastore
 6. Big data services
@@ -30,5 +30,5 @@
 9. 
 10. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTM3NTY0NThdfQ==
+eyJoaXN0b3J5IjpbMTEyMDE4MzUxNl19
 -->
