@@ -67,15 +67,21 @@ if (file != null && !file.isEmpty()
 Some application logic. We need to keep track of what file belongs to whom thus have to save some data hence some code below 
 
 ```
-``
+// Store the generated file name in the database 
+payload.put("imageUri", filename);
+```
+
+At this point we can check if the bucket has the file 
 
 
--      
--   Modify the HTML template of the frontend application to enable file uploads
-    
--   Modify the frontend application to process and store images on Cloud Storage
-    
--   Modify the frontend application to display uploaded message images
+### Retrive the image from the bucket. 
+```
+import org.springframework.http.*;
+
+/* Sample code */
+// ".+" is necessary to capture URI with filename extension @GetMapping("/image/{filename:.+}") public ResponseEntity<Resource> file( @PathVariable String filename) { String bucket = "gs://" + projectIdProvider.getProjectId(); // Use "gs://" URI to construct // a Spring Resource object Resource image = context.getResource(bucket + "/" + filename); // Send it back to the client HttpHeaders headers = new HttpHeaders(); headers.setContentType(MediaType.IMAGE_JPEG); return new ResponseEntity<>( image, headers, HttpStatus.OK); }
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyODM1NDM4NCwtMTgxMzQ1NzE2OV19
+eyJoaXN0b3J5IjpbLTEwMDI3NTEzOTEsLTE4MTM0NTcxNjldfQ
+==
 -->
