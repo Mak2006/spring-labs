@@ -18,9 +18,11 @@ public void somefunction(/* lambda arguments */) {
 ` () -> "Java 8"` 
 ` x -> x*x`
 8.  Explicit Lamda definition - contrary to intention we can define explicity a lamda function 
-` LambdaFunction lambdaFunction = () -> System.out.println("Hello world");`
+` LambdaFunction lambda = () -> System.out.println("Hello Lambda");`
+and call it using 
+`lambdaFunction.call();` 
 10. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk1OTQzMjczLDExNjk3NTg2LDEyMTE0NT
-IyNzhdfQ==
+eyJoaXN0b3J5IjpbMTIyMjA1MTI3MSwxMTY5NzU4NiwxMjExND
+UyMjc4XX0=
 -->
