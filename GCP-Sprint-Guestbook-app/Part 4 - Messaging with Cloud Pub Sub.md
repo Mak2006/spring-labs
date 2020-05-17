@@ -6,7 +6,6 @@ In this lab, you enhance your application to implement a message handling servic
 
 Cloud Pub/Sub is a fully managed, real-time messaging service that enables you to send and receive messages between independent applications. Cloud Pub/Sub brings the scalability, flexibility, and reliability of enterprise message-oriented middleware to the cloud. By providing many-to-many, asynchronous messaging that decouples senders and receivers, Cloud Pub/Sub enables secure and highly available communication between independently written applications. Cloud Pub/Sub delivers low-latency, durable messaging that helps developers quickly integrate systems hosted on the Google Cloud Platform and externally.
 
-## Steps
 ### Enable Cloud Pub/Sub 
 `gcloud services enable pubsub.googleapis.com`  
 
@@ -96,7 +95,7 @@ To test the code, we introduce themessages via the app and it gets pushed to the
  
 ![Running the Demo application](https://i.imgur.com/AwLyOL3.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA4MzA0NTc4LC03MTI5MTM4NzAsNDI1NT
-M5ODEzLC0xOTQzOTA0NTg4LC05NDQ2Nzg3NjAsOTA1NzcwNTgw
-LDk2MjU5MDc0NV19
+eyJoaXN0b3J5IjpbMjAyMzc4NjU1NSwtNzEyOTEzODcwLDQyNT
+UzOTgxMywtMTk0MzkwNDU4OCwtOTQ0Njc4NzYwLDkwNTc3MDU4
+MCw5NjI1OTA3NDVdfQ==
 -->
