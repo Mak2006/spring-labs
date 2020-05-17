@@ -90,9 +90,11 @@ return (args) -> {
        });
 };
 }
-
 ```
+
+To test the code, we introduce themessages via the app and it gets pushed to the topic. Since our client is  a subscriber, it will get the message. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDM5MDQ1ODgsLTk0NDY3ODc2MCw5MD
-U3NzA1ODAsOTYyNTkwNzQ1XX0=
+eyJoaXN0b3J5IjpbNDI1NTM5ODEzLC0xOTQzOTA0NTg4LC05ND
+Q2Nzg3NjAsOTA1NzcwNTgwLDk2MjU5MDc0NV19
 -->
