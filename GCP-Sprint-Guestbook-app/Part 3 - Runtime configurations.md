@@ -123,8 +123,19 @@ The command displays the value of  `greeting`.
 
 ### Dynamically update a value
 Use Cloud Runtime Configuration API to dynamically update an application setting
+
+Open a new Cloud Shell tab and update the  `greeting`  configuration value:
+    
+
+```
+gcloud beta runtime-config configs variables set greeting \
+  "Hi from Updated Config" \
+  --config-name frontend_cloud
+
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ0NTk1NzI0LDEzMzk3NzcwMDYsLTE5NT
-U1OTIzNjAsLTEwNTg0NjMyOTUsLTc1OTg1MjQ0NCwtMjA4ODc0
-NjYxMl19
+eyJoaXN0b3J5IjpbMTkxMDE2MzczNiwxMzM5Nzc3MDA2LC0xOT
+U1NTkyMzYwLC0xMDU4NDYzMjk1LC03NTk4NTI0NDQsLTIwODg3
+NDY2MTJdfQ==
 -->
