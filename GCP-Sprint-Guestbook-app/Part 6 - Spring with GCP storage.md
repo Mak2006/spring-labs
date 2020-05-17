@@ -49,7 +49,9 @@ if (file != null && !file.isEmpty()
     && file.getContentType().equals("image/jpeg")) {
 	// Bucket ID is our Project ID
 	String bucket = "gs://" +
-	      projectIdProvider.getProjectId();
+	/*      projectIdProvider.getProjectId(); */
+	/* instead we use a random string */
+	 "test_some_random_name
 	// Generate a random file name
 	filename = UUID.randomUUID().toString() + ".jpg";
 	WritableResource resource = (WritableResource)
@@ -70,5 +72,5 @@ if (file != null && !file.isEmpty()
     
 -   Modify the frontend application to display uploaded message images
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MzAwNjc4OSwtMTgxMzQ1NzE2OV19
+eyJoaXN0b3J5IjpbNjAzODQyMTE2LC0xODEzNDU3MTY5XX0=
 -->
