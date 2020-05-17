@@ -30,11 +30,25 @@ and this
 </dependency>
 
 ```
+and teh repository
+```
+<repositories>
+ <repository>
+      <id>spring-milestones</id>
+      <name>Spring Milestones</name>
+      <url>https://repo.spring.io/milestone</url>
+      <snapshots>
+	  <enabled>false</enabled>
+      </snapshots>
+ </repository>
+</repositories>
+
+```
 6.  Create deployment profiles to selectively enable support for runtime configuration services
 Enable the dynamic refresh of runtime configuration values in an application
 Use Cloud Runtime Configuration API to create runtime configuration profiles and values
 Use Cloud Runtime Configuration API to dynamically update an application setting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzI4MjMxODcsLTEwNTg0NjMyOTUsLT
-c1OTg1MjQ0NCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTkzNTY4NDczNywtMTA1ODQ2MzI5NSwtNz
+U5ODUyNDQ0LC0yMDg4NzQ2NjEyXX0=
 -->
