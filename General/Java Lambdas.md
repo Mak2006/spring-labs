@@ -12,8 +12,8 @@ public void somefunction(/* lambda arguments */) {
 ```
 7. Points to note
     1. **No explicit call** - since we are not defining any function explicity, we are able to omit the call to it. 
-    2.  **arg types** 
+    2.  **Arg types**  - Sin
 6. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNDk5Mjc0OSwxMjExNDUyMjc4XX0=
+eyJoaXN0b3J5IjpbMTE2OTc1ODYsMTIxMTQ1MjI3OF19
 -->
