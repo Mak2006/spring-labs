@@ -47,8 +47,11 @@ Test it by
 
 
     
-### Modify an application to process messages from a Cloud Pub/Sub subscription
+### Create an application to process messages from a Cloud Pub/Sub subscription
+
+Creating an app
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzQzOTc4NjEsLTk0NDY3ODc2MCw5MD
-U3NzA1ODAsOTYyNTkwNzQ1XX0=
+eyJoaXN0b3J5IjpbMTcwMTI0Nzc5NiwtOTQ0Njc4NzYwLDkwNT
+c3MDU4MCw5NjI1OTA3NDVdfQ==
 -->
