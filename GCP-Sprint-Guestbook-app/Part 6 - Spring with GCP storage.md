@@ -32,7 +32,35 @@ some imports
 import org.springframework.cloud.gcp.core.GcpProjectIdProvider; import org.springframework.web.multipart.MultipartFile; import org.springframework.context.ApplicationContext; import org.springframework.core.io.Resource; import org.springframework.core.io.WritableResource; import org.springframework.util.StreamUtils; import java.io.*;
 ```
 
-To accept a
+To accept a file the post method now is defnied as 
+```
+public String post(
+@RequestParam(name="file", required=false) MultipartFile file,
+ @RequestParam String name,
+ @RequestParam String message, Model model)
+throws IOException {
+
+```
+
+We now add the code to retrieve the file and push it to the bucket
+```
+String filename = null;
+if (file != null && !file.isEmpty()
+    && file.getContentType().equals("image/jpeg")) {
+	// Bucket ID is our Project ID
+	String bucket = "gs://" +
+	      projectIdProvider.getProjectId();
+	// Generate a random file name
+	filename = UUID.randomUUID().toString() + ".jpg";
+	WritableResource resource = (WritableResource)
+	      context.getResource(bucket + "/" + filename);
+	// Write the file to Cloud Storage
+	try (OutputStream os = resource.getOutputStream()) {
+	     os.write(file.getBytes());
+	 }
+}
+
+```
 
 
 -      
@@ -42,6 +70,5 @@ To accept a
     
 -   Modify the frontend application to display uploaded message images
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODI1MzA2NDgsLTE4MTM0NTcxNjldfQ
-==
+eyJoaXN0b3J5IjpbLTk1MzAwNjc4OSwtMTgxMzQ1NzE2OV19
 -->
