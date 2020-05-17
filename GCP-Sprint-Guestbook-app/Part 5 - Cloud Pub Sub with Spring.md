@@ -33,7 +33,9 @@ We do this in any starter / configuration class.
 ```
 import org.springframework.context.annotation.*; import org.springframework.cloud.gcp.pubsub.core.*; import org.springframework.cloud.gcp.pubsub.integration.outbound.*; import org.springframework.integration.annotation.*; import org.springframework.messaging.*;
 
-/* De
+/* Define the channel bean */
+@Bean @ServiceActivator(inputChannel = "messagesOutputChannel") public MessageHandler messageSender(PubSubTemplate pubsubTemplate) { return new PubSubMessageHandler(pubsubTemplate, "messages"); }
+
 
 ```
 This is also possible by external configuration. 
@@ -50,6 +52,6 @@ outboundGateway.publishMessage(name + ": " + message);
 
 -   Bind the output channel of a message gateway to Cloud Pub/Sub
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzYzNTYyNzcsLTYzNTE2NjcyNSwxNz
-M0NDg5ODQ0XX0=
+eyJoaXN0b3J5IjpbMTcxNzAyNDkxMywtNjM1MTY2NzI1LDE3Mz
+Q0ODk4NDRdfQ==
 -->
