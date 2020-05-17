@@ -40,7 +40,7 @@ A topic can have multiple subscriptions. A subscription can have many subscriber
 
 Cloud Pub/Sub delivery is "at least once." Thus, you must deal with idempotence and you must deduplicate messages if you cannot process the same message more than once.
 
-`gcloud pubsub subscriptions create messages-subscription-1 \ --topic=messages`
+`gcloud pubsub subscriptions create messages-subscription-1 --topic=messages`
 
 Test it by 
 `gcloud pubsub subscriptions pull messages-subscription-1 --auto-ack` - pull a message - since topic is newly cfreated there would be no messages. Note the message remain in the subs untill it is acknowledged, so we set `--auto-ack`
@@ -96,7 +96,7 @@ To test the code, we introduce themessages via the app and it gets pushed to the
  
 ![Running the Demo application](https://i.imgur.com/AwLyOL3.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMjkxMzg3MCw0MjU1Mzk4MTMsLTE5ND
-M5MDQ1ODgsLTk0NDY3ODc2MCw5MDU3NzA1ODAsOTYyNTkwNzQ1
-XX0=
+eyJoaXN0b3J5IjpbNjA4MzA0NTc4LC03MTI5MTM4NzAsNDI1NT
+M5ODEzLC0xOTQzOTA0NTg4LC05NDQ2Nzg3NjAsOTA1NzcwNTgw
+LDk2MjU5MDc0NV19
 -->
