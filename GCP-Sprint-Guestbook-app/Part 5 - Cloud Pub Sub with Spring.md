@@ -7,7 +7,13 @@ Using this approach, you can swap messaging middleware that works with on-premis
 In this lab, you use Spring Integration to add the message gateway interface and then refactor the code to use this interface rather than implementing direct integration with Cloud Pub/Sub.
 
 ###  Adding Spring Integration Core to an application
-
+to the application pom.xml of the application add 
+```
+<dependency>
+    <groupId>org.springframework.integration</groupId>
+    <artifactId>spring-integration-core</artifactId>
+</dependency>
+```
     
 -   Create an outbound message gateway in your application
     
@@ -15,5 +21,5 @@ In this lab, you use Spring Integration to add the message gateway interface and
     
 -   Bind the output channel of a message gateway to Cloud Pub/Sub
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMzU2NDMzM119
+eyJoaXN0b3J5IjpbLTEwMzU3NjQxN119
 -->
