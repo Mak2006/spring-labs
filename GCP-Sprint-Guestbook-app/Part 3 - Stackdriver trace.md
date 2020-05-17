@@ -6,7 +6,15 @@ In this lab, we implement distributed tracing by using Spring Cloud GCP, Spring 
 Cloud Trace is a distributed tracing system that collects latency data from your applications and displays it in the Google Cloud Platform (GCP) console. You can track how requests propagate through your application and receive detailed, near-real-time performance insights. loud Trace automatically analyzes all of your application's traces to generate in-depth latency reports to surface performance degradations. And it can capture traces from all of your VMs, containers, or App Engine projects.
 
 Language-specific SDKs for Cloud Trace can analyze projects running on VMs (even those not managed by GCP). The Trace SDK is currently available for Java, Node.js, Ruby, and Go. And Cloud Trace API can be used to submit and retrieve trace data from any source. A Zipkin collector is also available, which enables Zipkin tracers to submit data to Cloud Trace. Projects running on App Engine are automatically captured.
+
+## Steps
+
+ 1. Enable Cloud Trace API 
+ 2. Use Spring to add Cloud Trace to your
+    application Configure customized trace settings in an application
+    Inspect the trace output
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NTU0OTQ2OSwtODE1MzAzNzk0LDUxOD
-MwODMxNl19
+eyJoaXN0b3J5IjpbLTExMDkwMzcxODYsLTgxNTMwMzc5NCw1MT
+gzMDgzMTZdfQ==
 -->
