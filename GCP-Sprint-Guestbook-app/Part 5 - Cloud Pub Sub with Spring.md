@@ -27,9 +27,10 @@ public interface OutboundGateway {
 }
 ```
     
--   Configure an application to publish messages through a gateway
+### Publish messages from an application through a gateway
+The trigger could be from any where. The application decid
     
 -   Bind the output channel of a message gateway to Cloud Pub/Sub
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDQ4OTg0NF19
+eyJoaXN0b3J5IjpbMTY5MDU5MzgwNywxNzM0NDg5ODQ0XX0=
 -->
