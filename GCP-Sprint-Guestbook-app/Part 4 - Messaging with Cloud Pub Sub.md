@@ -38,10 +38,17 @@ Pub / Sub works on basis of topic, which serves as a channel for message flow.
 
 A topic can have multiple subscriptions. A subscription can have many subscribers. If you want to distribute different messages to different subscribers, then each subscriber needs to subscribe to its own subscription. If you want to publish the same messages to all the subscribers, then all the subscribers must subscribe to the same subscription.
 
+Cloud Pub/Sub delivery is "at least once." Thus, you must deal with idempotence and you must deduplicate messages if you cannot process the same message more than once.
+
+`gcloud pubsub subscriptions create messages-subscription-1 \ --topic=messages`
+
+Test it 
+`gcloud pubsub subscriptions pull messages-subscription-1` - pull a message - since topic is newly cfreated there would be no messages
+
 
     
 ### Modify an application to process messages from a Cloud Pub/Sub subscription
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMzg1NTg5NSw5MDU3NzA1ODAsOTYyNT
+eyJoaXN0b3J5IjpbLTk0NDY3ODc2MCw5MDU3NzA1ODAsOTYyNT
 kwNzQ1XX0=
 -->
