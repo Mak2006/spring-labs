@@ -20,12 +20,15 @@ to the application pom.xml of the application add
 package com.example.frontend;
 
 import org.springframework.integration.annotation.MessagingGateway;
-
+/* this is class OutboundGateway.java , it defines a method to publish the message. It uses the messagesOutputChannel to send the messages.
+*/
 @MessagingGateway(defaultRequestChannel = "messagesOutputChannel")
 public interface OutboundGateway {
         void publishMessage(String message);
 }
 ```
+
+
     
 ### Publish messages from an application through a gateway
 The trigger could be from any where. The application decides when to post. To post to the outboud gateway we do the following 
@@ -39,5 +42,6 @@ outboundGateway.publishMessage(name + ": " + message);
 
 -   Bind the output channel of a message gateway to Cloud Pub/Sub
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNTE2NjcyNSwxNzM0NDg5ODQ0XX0=
+eyJoaXN0b3J5IjpbLTc4MjgxMzgxNiwtNjM1MTY2NzI1LDE3Mz
+Q0ODk4NDRdfQ==
 -->
