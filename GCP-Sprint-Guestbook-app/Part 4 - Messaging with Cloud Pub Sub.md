@@ -70,8 +70,17 @@ add to the pom
 </dependencies>
 
 ```
+Write a class to consume the message
+The imports
+```
+import org.springframework.context.annotation.Bean; import org.springframework.boot.CommandLineRunner; import org.springframework.cloud.gcp.pubsub.core.*;
 
+```
+
+The code
+
+`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNTM0ODY0NSwtOTQ0Njc4NzYwLDkwNT
-c3MDU4MCw5NjI1OTA3NDVdfQ==
+eyJoaXN0b3J5IjpbLTEwNTAwOTQ2OTYsLTk0NDY3ODc2MCw5MD
+U3NzA1ODAsOTYyNTkwNzQ1XX0=
 -->
