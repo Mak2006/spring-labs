@@ -15,7 +15,7 @@ to the application pom.xml of the application add
 </dependency>
 ```
     
-### Create an outbound message gateway in your application
+### Create an outbound message gateway Class in your application
 ```
 package com.example.frontend;
 
@@ -39,5 +39,5 @@ outboundGateway.publishMessage(name + ": " + message);
 
 -   Bind the output channel of a message gateway to Cloud Pub/Sub
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAzNzc3MDEsMTczNDQ4OTg0NF19
+eyJoaXN0b3J5IjpbMTk4NTA5MzIyOSwxNzM0NDg5ODQ0XX0=
 -->
