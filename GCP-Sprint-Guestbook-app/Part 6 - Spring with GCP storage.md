@@ -80,10 +80,11 @@ Indeed that is our file.
 
 
 ### Retrive the image from the bucket. 
+We create a new endpoint here to access the image. 
 ```
 import org.springframework.http.*;
 
-/* Sample code, We are creating a new get endpoint  */
+/* Sample code, We are creating a new GET endpoint  */
 // ".+" is necessary to capture URI with filename extension
 @GetMapping("/image/{filename:.+}")
 public ResponseEntity<Resource> file(
@@ -104,6 +105,6 @@ public ResponseEntity<Resource> file(
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjYyNTk1NDQsLTEwNjA1NzgxMjcsLT
-E2NTc3NjA3MywtMTgxMzQ1NzE2OV19
+eyJoaXN0b3J5IjpbMjEyNzQ5ODQxMSwtMTA2MDU3ODEyNywtMT
+Y1Nzc2MDczLC0xODEzNDU3MTY5XX0=
 -->
