@@ -43,12 +43,12 @@ Cloud Pub/Sub delivery is "at least once." Thus, you must deal with idempotence 
 `gcloud pubsub subscriptions create messages-subscription-1 \ --topic=messages`
 
 Test it by 
-`gcloud pubsub subscriptions pull messages-subscription-1 --auto-ack` - pull a message - since topic is newly cfreated there would be no messages. Note the message remain in the subs untill it is acknowledged, so we set --auto-ac
+`gcloud pubsub subscriptions pull messages-subscription-1 --auto-ack` - pull a message - since topic is newly cfreated there would be no messages. Note the message remain in the subs untill it is acknowledged, so we set `--auto-ack`
 
 
     
 ### Modify an application to process messages from a Cloud Pub/Sub subscription
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTkzNDYzODQsLTk0NDY3ODc2MCw5MD
+eyJoaXN0b3J5IjpbLTIwMzQzOTc4NjEsLTk0NDY3ODc2MCw5MD
 U3NzA1ODAsOTYyNTkwNzQ1XX0=
 -->
