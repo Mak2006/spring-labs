@@ -12,12 +12,21 @@ Language-specific SDKs for Cloud Trace can analyze projects running on VMs (even
  1. Enable Cloud Trace API 
  `gcloud services enable cloudtrace.googleapis.com`
  
- 2. Use Spring to add Cloud Trace to your application
- 
+ 2. Use Spring to add Cloud Trace to your application. Add the following starter. 
+ ```
+<dependency>
+	<groupId>org.springframework.cloud</groupId>
+	<artifactId>spring-cloud-gcp-starter-trace</artifactId>
+</dependency>
+
+ ```
+ and 
+ ```
+ ```
  4. Configure customized trace settings in an application.
  5. Inspect the trace output
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MTQ3Njc1MywtODE1MzAzNzk0LDUxOD
-MwODMxNl19
+eyJoaXN0b3J5IjpbODkwMzU1OTA5LC04MTUzMDM3OTQsNTE4Mz
+A4MzE2XX0=
 -->
