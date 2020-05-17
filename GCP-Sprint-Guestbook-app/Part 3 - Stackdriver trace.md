@@ -37,9 +37,15 @@ spring.cloud.gcp.trace.enabled=true
 spring.sleuth.sampler.probability=1
 spring.sleuth.web.skipPattern=(^cleanup.*|.+favicon.*)
 ``` 
+5. Set up service accounts
+```
+gcloud iam service-accounts create guestbook
+
+export PROJECT_ID=$(gcloud config list --format 'value(core.project)') gcloud projects add-iam-policy-binding ${PROJECT_ID} \ --member serviceAccount:guestbook@${PROJECT_ID}.iam.gserviceaccount.com \ --role roles/editor
+```
  6. Inspect the trace output
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIyMzQ3NzI5LC04MTUzMDM3OTQsNTE4Mz
+eyJoaXN0b3J5IjpbMTgzMzQ1MDg1LC04MTUzMDM3OTQsNTE4Mz
 A4MzE2XX0=
 -->
