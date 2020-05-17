@@ -67,11 +67,64 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 
 @RefreshScope
 ```
+## Defining a parameter
+ Use Cloud Runtime Configuration API to create runtime configuration profiles and values
+ 1.  In the Cloud Shell enable Cloud Runtime Configuration API.
+    
 
-7. Use Cloud Runtime Configuration API to create runtime configuration profiles and values
+```
+gcloud services enable runtimeconfig.googleapis.com
 
+```
+
+2.  Create a runtime configuration for the frontend application's  `cloud`  profile.
+    
+
+```
+gcloud beta runtime-config configs create frontend_cloud
+
+```
+
+A URL for the new runtime configuration similar to the following is displayed:
+
+```bash
+Created [https://runtimec.../v1beta1/projects/.../frontend_cloud].
+```
+
+3.  Set a new configuration value for the greeting message.
+    
+
+```
+gcloud beta runtime-config configs variables set greeting \
+  "Hi from Runtime Config" \
+  --config-name frontend_cloud
+
+```
+
+4.  Enter the following command to display all the variables in the runtime configuration:
+    
+
+```
+gcloud beta runtime-config configs variables list --config-name=frontend_cloud
+
+```
+
+5.  Enter the following command to display the value of a specific variable.
+    
+
+```
+gcloud beta runtime-config configs variables \
+  get-value greeting --config-name=frontend_cloud
+
+```
+
+The command displays the value of  `greeting`.
+
+
+### Dynamically update a value
 Use Cloud Runtime Configuration API to dynamically update an application setting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzOTc3NzAwNiwtMTk1NTU5MjM2MCwtMT
-A1ODQ2MzI5NSwtNzU5ODUyNDQ0LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbODQ0NTk1NzI0LDEzMzk3NzcwMDYsLTE5NT
+U1OTIzNjAsLTEwNTg0NjMyOTUsLTc1OTg1MjQ0NCwtMjA4ODc0
+NjYxMl19
 -->
