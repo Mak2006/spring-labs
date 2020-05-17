@@ -107,9 +107,12 @@ public ResponseEntity<Resource> file(
 This makes the image available in the web page, we just require to display it. So we add the snippet below
 
 ```
-<img th:src="'/image/' + ${message.imageUri}" alt="image" height="40px" th:unless="${#strings.isEmpty(message.imageUri)}"/>
+<img th:src="'/image/' + ${message.imageUri}"
+ alt="image" height="40px"
+ th:unless="${#strings.isEmpty(message.imageUri)}"/>
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MTk3MDE0NywtMTA2MDU3ODEyNywtMT
+eyJoaXN0b3J5IjpbLTk5MjM0NjQxMywtMTA2MDU3ODEyNywtMT
 Y1Nzc2MDczLC0xODEzNDU3MTY5XX0=
 -->
