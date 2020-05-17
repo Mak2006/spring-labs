@@ -113,8 +113,10 @@ This makes the image available in the web page, we just require to display it. S
 
 ```
 So we now see the upload in our page
+![enter image description here](https://i.imgur.com/L3XDwab.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2MTYwMjY0LC05OTIzNDY0MTMsLTEwNj
-A1NzgxMjcsLTE2NTc3NjA3MywtMTgxMzQ1NzE2OV19
+eyJoaXN0b3J5IjpbLTEwNzIyNTk0NjUsNjY2MTYwMjY0LC05OT
+IzNDY0MTMsLTEwNjA1NzgxMjcsLTE2NTc3NjA3MywtMTgxMzQ1
+NzE2OV19
 -->
