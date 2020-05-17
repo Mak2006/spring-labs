@@ -29,15 +29,17 @@ Language-specific SDKs for Cloud Trace can analyze projects running on VMs (even
 
  ```
  4. Configure customized trace settings in an application.
-		 1. Disable trace for dev purpose - in application.properties of the required application.
+		 1. Disable trace for dev purpose - in application.properties of **the required application**.
 `spring.cloud.gcp.trace.enabled=false`
-		 2.  Enable for a cloud profile
+		 2.  Enable for a cloud profile and for the **required applications**
 ```
-
+spring.cloud.gcp.trace.enabled=true
+spring.sleuth.sampler.probability=1
+spring.sleuth.web.skipPattern=(^cleanup.*|.+favicon.*)
 ``` 
  6. Inspect the trace output
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc2OTY5MDYyLC04MTUzMDM3OTQsNTE4Mz
+eyJoaXN0b3J5IjpbNTIyMzQ3NzI5LC04MTUzMDM3OTQsNTE4Mz
 A4MzE2XX0=
 -->
