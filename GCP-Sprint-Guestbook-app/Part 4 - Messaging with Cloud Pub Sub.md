@@ -34,10 +34,14 @@ pubSubTemplate.publish("messages", name + ": " + message);
 ```
     
 ### Create a Cloud Pub/Sub subscription
+Pub / Sub works on basis of topic, which serves as a channel for message flow. 
+
+A topic can have multiple subscriptions. A subscription can have many subscribers. If you want to distribute different messages to different subscribers, then each subscriber needs to subscribe to its own subscription. If you want to publish the same messages to all the subscribers, then all the subscribers must subscribe to the same subscription.
+
 
     
 ### Modify an application to process messages from a Cloud Pub/Sub subscription
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4NjU1Njk2LDkwNTc3MDU4MCw5NjI1OT
-A3NDVdfQ==
+eyJoaXN0b3J5IjpbLTMwMzg1NTg5NSw5MDU3NzA1ODAsOTYyNT
+kwNzQ1XX0=
 -->
