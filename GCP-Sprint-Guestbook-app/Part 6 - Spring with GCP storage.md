@@ -51,7 +51,7 @@ if (file != null && !file.isEmpty()
 	String bucket = "gs://" +
 	/*      projectIdProvider.getProjectId(); */
 	/* instead we use a random string */
-	 "test_some_random_name
+	 "test_some_random_name";
 	// Generate a random file name
 	filename = UUID.randomUUID().toString() + ".jpg";
 	WritableResource resource = (WritableResource)
@@ -64,6 +64,11 @@ if (file != null && !file.isEmpty()
 
 ```
 
+Some application logic. We need to keep track of what file belongs to whom thus have to save some data hence some code below 
+
+```
+``
+
 
 -      
 -   Modify the HTML template of the frontend application to enable file uploads
@@ -72,5 +77,5 @@ if (file != null && !file.isEmpty()
     
 -   Modify the frontend application to display uploaded message images
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAzODQyMTE2LC0xODEzNDU3MTY5XX0=
+eyJoaXN0b3J5IjpbMjEyODM1NDM4NCwtMTgxMzQ1NzE2OV19
 -->
