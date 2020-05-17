@@ -1,6 +1,7 @@
 # Java Lambdas
 1. Introduced in Java 8. 
 2. Intros - 
+	  1.  [Java world article](https://www.javaworld.com/article/3452018/get-started-with-lambda-expressions.html) 
 	  1. [Lambda: A Peek Under the Hood](https://www.youtube.com/watch?v=C_QbkGU_lqY)
 3. Lambda is inline function definition and call to itself. This is treating code / method like data. 
 4. Lambda is defined by the `->`. Method references by operator `::` 
@@ -25,6 +26,7 @@ and call it using
 `lambdaFunction.call();` 
 10. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MzUyNTk0LDUwNzM5NDk3NywxMjIyMD
-UxMjcxLDExNjk3NTg2LDEyMTE0NTIyNzhdfQ==
+eyJoaXN0b3J5IjpbOTA0NDAwMTQxLDEyNjM1MjU5NCw1MDczOT
+Q5NzcsMTIyMjA1MTI3MSwxMTY5NzU4NiwxMjExNDUyMjc4XX0=
+
 -->
