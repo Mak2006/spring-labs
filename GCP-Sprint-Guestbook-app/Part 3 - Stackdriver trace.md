@@ -22,11 +22,18 @@ Language-specific SDKs for Cloud Trace can analyze projects running on VMs (even
  ```
  and 
  ```
+ <dependency>
+	<groupId>org.springframework.cloud</groupId>
+	<artifactId>spring-cloud-gcp-starter-trace</artifactId>
+</dependency>
+
  ```
  4. Configure customized trace settings in an application.
- 5. Inspect the trace output
+		 1. Disable trace for dev purpose
+		 2. 
+ 6. Inspect the trace output
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkwMzU1OTA5LC04MTUzMDM3OTQsNTE4Mz
+eyJoaXN0b3J5IjpbOTk4NDc3OTE5LC04MTUzMDM3OTQsNTE4Mz
 A4MzE2XX0=
 -->
