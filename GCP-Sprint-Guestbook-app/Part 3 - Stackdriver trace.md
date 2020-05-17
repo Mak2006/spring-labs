@@ -50,9 +50,11 @@ gcloud iam service-accounts keys create \
 ~/service-account.json \
 --iam-account guestbook@${PROJECT_ID}.iam.gserviceaccount.com
  ```
- 8. Inspect the trace output
+
+ 9. Inspect the trace output - When the applications are run and make calls
+ 10. In the Navigation Menu navigate to **Cloud > Trace > Trace List**. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MTc3NDc2MywtODE1MzAzNzk0LDUxOD
-MwODMxNl19
+eyJoaXN0b3J5IjpbLTIxMzg3ODkwNjEsLTgxNTMwMzc5NCw1MT
+gzMDgzMTZdfQ==
 -->
