@@ -55,7 +55,9 @@ gcloud iam service-accounts keys create \
  10. In the Navigation Menu navigate to **Cloud > Trace > Trace List**.  and check the trace.  We get to see the traces as below
  ![enter image description here](https://i.imgur.com/klOWBsn.png)
 
+In detailed trace about a POST call
+![enter image description here](https://i.imgur.com/l1jPx8K.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQzNTM5MzEwLC0xMTE4OTc3NzIsLTIxMz
-g3ODkwNjEsLTgxNTMwMzc5NCw1MTgzMDgzMTZdfQ==
+eyJoaXN0b3J5IjpbLTIwOTM4MzcxNzgsLTExMTg5Nzc3MiwtMj
+EzODc4OTA2MSwtODE1MzAzNzk0LDUxODMwODMxNl19
 -->
