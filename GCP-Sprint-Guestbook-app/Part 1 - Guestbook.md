@@ -14,9 +14,10 @@ A client server app with 3 microservices Spring based.
 2. Config
 3. Busines tier microservice. 
 
-### Creating an applicatoin with Sprint Initializer 
+### Creating an applicatoin with Sprint Initializer - Sample 
 
-`cd ~ curl https://start.spring.io/starter.tgz  -d dependencies=cloud-gcp-pubsub  -d baseDir=message-processor | tar -xzvf -`
+`cd ~ curl https://start.spring.io/starter.tgz \ -d dependencies=cloud-gcp-pubsub   \
+-d baseDir=message-processor | tar -xzvf -`
 
 
 ### Configuring and connecting to Cloud SQL
@@ -261,5 +262,5 @@ qwiklabs-gcp-04-94261e73db16:us-central1:guestbook
 Had to change the jvm, as the project was created in java 8 while the shell was different. 
 sudo update-java-alternatives -s java-1.8.0-openjdk-amd64 && export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0Nzk5ODYwMSw2MTc2MjQzODJdfQ==
+eyJoaXN0b3J5IjpbLTQyODI4NTc1Niw2MTc2MjQzODJdfQ==
 -->
