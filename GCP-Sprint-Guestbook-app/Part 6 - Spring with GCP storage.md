@@ -26,6 +26,8 @@ We create a form where the user can upload the file and post it.
 <span>File:</span>
 <input type="file" name="file" accept=".jpg, image/jpeg"/>
 ```
+The web page now looks like 
+![File input](https://i.imgur.com/alLgKkj.png)
 ### Change the form backend class to accept the file
 some imports
 ```
@@ -99,5 +101,6 @@ public ResponseEntity<Resource> file(
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTc3NjA3MywtMTgxMzQ1NzE2OV19
+eyJoaXN0b3J5IjpbLTEwNjA1NzgxMjcsLTE2NTc3NjA3MywtMT
+gxMzQ1NzE2OV19
 -->
