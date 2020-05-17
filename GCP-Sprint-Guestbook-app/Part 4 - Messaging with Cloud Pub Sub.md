@@ -79,8 +79,20 @@ import org.springframework.context.annotation.Bean; import org.springframework.b
 
 The code
 
-`
+```
+@Bean
+public CommandLineRunner cli(PubSubTemplate pubSubTemplate) {
+return (args) -> {
+    pubSubTemplate.subscribe("messages-subscription-1",
+       (msg, ackConsumer) -> {
+	    System.out.println(msg.getData().toStringUtf8());
+	    ackConsumer.ack();
+       });
+};
+}
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTAwOTQ2OTYsLTk0NDY3ODc2MCw5MD
+eyJoaXN0b3J5IjpbLTE5NDM5MDQ1ODgsLTk0NDY3ODc2MCw5MD
 U3NzA1ODAsOTYyNTkwNzQ1XX0=
 -->
