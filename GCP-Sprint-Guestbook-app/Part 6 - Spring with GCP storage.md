@@ -108,13 +108,13 @@ This makes the image available in the web page, we just require to display it. S
 
 ```
 <img th:src="'/image/' + ${message.imageUri}"
- alt="image" height="40px"
+ alt="image" height="100px" width="200px"
  th:unless="${#strings.isEmpty(message.imageUri)}"/>
 
 ```
 So we now see the upload in our page
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1OTYzMjYwLC05OTIzNDY0MTMsLTEwNj
+eyJoaXN0b3J5IjpbNjY2MTYwMjY0LC05OTIzNDY0MTMsLTEwNj
 A1NzgxMjcsLTE2NTc3NjA3MywtMTgxMzQ1NzE2OV19
 -->
