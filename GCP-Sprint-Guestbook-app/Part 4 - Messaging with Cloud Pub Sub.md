@@ -50,8 +50,28 @@ Test it by
 ### Create an application to process messages from a Cloud Pub/Sub subscription
 
 Creating an app
+```
+cd ~ 
+curl https://start.spring.io/starter.tgz \ -d dependencies=cloud-gcp-pubsub \ -d baseDir=message-processor | tar -xzvf -
+```
+add to the pom
+
+```
+<dependencies>
+  <dependency>
+       <groupId>org.springframework.cloud</groupId>
+       <artifactId>spring-cloud-gcp-starter-pubsub</artifactId>
+  </dependency>
+  <dependency>
+       <groupId>org.springframework.boot</groupId>
+       <artifactId>spring-boot-starter-test</artifactId>
+       <scope>test</scope>
+  </dependency>
+</dependencies>
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMTI0Nzc5NiwtOTQ0Njc4NzYwLDkwNT
+eyJoaXN0b3J5IjpbMTIzNTM0ODY0NSwtOTQ0Njc4NzYwLDkwNT
 c3MDU4MCw5NjI1OTA3NDVdfQ==
 -->
