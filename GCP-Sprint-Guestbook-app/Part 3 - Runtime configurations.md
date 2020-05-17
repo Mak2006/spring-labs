@@ -59,10 +59,19 @@ spring.cloud.gcp.config.profile=cloud
 5. Enable the dynamic refresh of runtime configuration values in an application. 
 By default, runtime configuration values are read only when an application starts. In this task, you add a Spring Cloud Config `RefreshScope` to the frontend application so that runtime configuration values can be updated dynamically without restarting the application. You do this by adding an `@RefreshScope` annotation to the `FrontendController` source file.
 
-7. 
-Use Cloud Runtime Configuration API to create runtime configuration profiles and values
+	1.  Insert the following lines below the import directives just above  `@Controller`:
+    
+
+```
+import org.springframework.cloud.context.config.annotation.RefreshScope;
+
+@RefreshScope
+```
+
+7. Use Cloud Runtime Configuration API to create runtime configuration profiles and values
+
 Use Cloud Runtime Configuration API to dynamically update an application setting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjkyMjQ2ODcsLTE5NTU1OTIzNjAsLT
-EwNTg0NjMyOTUsLTc1OTg1MjQ0NCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTMzOTc3NzAwNiwtMTk1NTU5MjM2MCwtMT
+A1ODQ2MzI5NSwtNzU5ODUyNDQ0LC0yMDg4NzQ2NjEyXX0=
 -->
