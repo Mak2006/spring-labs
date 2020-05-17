@@ -7,7 +7,9 @@
 `gcloud config set compute/zone $zone`
 	  3. 
 	  4. 
-3. 
+2. Service account 
+`gcloud iam service-accounts create guestbook`
+4. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTk2ODU1MF19
+eyJoaXN0b3J5IjpbMTExNjM1MTE1NSwtMTA5OTY4NTUwXX0=
 -->
