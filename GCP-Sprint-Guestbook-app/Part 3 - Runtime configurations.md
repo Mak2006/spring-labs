@@ -47,12 +47,12 @@ and teh repository
 2. For local testing this service can be disabled. Use 
 `spring.cloud.gcp.config.enabled=false`  in the application properties
 
-3.  Create deployment profiles to selectively enable support for runtime configuration services. Profiles a
+3.  Create deployment profiles to selectively enable support for runtime configuration services. Profiles another level of hierarchy 
 5. 
 Enable the dynamic refresh of runtime configuration values in an application
 Use Cloud Runtime Configuration API to create runtime configuration profiles and values
 Use Cloud Runtime Configuration API to dynamically update an application setting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDAzMTQ5MzYsLTEwNTg0NjMyOTUsLT
-c1OTg1MjQ0NCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNTUwMzUwODMwLC0xMDU4NDYzMjk1LC03NT
+k4NTI0NDQsLTIwODg3NDY2MTJdfQ==
 -->
