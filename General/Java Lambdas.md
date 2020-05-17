@@ -13,7 +13,7 @@ public void somefunction(/* lambda arguments */) {
 /* lambda body */
 }
 ```
-7. Points to note
+7. Salient points 
     1. **No explicit call** - since we are not defining any function explicity, we are able to omit the call to it. 
     2.  **Arg types**  - They can be provided or compiler infers them. If only one arg is there, the brackets may be omitted. `var` keyword can be used in Java 11.
 8.  Examples 
@@ -26,7 +26,7 @@ and call it using
 `lambdaFunction.call();` 
 10. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0NDAwMTQxLDEyNjM1MjU5NCw1MDczOT
+eyJoaXN0b3J5IjpbMjUxNDU3MTQyLDEyNjM1MjU5NCw1MDczOT
 Q5NzcsMTIyMjA1MTI3MSwxMTY5NzU4NiwxMjExNDUyMjc4XX0=
 
 -->
