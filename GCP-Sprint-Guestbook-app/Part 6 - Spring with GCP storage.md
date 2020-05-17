@@ -26,10 +26,23 @@ We create a form where the user can upload the file and post it.
 <span>File:</span>
 <input type="file" name="file" accept=".jpg, image/jpeg"/>
 ```
-### Change the form backend to accept the file
-
+### Change the form backend class to accept the file
+some imports
 ```
 import org.springframework.cloud.gcp.core.GcpProjectIdProvider; import org.springframework.web.multipart.MultipartFile; import org.springframework.context.ApplicationContext; import org.springframework.core.io.Resource; import org.springframework.core.io.WritableResource; import org.springframework.util.StreamUtils; import java.io.*;
+```
+
+Get hold of the application context to create a new resource
+
+```
+// The ApplicationContext is needed to create a new Resource.
+@Autowired
+private ApplicationContext context;
+
+// Get the Project ID, as its Cloud Storage bucket name here
+@Autowired
+private GcpProjectIdProvider projectIdProvider;
+
 ```
 
 
@@ -40,6 +53,5 @@ import org.springframework.cloud.gcp.core.GcpProjectIdProvider; import org.sprin
     
 -   Modify the frontend application to display uploaded message images
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzYzMjI0MDIsLTE4MTM0NTcxNjldfQ
-==
+eyJoaXN0b3J5IjpbNzI4NTQ2MDk5LC0xODEzNDU3MTY5XX0=
 -->
