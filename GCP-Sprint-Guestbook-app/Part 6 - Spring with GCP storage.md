@@ -112,7 +112,9 @@ This makes the image available in the web page, we just require to display it. S
  th:unless="${#strings.isEmpty(message.imageUri)}"/>
 
 ```
+So we now see the upload in our page
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MjM0NjQxMywtMTA2MDU3ODEyNywtMT
-Y1Nzc2MDczLC0xODEzNDU3MTY5XX0=
+eyJoaXN0b3J5IjpbMTc1OTYzMjYwLC05OTIzNDY0MTMsLTEwNj
+A1NzgxMjcsLTE2NTc3NjA3MywtMTgxMzQ1NzE2OV19
 -->
