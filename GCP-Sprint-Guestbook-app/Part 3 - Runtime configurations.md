@@ -19,11 +19,22 @@
    <artifactId>spring-boot-starter-actuator</artifactId>
 </dependency>
 ```
+and this 
+```
+<dependency>
+<groupId>org.springframework.cloud</groupId>
+<artifactId>spring-cloud-gcp-dependencies</artifactId>
+<version>1.1.0.M1</version>
+<type>pom</type>
+<scope>import</scope>
+</dependency>
+
+```
 6.  Create deployment profiles to selectively enable support for runtime configuration services
 Enable the dynamic refresh of runtime configuration values in an application
 Use Cloud Runtime Configuration API to create runtime configuration profiles and values
 Use Cloud Runtime Configuration API to dynamically update an application setting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTg0NjMyOTUsLTc1OTg1MjQ0NCwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE5NzI4MjMxODcsLTEwNTg0NjMyOTUsLT
+c1OTg1MjQ0NCwtMjA4ODc0NjYxMl19
 -->
