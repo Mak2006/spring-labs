@@ -32,18 +32,7 @@ some imports
 import org.springframework.cloud.gcp.core.GcpProjectIdProvider; import org.springframework.web.multipart.MultipartFile; import org.springframework.context.ApplicationContext; import org.springframework.core.io.Resource; import org.springframework.core.io.WritableResource; import org.springframework.util.StreamUtils; import java.io.*;
 ```
 
-Get hold of the application context to create a new resource
-
-```
-// The ApplicationContext is needed to create a new Resource.
-@Autowired
-private ApplicationContext context;
-
-// Get the Project ID, as its Cloud Storage bucket name here
-@Autowired
-private GcpProjectIdProvider projectIdProvider;
-
-```
+To accept a
 
 
 -      
@@ -53,5 +42,6 @@ private GcpProjectIdProvider projectIdProvider;
     
 -   Modify the frontend application to display uploaded message images
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI4NTQ2MDk5LC0xODEzNDU3MTY5XX0=
+eyJoaXN0b3J5IjpbLTE1ODI1MzA2NDgsLTE4MTM0NTcxNjldfQ
+==
 -->
