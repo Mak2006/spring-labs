@@ -15,7 +15,15 @@ We do this in the appliation that requires cloud storage. Include the dependency
  This is done manually in this lab. And we shall use it from the code. 
 
 ### Uploading files to it. 
-We create a form where the user can upload the file and p
+We create a form where the user can upload the file and post it. 
+
+```
+1. the form now takes multipart data hence we use
+<form action="/post" method="post" enctype="multipart/form-data">
+
+2. The input becomes
+3. 
+```
 
 -      
 -   Modify the HTML template of the frontend application to enable file uploads
@@ -24,5 +32,6 @@ We create a form where the user can upload the file and p
     
 -   Modify the frontend application to display uploaded message images
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDgyMDE2NSwtMTgxMzQ1NzE2OV19
+eyJoaXN0b3J5IjpbLTE4MjA5ODUxNDUsLTE4MTM0NTcxNjldfQ
+==
 -->
