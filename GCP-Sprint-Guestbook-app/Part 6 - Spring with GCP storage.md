@@ -73,9 +73,10 @@ Some application logic. We need to keep track of what file belongs to whom thus 
 payload.put("imageUri", filename);
 ```
 
-At this point we can check if the bucket has the file 
+At this point we can check if the bucket has the file.
 
-
+![enter image description here](https://i.imgur.com/zEa8LP6.png)
+Indeed that is our file. 
 
 
 ### Retrive the image from the bucket. 
@@ -103,6 +104,6 @@ public ResponseEntity<Resource> file(
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMjY4OTMyMywtMTA2MDU3ODEyNywtMT
+eyJoaXN0b3J5IjpbLTU5NDc1NjA0MywtMTA2MDU3ODEyNywtMT
 Y1Nzc2MDczLC0xODEzNDU3MTY5XX0=
 -->
