@@ -17,8 +17,10 @@ public void somefunction(/* lambda arguments */) {
 `(int x, int y) -> x + y`
 ` () -> "Java 8"` 
 ` x -> x*x`
-9. 
+8.  Explicit Lamda definition - contrary to intention we can define explicity a lamda function 
+` LambdaFunction lambdaFunction = () -> System.out.println("Hello world");`
+10. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MTY5MjcwNCwxMTY5NzU4NiwxMjExND
-UyMjc4XX0=
+eyJoaXN0b3J5IjpbNjk1OTQzMjczLDExNjk3NTg2LDEyMTE0NT
+IyNzhdfQ==
 -->
