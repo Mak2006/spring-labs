@@ -76,6 +76,8 @@ payload.put("imageUri", filename);
 At this point we can check if the bucket has the file 
 
 
+
+
 ### Retrive the image from the bucket. 
 ```
 import org.springframework.http.*;
@@ -101,6 +103,6 @@ public ResponseEntity<Resource> file(
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjA1NzgxMjcsLTE2NTc3NjA3MywtMT
-gxMzQ1NzE2OV19
+eyJoaXN0b3J5IjpbLTcwMjY4OTMyMywtMTA2MDU3ODEyNywtMT
+Y1Nzc2MDczLC0xODEzNDU3MTY5XX0=
 -->
