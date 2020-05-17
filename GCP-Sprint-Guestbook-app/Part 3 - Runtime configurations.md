@@ -5,14 +5,16 @@
 ## Steps
 4. Use Spring Cloud GCP to add support for Cloud Runtime Configuration API. This is added to the microservice require the aspect .  In the pom.xml
 ```
-<dependency> <groupId>org.springframework.cloud</groupId> <artifactId>spring-cloud-gcp-starter-config</artifactId> </dependency> <dependency> <groupId>com.google.guava</groupId> <artifactId>guava</artifactId> <version>20.0</version> </dependency> <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-actuator</artifactId> </dependency>
+<dependency> <groupId>org.springframework.cloud</groupId>
+ <artifactId>spring-cloud-gcp-starter-config</artifactId> </dependency> <dependency> <groupId>com.google.guava</groupId> <artifactId>guava</artifactId> <version>20.0</version> </dependency> <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-actuator</artifactId> </dependency>
 ```
 
 6.  Create deployment profiles to selectively enable support for runtime configuration services
 Enable the dynamic refresh of runtime configuration values in an application
 Use Cloud Runtime Configuration API to create runtime configuration profiles and values
 Use Cloud Runtime Configuration API to dynamically update an application setting
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ3NTU2Mjc5LC03NTk4NTI0NDQsLTIwOD
-g3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTY5Njk0MTg3OSwtNzU5ODUyNDQ0LC0yMD
+g4NzQ2NjEyXX0=
 -->
