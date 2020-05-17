@@ -10,10 +10,13 @@ public void somefunction(/* lambda arguments */) {
 /* lambda body */
 }
 ```
-7. Points to note
+6. Points to note
     1. **No explicit call** - since we are not defining any function explicity, we are able to omit the call to it. 
-    2.  **Arg types**  - Sin
-6. 
+    2.  **Arg types**  - They can be provided or compiler infers them. If only one arg is there, the brackets may be omitted. 
+7.  Examples 
+`(int x, int y) -> x + `
+9. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2OTc1ODYsMTIxMTQ1MjI3OF19
+eyJoaXN0b3J5IjpbNjQ0MzMyMTkyLDExNjk3NTg2LDEyMTE0NT
+IyNzhdfQ==
 -->
