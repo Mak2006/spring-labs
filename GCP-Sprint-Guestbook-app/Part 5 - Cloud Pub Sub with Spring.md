@@ -28,7 +28,15 @@ public interface OutboundGateway {
 }
 ```
 
+### Configure the channel to Pub/Sub
+We do this in any starter / configuration class. 
+```
+import org.springframework.context.annotation.*; import org.springframework.cloud.gcp.pubsub.core.*; import org.springframework.cloud.gcp.pubsub.integration.outbound.*; import org.springframework.integration.annotation.*; import org.springframework.messaging.*;
 
+/* De
+
+```
+This is also possible by external configuration. 
     
 ### Publish messages from an application through a gateway
 The trigger could be from any where. The application decides when to post. To post to the outboud gateway we do the following 
@@ -42,6 +50,6 @@ outboundGateway.publishMessage(name + ": " + message);
 
 -   Bind the output channel of a message gateway to Cloud Pub/Sub
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MjgxMzgxNiwtNjM1MTY2NzI1LDE3Mz
-Q0ODk4NDRdfQ==
+eyJoaXN0b3J5IjpbLTE4NzYzNTYyNzcsLTYzNTE2NjcyNSwxNz
+M0NDg5ODQ0XX0=
 -->
