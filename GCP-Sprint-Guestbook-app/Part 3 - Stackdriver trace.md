@@ -43,9 +43,16 @@ gcloud iam service-accounts create guestbook
 
 export PROJECT_ID=$(gcloud config list --format 'value(core.project)') gcloud projects add-iam-policy-binding ${PROJECT_ID} \ --member serviceAccount:guestbook@${PROJECT_ID}.iam.gserviceaccount.com \ --role roles/editor
 ```
- 6. Inspect the trace output
+
+ 6. Generate the JSON key file to be used by the application to identify itself using the service account.
+ ```
+gcloud iam service-accounts keys create \
+~/service-account.json \
+--iam-account guestbook@${PROJECT_ID}.iam.gserviceaccount.com
+ ```
+ 8. Inspect the trace output
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzQ1MDg1LC04MTUzMDM3OTQsNTE4Mz
-A4MzE2XX0=
+eyJoaXN0b3J5IjpbLTI5MTc3NDc2MywtODE1MzAzNzk0LDUxOD
+MwODMxNl19
 -->
