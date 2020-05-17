@@ -134,8 +134,10 @@ gcloud beta runtime-config configs variables set greeting \
 
 ```
 
+Snippet in action
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjU1NDczNDEsMTMzOTc3NzAwNiwtMT
-k1NTU5MjM2MCwtMTA1ODQ2MzI5NSwtNzU5ODUyNDQ0LC0yMDg4
-NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE5NDE0NjY0MTMsLTIwNjU1NDczNDEsMT
+MzOTc3NzAwNiwtMTk1NTU5MjM2MCwtMTA1ODQ2MzI5NSwtNzU5
+ODUyNDQ0LC0yMDg4NzQ2NjEyXX0=
 -->
