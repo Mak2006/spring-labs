@@ -49,9 +49,12 @@ The trigger could be from any where. The application decides when to post. To po
 /* fire the message */
 outboundGateway.publishMessage(name + ": " + message);
 ```
+### Bind the output channel of a message gateway to Cloud Pub/Sub
 
--   Bind the output channel of a message gateway to Cloud Pub/Sub
+
+Out come 
+![enter image description here](https://i.imgur.com/uh8licH.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNzAyNDkxMywtNjM1MTY2NzI1LDE3Mz
-Q0ODk4NDRdfQ==
+eyJoaXN0b3J5IjpbMTM0MDgxMjM5MiwxNzE3MDI0OTEzLC02Mz
+UxNjY3MjUsMTczNDQ4OTg0NF19
 -->
