@@ -92,9 +92,11 @@ return (args) -> {
 }
 ```
 
-To test the code, we introduce themessages via the app and it gets pushed to the topic. Since our client is  a subscriber, it will get the message. 
-
+To test the code, we introduce themessages via the app and it gets pushed to the topic. Since our client is  a subscriber, it will get the message. This is shown below
+ 
+![Running the Demo application](https://i.imgur.com/AwLyOL3.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI1NTM5ODEzLC0xOTQzOTA0NTg4LC05ND
-Q2Nzg3NjAsOTA1NzcwNTgwLDk2MjU5MDc0NV19
+eyJoaXN0b3J5IjpbLTcxMjkxMzg3MCw0MjU1Mzk4MTMsLTE5ND
+M5MDQ1ODgsLTk0NDY3ODc2MCw5MDU3NzA1ODAsOTYyNTkwNzQ1
+XX0=
 -->
