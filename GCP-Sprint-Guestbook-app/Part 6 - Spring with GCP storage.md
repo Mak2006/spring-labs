@@ -79,9 +79,25 @@ At this point we can check if the bucket has the file
 import org.springframework.http.*;
 
 /* Sample code */
-// ".+" is necessary to capture URI with filename extension @GetMapping("/image/{filename:.+}") public ResponseEntity<Resource> file( @PathVariable String filename) { String bucket = "gs://" + projectIdProvider.getProjectId(); // Use "gs://" URI to construct // a Spring Resource object Resource image = context.getResource(bucket + "/" + filename); // Send it back to the client HttpHeaders headers = new HttpHeaders(); headers.setContentType(MediaType.IMAGE_JPEG); return new ResponseEntity<>( image, headers, HttpStatus.OK); }
+// ".+" is necessary to capture URI with filename extension
+@GetMapping("/image/{filename:.+}")
+public ResponseEntity<Resource> file(
+@PathVariable String filename) {
+  String bucket = "gs://" +
+		    projectIdProvider.getProjectId();
+  // or use the bucket generated earlier. 
+  // Use "gs://" URI to construct
+  // a Spring Resource object
+  Resource image = context.getResource(bucket +
+		   "/" + filename);
+  // Send it back to the client
+  HttpHeaders headers = new HttpHeaders();
+  headers.setContentType(MediaType.IMAGE_JPEG);
+  return new ResponseEntity<>(
+  image, headers, HttpStatus.OK);
+}
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDI3NTEzOTEsLTE4MTM0NTcxNjldfQ
-==
+eyJoaXN0b3J5IjpbLTE2NTc3NjA3MywtMTgxMzQ1NzE2OV19
 -->
