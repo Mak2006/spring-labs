@@ -1,6 +1,6 @@
 # Java Lambdas
 1. Introduced in Java 8. 
-2. Lambda is inline function definition and call to itself. 
+2. Lambda is inline function definition and call to itself. This is treating code / method like data. 
 3. Lambda is defined by the `->`. Method references by operator `::` 
 4. Two new packages are added `iava.util.function` and `java.util.streams`
 5. Syntax - *(lamba  argumeents)* ->*(lambda body)* 
@@ -23,6 +23,6 @@ and call it using
 `lambdaFunction.call();` 
 10. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMjA1MTI3MSwxMTY5NzU4NiwxMjExND
-UyMjc4XX0=
+eyJoaXN0b3J5IjpbNTA3Mzk0OTc3LDEyMjIwNTEyNzEsMTE2OT
+c1ODYsMTIxMTQ1MjI3OF19
 -->
