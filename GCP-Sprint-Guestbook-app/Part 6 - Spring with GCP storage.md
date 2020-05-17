@@ -14,7 +14,7 @@ We do this in the appliation that requires cloud storage. Include the dependency
 ### Create a Cloud Storage bucket
  This is done manually in this lab. And we shall use it from the code. 
 
-### Uploading files to it. 
+### Creating the UI. 
 We create a form where the user can upload the file and post it. 
 
 ```
@@ -22,8 +22,16 @@ We create a form where the user can upload the file and post it.
 <form action="/post" method="post" enctype="multipart/form-data">
 
 2. The input becomes
-3. 
+<!-- Add a file input --> 
+<span>File:</span>
+<input type="file" name="file" accept=".jpg, image/jpeg"/>
 ```
+### Change the form backend to accept the file
+
+```
+import org.springframework.cloud.gcp.core.GcpProjectIdProvider; import org.springframework.web.multipart.MultipartFile; import org.springframework.context.ApplicationContext; import org.springframework.core.io.Resource; import org.springframework.core.io.WritableResource; import org.springframework.util.StreamUtils; import java.io.*;
+```
+
 
 -      
 -   Modify the HTML template of the frontend application to enable file uploads
@@ -32,6 +40,6 @@ We create a form where the user can upload the file and post it.
     
 -   Modify the frontend application to display uploaded message images
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjA5ODUxNDUsLTE4MTM0NTcxNjldfQ
+eyJoaXN0b3J5IjpbLTE1NzYzMjI0MDIsLTE4MTM0NTcxNjldfQ
 ==
 -->
