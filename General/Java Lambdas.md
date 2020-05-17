@@ -4,8 +4,13 @@
 3. Two new packages are added `iava.util.function` and `java.util.streams`
 4. Syntax - *(lamba  argumeents)* ->*(lambda body)* 
 this is equivalent is a loose sense to 
-public void somefunction(arguments
+```
+public void somefunction(/* lambda arguments */) {
+/* lambda body */
+}
+```
+**since we are not defining any function explicity**, we are able to omit the call to it. 
 6. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTQzNjgzNzUsMTIxMTQ1MjI3OF19
+eyJoaXN0b3J5IjpbMTQ4NjQ4NTYxLDEyMTE0NTIyNzhdfQ==
 -->
