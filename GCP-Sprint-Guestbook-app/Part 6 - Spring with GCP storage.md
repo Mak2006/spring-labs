@@ -5,14 +5,26 @@ Cloud Storage provides fast, low-cost, highly durable, global object storage for
 In this lab, you add the ability to upload an image associated with a message. You store the image in Cloud Storage.
 
 ### Add the Spring starter for Cloud Storage
-We do this in the appliation that requires cloud storage. In
--   Create a Cloud Storage bucket
-    
+We do this in the appliation that requires cloud storage. Include the dependency
+```
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-gcp-starter-storage</artifactId>
+</dependency>
+
+```
+### Create a Cloud Storage bucket
+ 
+
+### Uploading files to it. 
+
+
+-      
 -   Modify the HTML template of the frontend application to enable file uploads
     
 -   Modify the frontend application to process and store images on Cloud Storage
     
 -   Modify the frontend application to display uploaded message images
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MjEzMTUxN119
+eyJoaXN0b3J5IjpbLTE4MTM0NTcxNjldfQ==
 -->
