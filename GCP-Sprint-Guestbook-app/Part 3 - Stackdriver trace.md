@@ -52,9 +52,9 @@ gcloud iam service-accounts keys create \
  ```
 
  9. Inspect the trace output - When the applications are run and make calls
- 10. In the Navigation Menu navigate to **Cloud > Trace > Trace List**. 
+ 10. In the Navigation Menu navigate to **Cloud > Trace > Trace List**.  and check the trace. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzg3ODkwNjEsLTgxNTMwMzc5NCw1MT
-gzMDgzMTZdfQ==
+eyJoaXN0b3J5IjpbLTExMTg5Nzc3MiwtMjEzODc4OTA2MSwtOD
+E1MzAzNzk0LDUxODMwODMxNl19
 -->
