@@ -15,11 +15,21 @@ to the application pom.xml of the application add
 </dependency>
 ```
     
--   Create an outbound message gateway in your application
+### Create an outbound message gateway in your application
+```
+package com.example.frontend;
+
+import org.springframework.integration.annotation.MessagingGateway;
+
+@MessagingGateway(defaultRequestChannel = "messagesOutputChannel")
+public interface OutboundGateway {
+        void publishMessage(String message);
+}
+```
     
 -   Configure an application to publish messages through a gateway
     
 -   Bind the output channel of a message gateway to Cloud Pub/Sub
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzU3NjQxN119
+eyJoaXN0b3J5IjpbMTczNDQ4OTg0NF19
 -->
