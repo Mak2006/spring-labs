@@ -83,7 +83,7 @@ Indeed that is our file.
 ```
 import org.springframework.http.*;
 
-/* Sample code */
+/* Sample code, We are creating a new get endpoint  */
 // ".+" is necessary to capture URI with filename extension
 @GetMapping("/image/{filename:.+}")
 public ResponseEntity<Resource> file(
@@ -104,6 +104,6 @@ public ResponseEntity<Resource> file(
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NDc1NjA0MywtMTA2MDU3ODEyNywtMT
-Y1Nzc2MDczLC0xODEzNDU3MTY5XX0=
+eyJoaXN0b3J5IjpbLTIwNjYyNTk1NDQsLTEwNjA1NzgxMjcsLT
+E2NTc3NjA3MywtMTgxMzQ1NzE2OV19
 -->
