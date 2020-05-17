@@ -29,17 +29,15 @@ import org.springframework.cloud.gcp.pubsub.core.*;
 @Autowired private 
 PubSubTemplate pubSubTemplate;
 
-Fire the message
+/*Fire the message*/
 pubSubTemplate.publish("messages", name + ": " + message);
-
-
-
 ```
     
 ### Create a Cloud Pub/Sub subscription
+
     
 ### Modify an application to process messages from a Cloud Pub/Sub subscription
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjEzODc3NTYsOTA1NzcwNTgwLDk2Mj
-U5MDc0NV19
+eyJoaXN0b3J5IjpbNjM4NjU1Njk2LDkwNTc3MDU4MCw5NjI1OT
+A3NDVdfQ==
 -->
