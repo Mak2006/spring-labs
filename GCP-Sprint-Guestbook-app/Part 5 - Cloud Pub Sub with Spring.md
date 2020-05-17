@@ -28,9 +28,16 @@ public interface OutboundGateway {
 ```
     
 ### Publish messages from an application through a gateway
-The trigger could be from any where. The application decid
-    
+The trigger could be from any where. The application decides when to post. To post to the outboud gateway we do the following 
+```
+/* get the gateway */
+@Autowired private OutboundGateway outboundGateway;
+
+/* fire the message */
+outboundGateway.publishMessage(name + ": " + message);
+```
+
 -   Bind the output channel of a message gateway to Cloud Pub/Sub
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDU5MzgwNywxNzM0NDg5ODQ0XX0=
+eyJoaXN0b3J5IjpbOTAzNzc3MDEsMTczNDQ4OTg0NF19
 -->
