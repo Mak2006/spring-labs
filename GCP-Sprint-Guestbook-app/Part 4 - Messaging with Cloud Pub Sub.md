@@ -15,14 +15,26 @@ gcloud pubsub topics create messages
 
 ### Add to applciation using Spring starter
 ```
-<dependency> <groupId>org.springframework.cloud</groupId> <artifactId>spring-cloud-gcp-starter-pubsub</artifactId> </dependency>
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-gcp-starter-pubsub</artifactId>
+</dependency>
 
 ```
-### Modify an application to publish Cloud Pub/Sub messages
+### Write code to publish Cloud Pub/Sub messages
+```
+import org.springframework.cloud.gcp.pubsub.core.*;
+
+
+@Autowired private 
+PubSubTemplate pubSubTemplate;
+
+
+```
     
 ### Create a Cloud Pub/Sub subscription
     
 ### Modify an application to process messages from a Cloud Pub/Sub subscription
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDMzMzI4NTksOTYyNTkwNzQ1XX0=
+eyJoaXN0b3J5IjpbOTA1NzcwNTgwLDk2MjU5MDc0NV19
 -->
