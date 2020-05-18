@@ -56,10 +56,36 @@ Note we have to make the back end service also App friendly and deploy it to the
 
 In the `~/guestbook-service/pom.xml` we add
 ```
+<plugin>
+  <groupId>com.google.cloud.tools</groupId>
+  <artifactId>appengine-maven-plugin</artifactId>
+  <version>1.3.1</version>
+  <configuration>
+	<version>1</version>
+  </configuration>
+</plugin>
 
+```
+`mkdir -p ~/guestbook-service/src/main/webapp/WEB-INF/` 
+create a `appengine-web.xml`
+Add the plug in 
+```
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+  <service>guestbook-service</service>
+  <version>1</version>
+  <threadsafe>true</threadsafe>
+  <runtime>java8</runtime>
+  <instance-class>B4_1G</instance-class>
+  <manual-scaling>
+    <instances>2</instances>
+  </manual-scaling>
+  <system-properties>
+    <property name="spring.profiles.active" value="cloud" />
+  </system-properties>
+</appengine-web-app>
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MTE4NDkxLC01MTUzMzUwNzQsMTI2Mj
-U3MjE1MiwtMjA4ODc0NjYxMiw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE4NTI0NjY3ODgsLTUxNTMzNTA3NCwxMj
+YyNTcyMTUyLC0yMDg4NzQ2NjEyLDczMDk5ODExNl19
 -->
