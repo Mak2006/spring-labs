@@ -39,12 +39,16 @@ Add a `appengine-web.xml` to your application in the `WEB-INF` directory of the 
 
 
 ### Create Endpoints
-This is to route traffic from one microservice to another. 
-    
-### Configure the Cloud Runtime Runtime Configuration API to automatically provide the backend URL to the Frontend application
+This is to route traffic from one microservice to another.  Here the endpoint is created for a backend service to be used by the frontend service
+```
+gcloud beta runtime-config configs variables set messages.endpoint \
+  "https://guestbook-service-dot-${PROJECT_ID}.appspot.com/guestbookMessages" \
+  --config-name frontend_cloud
+```
     
 ### Deploy the application to App Engine
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ5OTQyMjI3LC01MTUzMzUwNzQsMTI2Mj
-U3MjE1MiwtMjA4ODc0NjYxMiw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE1MDgzNTE1MzIsLTUxNTMzNTA3NCwxMj
+YyNTcyMTUyLC0yMDg4NzQ2NjEyLDczMDk5ODExNl19
 -->
