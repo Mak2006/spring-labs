@@ -46,6 +46,15 @@ public ImageAnnotatorClient imageAnnotatorClient(
 ```
 
 ### Use Vision API to add image analysis to an application
+To the microservice where we want to analyse the image we do the following. This would be the app where we did the initialization steps above. 
+
+```
+import com.google.cloud.vision.v1.*;
+
+// Analysing the data
+
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NzEyNjgzMCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbOTM5NTMzNDc3LDczMDk5ODExNl19
 -->
