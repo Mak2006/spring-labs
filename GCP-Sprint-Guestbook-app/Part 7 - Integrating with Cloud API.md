@@ -26,6 +26,7 @@ gcloud iam service-accounts create guestbook
 gcloud projects add-iam-policy-binding ${PROJECT_ID} --member serviceAccount:guestbook@${PROJECT_ID}.iam.gserviceaccount.com --role roles/editor
 
 //Generate a JSON key to be used by the app to use for accessing this 
+//This command creates service account credentials that are stored in the `$HOME/service-account.json` file.
 gcloud iam service-accounts keys create \ ~/service-account.json \ --iam-account guestbook@${PROJECT_ID}.iam.gserviceaccount.com
 ```
 
@@ -93,7 +94,9 @@ System.out.println(response);
 
 ```
 
+### Test the application
+Run the app.  Upload some images and check the caterogy 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODM5MDQ5NTcsLTIwMzczMzQ1MjcsNz
+eyJoaXN0b3J5IjpbLTE3MjcwNTQwMTYsLTIwMzczMzQ1MjcsNz
 MwOTk4MTE2XX0=
 -->
