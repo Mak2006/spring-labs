@@ -47,6 +47,7 @@ gcloud beta runtime-config configs variables set messages.endpoint \
 ```
     
 ### Deploy the application to App Engine
+This is the frontend applica
 `./mvnw appengine:deploy -DskipTests`
 
 Find the URL
@@ -89,7 +90,7 @@ Add the plug in
 Open Google App Engine and both of them must be now deployed on the google App engine. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYyOTc3MDY0LDgyNDM5OTYyNiwtMTg1Mj
-Q2Njc4OCwtNTE1MzM1MDc0LDEyNjI1NzIxNTIsLTIwODg3NDY2
-MTIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTA3MTYzOTU2Myw2NjI5NzcwNjQsODI0Mz
+k5NjI2LC0xODUyNDY2Nzg4LC01MTUzMzUwNzQsMTI2MjU3MjE1
+MiwtMjA4ODc0NjYxMiw3MzA5OTgxMTZdfQ==
 -->
