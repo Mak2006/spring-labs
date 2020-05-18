@@ -52,8 +52,14 @@ gcloud beta runtime-config configs variables set messages.endpoint \
 Find the URL
 `gcloud app browse`
 
-Note we have to make the back end service also App friendly and deploy it to the G
+Note we have to make the back end service also App friendly and deploy it to the Google App Engine.  So we repeat the steps for the back end services
+
+In the `~/guestbook-service/pom.xml` we add
+```
+
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcyMDM4NjQ2LC01MTUzMzUwNzQsMTI2Mj
+eyJoaXN0b3J5IjpbLTU0MTE4NDkxLC01MTUzMzUwNzQsMTI2Mj
 U3MjE1MiwtMjA4ODc0NjYxMiw3MzA5OTgxMTZdfQ==
 -->
