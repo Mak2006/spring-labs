@@ -98,8 +98,9 @@ System.out.println(response);
 ```
 
 ### Test the application
-Run the app.  Upload some images and check the caterogy of the image in the log. 
+Run the app.  Upload some images and check the caterogy of the image in the log.  To pass the token to application during the start. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDkxMTQxNTUsMjAzMjc1MDQxMSwtMj
-AzNzMzNDUyNyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTI0MzgxNDQ0MCwtMTQwOTExNDE1NSwyMD
+MyNzUwNDExLC0yMDM3MzM0NTI3LDczMDk5ODExNl19
 -->
