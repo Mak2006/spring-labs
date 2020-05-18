@@ -14,11 +14,20 @@ Add the dependency to the application
 </dependency>
 
 ```
-
-
 ### Create a GCP credential scope for Spring
+Add the GCP scope to the application properties
+`spring.cloud.gcp.credentials.scopes=https://www.googleapis.com/auth/cloud-platform`
+
 ### Create a Java bean that implements Vision API features
+We would add this where the Spring is initialised say the app context. 
+```
+import java.io.IOException; import com.google.cloud.vision.v1.*; import com.google.api.gax.core.CredentialsProvider;
+```
+Adding the bean
+```
+```
+
 ### Use Vision API to add image analysis to an application
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NDMyNTYxNyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTIyNTUzMjA1LDczMDk5ODExNl19
 -->
