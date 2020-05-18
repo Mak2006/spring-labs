@@ -25,9 +25,27 @@ import java.io.IOException; import com.google.cloud.vision.v1.*; import com.goog
 ```
 Adding the bean
 ```
+// This configures the Vision API settings with a
+// credential using the the scope we specified in
+// the application.properties.
+@Bean
+public ImageAnnotatorSettings imageAnnotatorSettings(
+	CredentialsProvider credentialsProvider)
+	throws IOException {
+	return ImageAnnotatorSettings.newBuilder()
+	.setCredentialsProvider(credentialsProvider).build();
+}
+
+@Bean
+public ImageAnnotatorClient imageAnnotatorClient(
+	ImageAnnotatorSettings settings)
+	throws IOException {
+   return ImageAnnotatorClient.create(settings);
+}
+
 ```
 
 ### Use Vision API to add image analysis to an application
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNTUzMjA1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMjA4NzEyNjgzMCw3MzA5OTgxMTZdfQ==
 -->
