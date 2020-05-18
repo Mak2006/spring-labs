@@ -38,12 +38,13 @@ Add a `appengine-web.xml` to your application in the `WEB-INF` directory of the 
 ```
 
 
-### Reconfigure an application to work with App Engine
+### Create Endpoints
+This is to route traffic from one microservice to another. 
     
 ### Configure the Cloud Runtime Runtime Configuration API to automatically provide the backend URL to the Frontend application
     
 ### Deploy the application to App Engine
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNTMzNTA3NCwxMjYyNTcyMTUyLC0yMD
-g4NzQ2NjEyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMjQ5OTQyMjI3LC01MTUzMzUwNzQsMTI2Mj
+U3MjE1MiwtMjA4ODc0NjYxMiw3MzA5OTgxMTZdfQ==
 -->
