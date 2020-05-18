@@ -6,7 +6,12 @@ You can use Cloud Debugger with any deployment of your application, including te
 Run the frontend application, it seems the plugins were not there, those were added and the WEB-INF and files were added. 
 We have now 
 ![enter image description here](https://i.imgur.com/lwpFAR7.png)
-the app was available at  [https://qwiklabs-gcp-00-ad39112fdf80.uc.r.appspot.com](https://qwiklabs-gcp-00-ad39112fdf80.uc.r.appspot.com/ "https://qwiklabs-gcp-00-ad39112fdf80.uc.r.appspot.com")
+the app was available at  [https://qwiklabs-gcp-00-ad39112fdf80.uc.r.appspot.com](https://qwiklabs-gcp-00-ad39112fdf80.uc.r.appspot.com/ "https://qwiklabs-gcp-00-ad39112fdf80.uc.r.appspot.com") as shown above
+
+As expected we have 
+![As expected](https://i.imgur.com/KTWct3x.png)
+
+
 ### Configure Cloud Logging for an App Engine application
 
 
@@ -16,5 +21,5 @@ the app was available at  [https://qwiklabs-gcp-00-ad39112fdf80.uc.r.appspot.com
     
 ### Enable Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwODcwODQsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMzE0MTAxNjQ1LC0yMDg4NzQ2NjEyXX0=
 -->
