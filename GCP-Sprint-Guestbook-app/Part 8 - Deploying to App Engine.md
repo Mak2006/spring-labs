@@ -85,7 +85,11 @@ Add the plug in
 </appengine-web-app>
 ```
 
+### Test 
+Open Google App Engine and both of them must be now deployed on the google App engine. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTI0NjY3ODgsLTUxNTMzNTA3NCwxMj
-YyNTcyMTUyLC0yMDg4NzQ2NjEyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbODI0Mzk5NjI2LC0xODUyNDY2Nzg4LC01MT
+UzMzUwNzQsMTI2MjU3MjE1MiwtMjA4ODc0NjYxMiw3MzA5OTgx
+MTZdfQ==
 -->
