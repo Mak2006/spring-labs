@@ -7,12 +7,27 @@ In this lab, you deploy the application into App Engine. You need to convert the
 Enable app
 `gcloud app create --region=us-central`
 
+Add the App engine as a plugin to application
+```
+<plugin>
+  <groupId>com.google.cloud.tools</groupId>
+  <artifactId>appengine-maven-plugin</artifactId>
+  <version>1.3.1</version>
+  <configuration>
+	<version>1</version>
+  </configuration>
+</plugin>
+
+```
+Add a `appengine-web.xml` to your application in the `WEB-INF` directory of the application. 
+
+
 ### Reconfigure an application to work with App Engine
     
 ### Configure the Cloud Runtime Runtime Configuration API to automatically provide the backend URL to the Frontend application
     
 ### Deploy the application to App Engine
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY0Njk3MjgzLDEyNjI1NzIxNTIsLTIwOD
-g3NDY2MTIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEyMjczNzYyMDYsMTI2MjU3MjE1MiwtMj
+A4ODc0NjYxMiw3MzA5OTgxMTZdfQ==
 -->
