@@ -22,8 +22,11 @@ Add the GCP scope to the application properties
 We would require further a service account for our application to use the API
 ```
 gcloud iam service-accounts create guestbook
-// Assigning a editor account, 
+// Assigning a editor account, in prod, consider a reduced perm set
+gcloud projects add-iam-policy-binding ${PROJECT_ID} --member serviceAccount:guestbook@${PROJECT_ID}.iam.gserviceaccount.com --role roles/editor
 
+//Generate a JSON key to be used by the app to use for accessing this 
+gcloud iam service-accounts keys create \ ~/service-account.json \ --iam-account guestbook@${PROJECT_ID}.iam.gserviceaccount.com
 ```
 
 ### Create a Java bean that implements Vision API features
@@ -91,6 +94,6 @@ System.out.println(response);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc3MjY5OTkzLC0yMDM3MzM0NTI3LDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTEwODM5MDQ5NTcsLTIwMzczMzQ1MjcsNz
+MwOTk4MTE2XX0=
 -->
