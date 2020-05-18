@@ -47,8 +47,13 @@ gcloud beta runtime-config configs variables set messages.endpoint \
 ```
     
 ### Deploy the application to App Engine
+`./mvnw appengine:deploy -DskipTests`
 
+Find the URL
+`gcloud app browse`
+
+Note we have to make the back end service also App friendly and deploy it to the G
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDgzNTE1MzIsLTUxNTMzNTA3NCwxMj
-YyNTcyMTUyLC0yMDg4NzQ2NjEyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbODcyMDM4NjQ2LC01MTUzMzUwNzQsMTI2Mj
+U3MjE1MiwtMjA4ODc0NjYxMiw3MzA5OTgxMTZdfQ==
 -->
