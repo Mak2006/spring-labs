@@ -92,11 +92,14 @@ AnnotateImageResponse response =responses.getResponses(0);
 System.out.println(response);
 }
 
+
+// We now make a call to the analyse the image
+// After written to GCS, analyze the image. analyzeImage(bucket + "/" + filename);
 ```
 
 ### Test the application
 Run the app.  Upload some images and check the caterogy of the image in the log. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMjc1MDQxMSwtMjAzNzMzNDUyNyw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE0MDkxMTQxNTUsMjAzMjc1MDQxMSwtMj
+AzNzMzNDUyNyw3MzA5OTgxMTZdfQ==
 -->
