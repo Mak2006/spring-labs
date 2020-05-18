@@ -100,7 +100,10 @@ System.out.println(response);
 ### Test the application
 Run the app.  Upload some images and check the caterogy of the image in the log.  To pass the token to application during the start. 
 
+```
+./mvnw spring-boot:run -Dspring.profiles.active=cloud \ -Dspring.cloud.gcp.credentials.location=file:///$HOME/service-account.json
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MzgxNDQ0MCwtMTQwOTExNDE1NSwyMD
-MyNzUwNDExLC0yMDM3MzM0NTI3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNjczMzY3OTI3LC0xNDA5MTE0MTU1LDIwMz
+I3NTA0MTEsLTIwMzczMzQ1MjcsNzMwOTk4MTE2XX0=
 -->
