@@ -3,9 +3,10 @@ Cloud Debugger is a feature of Google Cloud Platform (GCP) that enables you to i
 
 You can use Cloud Debugger with any deployment of your application, including test, development, and production. Cloud Debugger adds less than 10 milliseconds to the request latency only when the application state is captured. In most cases, this additional latency is not noticeable by users.
 
-Run the frontend application
-
-
+Run the frontend application, it seems the plugins were not there, those were added and the WEB-INF and files were added. 
+We have now 
+![enter image description here](https://i.imgur.com/lwpFAR7.png)
+the app was available at  [https://qwiklabs-gcp-00-ad39112fdf80.uc.r.appspot.com](https://qwiklabs-gcp-00-ad39112fdf80.uc.r.appspot.com/ "https://qwiklabs-gcp-00-ad39112fdf80.uc.r.appspot.com")
 ### Configure Cloud Logging for an App Engine application
 
 
@@ -15,5 +16,5 @@ Run the frontend application
     
 ### Enable Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NzI1NDEyMSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNDIwODcwODQsLTIwODg3NDY2MTJdfQ==
 -->
