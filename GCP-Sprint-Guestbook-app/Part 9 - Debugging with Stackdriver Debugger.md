@@ -8,9 +8,6 @@ We have now
 ![enter image description here](https://i.imgur.com/lwpFAR7.png)
 the app was available at  [https://qwiklabs-gcp-00-ad39112fdf80.uc.r.appspot.com](https://qwiklabs-gcp-00-ad39112fdf80.uc.r.appspot.com/ "https://qwiklabs-gcp-00-ad39112fdf80.uc.r.appspot.com") as shown above
 
-As expected we have 
-![As expected](https://i.imgur.com/KTWct3x.png)
-
 
 ### Configure Cloud Logging for an App Engine application
 
@@ -21,5 +18,6 @@ As expected we have
     
 ### Enable Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE0MTAxNjQ1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTcxNDYyNjM4OCwzMTQxMDE2NDUsLTIwOD
+g3NDY2MTJdfQ==
 -->
