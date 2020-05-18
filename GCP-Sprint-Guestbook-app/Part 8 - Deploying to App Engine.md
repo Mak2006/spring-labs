@@ -19,7 +19,8 @@ Add the App engine as a plugin to application
 </plugin>
 
 ```
-Add a `appengine-web.xml` to your application in the `WEB-INF` directory of the application.  Note in prod scenario you may use auto scaling. 
+Add a `appengine-web.xml` to your application in the `WEB-INF` directory of the application.  Note in prod scenario you may use auto scaling.
+The directory is created `mkdir -p ~/guestbook-frontend/src/main/webapp/WEB-INF/` 
 ```
 <appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
   <service>default</service>
@@ -90,7 +91,7 @@ Add the plug in
 Open Google App Engine and both of them must be now deployed on the google App engine. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NTg2MDkxLDY2Mjk3NzA2NCw4MjQzOT
-k2MjYsLTE4NTI0NjY3ODgsLTUxNTMzNTA3NCwxMjYyNTcyMTUy
-LC0yMDg4NzQ2NjEyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbODg5MTYzMjksLTk5NTg2MDkxLDY2Mjk3Nz
+A2NCw4MjQzOTk2MjYsLTE4NTI0NjY3ODgsLTUxNTMzNTA3NCwx
+MjYyNTcyMTUyLC0yMDg4NzQ2NjEyLDczMDk5ODExNl19
 -->
