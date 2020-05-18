@@ -19,7 +19,23 @@ Add the App engine as a plugin to application
 </plugin>
 
 ```
-Add a `appengine-web.xml` to your application in the `WEB-INF` directory of the application. 
+Add a `appengine-web.xml` to your application in the `WEB-INF` directory of the application.  Note in prod scenario you may use auto scaling. 
+```
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+  <service>default</service>
+  <version>1</version>
+  <threadsafe>true</threadsafe>
+  <runtime>java8</runtime>
+  <instance-class>B4_1G</instance-class>
+  <sessions-enabled>true</sessions-enabled>
+  <manual-scaling>
+    <instances>2</instances>
+  </manual-scaling>
+  <system-properties>
+    <property name="spring.profiles.active" value="cloud" />
+  </system-properties>
+</appengine-web-app>
+```
 
 
 ### Reconfigure an application to work with App Engine
@@ -28,6 +44,6 @@ Add a `appengine-web.xml` to your application in the `WEB-INF` directory of the 
     
 ### Deploy the application to App Engine
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjczNzYyMDYsMTI2MjU3MjE1MiwtMj
-A4ODc0NjYxMiw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTUxNTMzNTA3NCwxMjYyNTcyMTUyLC0yMD
+g4NzQ2NjEyLDczMDk5ODExNl19
 -->
