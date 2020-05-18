@@ -95,8 +95,8 @@ System.out.println(response);
 ```
 
 ### Test the application
-Run the app.  Upload some images and check the caterogy 
+Run the app.  Upload some images and check the caterogy of the image in the log. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjcwNTQwMTYsLTIwMzczMzQ1MjcsNz
-MwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMjAzMjc1MDQxMSwtMjAzNzMzNDUyNyw3Mz
+A5OTgxMTZdfQ==
 -->
