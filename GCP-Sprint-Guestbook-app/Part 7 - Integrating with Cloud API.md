@@ -18,6 +18,14 @@ Add the dependency to the application
 Add the GCP scope to the application properties
 `spring.cloud.gcp.credentials.scopes=https://www.googleapis.com/auth/cloud-platform`
 
+### Create service accounts to use the API
+We would require further a service account for our application to use the API
+```
+gcloud iam service-accounts create guestbook
+// Assigning a editor account, 
+
+```
+
 ### Create a Java bean that implements Vision API features
 We would add this where the Spring is initialised say the app context. 
 ```
@@ -83,5 +91,6 @@ System.out.println(response);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzczMzQ1MjcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMzc3MjY5OTkzLC0yMDM3MzM0NTI3LDczMD
+k5ODExNl19
 -->
