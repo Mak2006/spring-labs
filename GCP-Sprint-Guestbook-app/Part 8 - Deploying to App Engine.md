@@ -1,7 +1,7 @@
 # Deploying application to Google App Engine
 App Engine is Google's fully managed serverless application platform. With App Engine, you can build and deploy applications on a fully managed platform and scale your applications without having to worry about managing the underlying infrastructure. App Engine includes capabilities such as automatic scaling-up and scaling-down of your application, and fully managed patching and management of your servers.
 
-In this lab, you deploy the application into App Engine. You need to convert the application from fat WARs into the thin-WAR deployments that App Engine can deploy.
+In this lab, you deploy the application into App Engine. You need to convert the application from fat WARs into the thin-WAR deployments that App Engine can deploy.  (This was done using a different maven build target)
 
 ### Initialize App Engine
 Enable app
@@ -89,7 +89,7 @@ Add the plug in
 Open Google App Engine and both of them must be now deployed on the google App engine. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI0Mzk5NjI2LC0xODUyNDY2Nzg4LC01MT
-UzMzUwNzQsMTI2MjU3MjE1MiwtMjA4ODc0NjYxMiw3MzA5OTgx
-MTZdfQ==
+eyJoaXN0b3J5IjpbNjYyOTc3MDY0LDgyNDM5OTYyNiwtMTg1Mj
+Q2Njc4OCwtNTE1MzM1MDc0LDEyNjI1NzIxNTIsLTIwODg3NDY2
+MTIsNzMwOTk4MTE2XX0=
 -->
