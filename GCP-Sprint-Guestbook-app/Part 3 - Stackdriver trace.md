@@ -1,4 +1,7 @@
 ## Microservice Tracing with Zipkin and Spring Cloud Sleuth
+This series is a 12 part series in creating Spring application with GCP services. These are the notes that was created as part of coursework for the course titled Building Scalable Java Microservices with Spring Boot and Spring Cloud!
+Repo - https://github.com/saturnism/spring-cloud-gcp-guestbook.git
+
 In a microservices architecture, you need distributed tracing to make complicated service calls more visible. For example, when service A calls B, and B calls C, which service has a problem? In Spring Cloud GCP, you can easily add distributed tracing by using Spring Cloud Sleuth. This typically requires you to run and operate your own Zipkin backend.
 
 In this lab, we implement distributed tracing by using Spring Cloud GCP, Spring Cloud Sleuth, and Cloud Trace. Spring Cloud GCP provides a starter that can interoperate with Spring Cloud Sleuth, but it forwards the trace request to Cloud Trace instead.
@@ -58,6 +61,7 @@ gcloud iam service-accounts keys create \
 In detailed trace about a POST call
 ![enter image description here](https://i.imgur.com/l1jPx8K.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTM4MzcxNzgsLTExMTg5Nzc3MiwtMj
-EzODc4OTA2MSwtODE1MzAzNzk0LDUxODMwODMxNl19
+eyJoaXN0b3J5IjpbLTk4MTYzNDg3MCwtMjA5MzgzNzE3OCwtMT
+ExODk3NzcyLC0yMTM4Nzg5MDYxLC04MTUzMDM3OTQsNTE4MzA4
+MzE2XX0=
 -->
