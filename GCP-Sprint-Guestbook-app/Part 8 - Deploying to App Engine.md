@@ -59,7 +59,9 @@ Next we find the URL
 The app link 
 ![Front end app link](https://i.imgur.com/bFCUL3T.png)
 
-A web
+Launch a web browser from the shell and load the front end application
+![The frontend app](https://i.imgur.com/UOL5jx1.png)
+
 Note we have to make the back end service also App friendly and deploy it to the Google App Engine.  So we repeat the steps for the back end services
 
 In the `~/guestbook-service/pom.xml` we add
@@ -97,7 +99,7 @@ Add the plug in
 Open Google App Engine and both of them must be now deployed on the google App engine. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQyMTE1ODYsODg5MTYzMjksLTk5NT
+eyJoaXN0b3J5IjpbLTEzMDUzMjE4NTEsODg5MTYzMjksLTk5NT
 g2MDkxLDY2Mjk3NzA2NCw4MjQzOTk2MjYsLTE4NTI0NjY3ODgs
 LTUxNTMzNTA3NCwxMjYyNTcyMTUyLC0yMDg4NzQ2NjEyLDczMD
 k5ODExNl19
