@@ -54,10 +54,12 @@ Go to monitoring, wait for it to finish
 ![Monitoring provisioning](https://i.imgur.com/szg09Bf.png)
 
 We can see extensive monitoring now, those that are enabled by default.
+![Monitoring](https://i.imgur.com/LOwCjNX.png)
+That completes the lab. 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIzNjg4MDE1LC0xMDEyNzc5MjQsLTEzMD
-UxMjE1MzUsLTE3ODI2MDQ1MTIsLTE2Nzc4NTg0ODgsLTk0NjU1
-NDI4NywxNTY1Mjk1MzgsMTcxNDYyNjM4OCwzMTQxMDE2NDUsLT
-IwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTIwNDUwMDMwOTQsLTEwMTI3NzkyNCwtMT
+MwNTEyMTUzNSwtMTc4MjYwNDUxMiwtMTY3Nzg1ODQ4OCwtOTQ2
+NTU0Mjg3LDE1NjUyOTUzOCwxNzE0NjI2Mzg4LDMxNDEwMTY0NS
+wtMjA4ODc0NjYxMl19
 -->
