@@ -91,10 +91,18 @@ We are good to go now and applyt the configurATION.
 `kubectl apply -f ~/kubernetes`
 `kubectl get pods -l app=guestbook-frontend`
 
+![enter image description here](https://i.imgur.com/cTANW7j.png)
+
+Note we use the 
+`kubectl port-forward guestbook-frontend-74687599cd-6257r  8081:8081` to find the port-forward. The correct POD_name is required to be used. 
 
 ### Explore live application metrics using Cloud Monitoring
+
+Do a curl 
+`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzMzMzY5NCwxNjgyNzc5NzUwLDExMz
-k4MjAxNTgsLTMwNjE5MjEyMCwxMjAyMjUzOTQyLC0xNTIyNTAy
-ODcyLC0xOTQxMjY4MDI0LDEzNDEwNjk2NzhdfQ==
+eyJoaXN0b3J5IjpbLTEzOTQ2MzE5ODEsMTMzMzMzMzY5NCwxNj
+gyNzc5NzUwLDExMzk4MjAxNTgsLTMwNjE5MjEyMCwxMjAyMjUz
+OTQyLC0xNTIyNTAyODcyLC0xOTQxMjY4MDI0LDEzNDEwNjk2Nz
+hdfQ==
 -->
