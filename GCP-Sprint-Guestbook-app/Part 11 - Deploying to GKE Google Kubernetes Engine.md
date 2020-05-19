@@ -199,19 +199,21 @@ spec:
 
 ```
 
-### Apply the yaml 
+### Apply the yaml  and test
 `kubectl apply -f ~/kubernetes/`
-![enter image description here](https://i.imgur.com/S0uaVnS.png)
-
-### Test 
 `kubectl get svc guestbook-frontend`
 `kubectl get svc`
+
+![App launched in GKE ](https://i.imgur.com/uEvZGTS.png)
 get the external IP and launch
 
 
 
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMTk1MTY2MywtNDM1NjQxMjgxLDQ1MD
+eyJoaXN0b3J5IjpbLTYxNjc5OTc3MSwtNDM1NjQxMjgxLDQ1MD
 gwNzQyMywxOTIyMTYxMDM0LDIxMTk1NzUxOSwtODI4MTQwMjEx
 LC00NzI0MDk4NTUsLTE5MDA1NDk4NjJdfQ==
 -->
