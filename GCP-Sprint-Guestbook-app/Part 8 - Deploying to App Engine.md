@@ -1,4 +1,6 @@
 # Deploying application to Google App Engine
+This series is a 12 part series in creating Spring application with GCP services. These are the notes that was created as part of coursework for the course titled Building Scalable Java Microservices with Spring Boot and Spring Cloud!
+
 App Engine is Google's fully managed serverless application platform. With App Engine, you can build and deploy applications on a fully managed platform and scale your applications without having to worry about managing the underlying infrastructure. App Engine includes capabilities such as automatic scaling-up and scaling-down of your application, and fully managed patching and management of your servers.
 
 In this lab, you deploy the application into App Engine. You need to convert the application from fat WARs into the thin-WAR deployments that App Engine can deploy.  (This was done using a different maven build target)
@@ -89,7 +91,7 @@ Add the plug in
 Open Google App Engine and both of them must be now deployed on the google App engine. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTQ3NTIzMzcsLTEzMDUzMjE4NTEsOD
+eyJoaXN0b3J5IjpbLTE0MTE1MDY3MDcsLTEzMDUzMjE4NTEsOD
 g5MTYzMjksLTk5NTg2MDkxLDY2Mjk3NzA2NCw4MjQzOTk2MjYs
 LTE4NTI0NjY3ODgsLTUxNTMzNTA3NCwxMjYyNTcyMTUyLC0yMD
 g4NzQ2NjEyLDczMDk5ODExNl19
