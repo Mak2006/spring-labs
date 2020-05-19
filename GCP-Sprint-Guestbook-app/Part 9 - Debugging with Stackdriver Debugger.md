@@ -36,10 +36,13 @@ We can now add tons of log as much we want to. At this point we say we want to i
 ![enter image description here](https://i.imgur.com/Lmd2q5s.png)
    
 Note - a log has a validity period ! .  This is a nice feature. 
+
+### Check the logs now 
+![L](https://i.imgur.com/v9T88Gb.png)
 ### Enable Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA4MDEwNTI1LC0xMzA1MTIxNTM1LC0xNz
-gyNjA0NTEyLC0xNjc3ODU4NDg4LC05NDY1NTQyODcsMTU2NTI5
-NTM4LDE3MTQ2MjYzODgsMzE0MTAxNjQ1LC0yMDg4NzQ2NjEyXX
-0=
+eyJoaXN0b3J5IjpbLTE4NDAzMzI4NTcsLTEzMDUxMjE1MzUsLT
+E3ODI2MDQ1MTIsLTE2Nzc4NTg0ODgsLTk0NjU1NDI4NywxNTY1
+Mjk1MzgsMTcxNDYyNjM4OCwzMTQxMDE2NDUsLTIwODg3NDY2MT
+JdfQ==
 -->
