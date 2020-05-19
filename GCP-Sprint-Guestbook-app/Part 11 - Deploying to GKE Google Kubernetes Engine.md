@@ -21,7 +21,10 @@ gcloud container clusters create guestbook-cluster \
 ### Create a containerized version of a Java application
 Enable container registry
 `gcloud services enable containerregistry.googleapis.com`
+`gcloud config list --format 'value(core.project)'`
+
+
 ### Create a Kubernetes deployment for a containerized application
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MjMyNTI2M119
+eyJoaXN0b3J5IjpbLTE5MDA1NDk4NjJdfQ==
 -->
