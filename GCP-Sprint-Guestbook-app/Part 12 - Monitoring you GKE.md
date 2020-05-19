@@ -98,11 +98,9 @@ Note we use the
 
 ### Explore live application metrics using Cloud Monitoring
 
-Do a curl 
-`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQ2MzE5ODEsMTMzMzMzMzY5NCwxNj
-gyNzc5NzUwLDExMzk4MjAxNTgsLTMwNjE5MjEyMCwxMjAyMjUz
-OTQyLC0xNTIyNTAyODcyLC0xOTQxMjY4MDI0LDEzNDEwNjk2Nz
-hdfQ==
+eyJoaXN0b3J5IjpbMTI4MDkxNTYyMSwxMzMzMzMzNjk0LDE2OD
+I3Nzk3NTAsMTEzOTgyMDE1OCwtMzA2MTkyMTIwLDEyMDIyNTM5
+NDIsLTE1MjI1MDI4NzIsLTE5NDEyNjgwMjQsMTM0MTA2OTY3OF
+19
 -->
