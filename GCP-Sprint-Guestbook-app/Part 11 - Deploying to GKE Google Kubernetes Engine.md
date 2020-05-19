@@ -56,8 +56,12 @@ export PROJECT_ID=$(gcloud config list --format 'value(core.project)')
 gcloud projects add-iam-policy-binding ${PROJECT_ID} \
   --member serviceAccount:guestbook@${PROJECT_ID}.iam.gserviceaccount.com \
   --role roles/editor
-```
+
+# Generate JSon key
+gcloud iam service-accounts keys create \ ~/service-account.json \ --iam-account guestbook@${PROJECT_ID}.iam.gserviceaccount.com
+
+###```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNDU2NjU4LC00NzI0MDk4NTUsLTE5MD
+eyJoaXN0b3J5IjpbNjMwNzI1Njc1LC00NzI0MDk4NTUsLTE5MD
 A1NDk4NjJdfQ==
 -->
