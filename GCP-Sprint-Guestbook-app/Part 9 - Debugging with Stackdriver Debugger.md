@@ -3,11 +3,18 @@ Cloud Debugger is a feature of Google Cloud Platform (GCP) that enables you to i
 
 You can use Cloud Debugger with any deployment of your application, including test, development, and production. Cloud Debugger adds less than 10 milliseconds to the request latency only when the application state is captured. In most cases, this additional latency is not noticeable by users.
 
-Run the frontend application, it seems the plugins were not there, those were added and the WEB-INF and files were added. 
-We have now 
-![enter image description here](https://i.imgur.com/lwpFAR7.png)
-the app was available at  [https://qwiklabs-gcp-00-ad39112fdf80.uc.r.appspot.com](https://qwiklabs-gcp-00-ad39112fdf80.uc.r.appspot.com/ "https://qwiklabs-gcp-00-ad39112fdf80.uc.r.appspot.com") as shown above
+Run the frontend application. The results were as below 
+There was couple of settings that were missing, that was done and the following is the output
+![Build Success](https://i.imgur.com/r4PDWCf.png)
 
+Next we find the URL
+`gcloud app browse`
+
+The app link 
+![Front end app link](https://i.imgur.com/bFCUL3T.png)
+
+Launch a web browser from the shell and load the front end application
+![The frontend app](https://i.imgur.com/acb3YE3.png)
 
 ### Examine the cloud logs
 This is found in the Logging > Logs Viewer
@@ -22,6 +29,7 @@ This is found in the Logging > Logs Viewer
     
 ### Enable Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NjU1NDI4NywxNTY1Mjk1MzgsMTcxND
-YyNjM4OCwzMTQxMDE2NDUsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTI0ODYxMzc1MywtOTQ2NTU0Mjg3LDE1Nj
+UyOTUzOCwxNzE0NjI2Mzg4LDMxNDEwMTY0NSwtMjA4ODc0NjYx
+Ml19
 -->
