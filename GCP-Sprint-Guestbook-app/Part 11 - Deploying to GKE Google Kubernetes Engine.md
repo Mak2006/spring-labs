@@ -123,7 +123,7 @@ spec:
           secretName: guestbook-service-account
       containers:
       - name: guestbook-frontend
-        image: gcr.io/[PROJECT_ID]/guestbook-frontend
+        image: gcr.io/qwiklabs-gcp-04-12f91b960a09/guestbook-frontend
         volumeMounts:
         - name: credentials 
           mountPath: "/etc/credentials"
@@ -147,6 +147,55 @@ spec:
 The service yaml is 
 
 ```
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: guestbook-service
+  name: guestbook-service
+spec:
+  ports:
+  - name: http
+    port: 8080
+    targetPort: 8080
+  selector:
+    app: guestbook-service
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: guestbook-service
+  name: guestbook-service
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: guestbook-service
+  template:
+    metadata:
+      labels:
+        app: guestbook-service
+    spec:
+      volumes:
+      - name: credentials
+        secret:
+          secretName: guestbook-service-account
+      containers:
+      - name: guestbook-service
+        image: gcr.io/qwiklabs-gcp-04-12f91b960a09/guestbook-service
+        volumeMounts:
+        - name: credentials 
+          mountPath: "/etc/credentials"
+          readOnly: true
+        env:
+        - name: SPRING_PROFILES_ACTIVE
+          value: cloud
+        - name: GOOGLE_APPLICATION_CREDENTIALS
+          value: /etc/credentials/service-account.json
+        ports:
+        - name: http
+          containerPort: 8080
 
 ```
 
@@ -161,7 +210,7 @@ get the external IP and launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTAwNDMyNzcsLTQzNTY0MTI4MSw0NT
+eyJoaXN0b3J5IjpbLTExMjU5OTc4MDUsLTQzNTY0MTI4MSw0NT
 A4MDc0MjMsMTkyMjE2MTAzNCwyMTE5NTc1MTksLTgyODE0MDIx
 MSwtNDcyNDA5ODU1LC0xOTAwNTQ5ODYyXX0=
 -->
