@@ -97,10 +97,16 @@ Note we use the
 `kubectl port-forward guestbook-frontend-74687599cd-6257r  8081:8081` to find the port-forward. The correct POD_name is required to be used. 
 
 ### Explore live application metrics using Cloud Monitoring
+Test using curl
+`curl http://localhost:8081/actuator/prometheus`
 
+![enter image description here](https://i.imgur.com/O7PovTz.png)
+
+Open metrics dashboard
+search for `jvm_memory`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MDkxNTYyMSwxMzMzMzMzNjk0LDE2OD
-I3Nzk3NTAsMTEzOTgyMDE1OCwtMzA2MTkyMTIwLDEyMDIyNTM5
-NDIsLTE1MjI1MDI4NzIsLTE5NDEyNjgwMjQsMTM0MTA2OTY3OF
-19
+eyJoaXN0b3J5IjpbNDI3NTA4NTEyLDEyODA5MTU2MjEsMTMzMz
+MzMzY5NCwxNjgyNzc5NzUwLDExMzk4MjAxNTgsLTMwNjE5MjEy
+MCwxMjAyMjUzOTQyLC0xNTIyNTAyODcyLC0xOTQxMjY4MDI0LD
+EzNDEwNjk2NzhdfQ==
 -->
