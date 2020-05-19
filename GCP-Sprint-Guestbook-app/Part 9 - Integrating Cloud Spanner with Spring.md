@@ -6,7 +6,17 @@ In this lab, you update your application to use the Spring Cloud GCP starter for
 ### Enable cloud spanner
 `gcloud services enable spanner.googleapis.com`
 
-Create a Cloud Spanner instance and database
+### Create and provision a Cloud Spanner instance
+Create a Cloud Spanner instance.
+`gcloud spanner instances create guestbook --config=regional-us-central1 \ --nodes=1 --description="Guestbook messages`
+
+Create a `messages` database in the Cloud Spanner instance.
+`gcloud spanner databases create messages --instance=guestbook`
+
+Confirm that the database exists by listing the databases of the Cloud Spanner instance.
+`gcloud spanner databases list --instance=guestbook`
+
+
     
 ### Use the data definition language (DDL) to create a Cloud Spanner table
     
@@ -14,5 +24,5 @@ Create a Cloud Spanner instance and database
     
 ### Modify a Java application to use Cloud Spanner instead of Cloud SQL
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDIxMzY3MDJdfQ==
+eyJoaXN0b3J5IjpbLTQ5MDk5NDQxN119
 -->
