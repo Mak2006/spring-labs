@@ -87,11 +87,14 @@ annotations:
 
 ```
 We are good to go now and applyt the configurATION. 
-### 
+### Apply the K8s configuration
+`kubectl apply -f ~/kubernetes`
+`kubectl get pods -l app=guestbook-frontend`
+
 
 ### Explore live application metrics using Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4Mjc3OTc1MCwxMTM5ODIwMTU4LC0zMD
-YxOTIxMjAsMTIwMjI1Mzk0MiwtMTUyMjUwMjg3MiwtMTk0MTI2
-ODAyNCwxMzQxMDY5Njc4XX0=
+eyJoaXN0b3J5IjpbMTMzMzMzMzY5NCwxNjgyNzc5NzUwLDExMz
+k4MjAxNTgsLTMwNjE5MjEyMCwxMjAyMjUzOTQyLC0xNTIyNTAy
+ODcyLC0xOTQxMjY4MDI0LDEzNDEwNjk2NzhdfQ==
 -->
