@@ -25,10 +25,27 @@ Enable container registry
 
 During the creation of the build we had marked Tomcat as provided. We want to package it along the application hence we remove `<scope>provided</scope>`
 
-Insert dependency for the Jib Maven plugin which
+Insert dependency for the Google's Jib Maven plugin which we shall use to dockerise the applicaition. Google publishes **Jib** as both a **Maven** and a Gradle **plugin**. This **is** nice because it means that **Jib will** catch any changes we make to our application each time we build. This saves us separate docker build/push commands and simplifies adding this to a CI pipeline.
 
+```
+<plugin>
+  <groupId>com.google.cloud.tools</groupId>
+  <artifactId>jib-maven-plugin</artifactId>
+  <version>0.9.6</version>
+  <configuration>
+	  <to>
+      <image>gcr.io/[PROJECT_ID]/guestbook-frontend</image>
+    </to>
+  </configuration>
+</plugin>
+
+```
+Our build now becomes
+`./mvnw clean compile jib:build`
+
+We now do the same for 
 
 ### Create a Kubernetes deployment for a containerized application
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcwOTQxMDgyLC0xOTAwNTQ5ODYyXX0=
+eyJoaXN0b3J5IjpbLTUyOTg3NDgwMSwtMTkwMDU0OTg2Ml19
 -->
