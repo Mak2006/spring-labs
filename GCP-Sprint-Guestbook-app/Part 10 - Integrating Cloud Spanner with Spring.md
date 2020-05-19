@@ -1,4 +1,6 @@
 # Integrating Cloud Spanner with Spring
+This series is a 12 part series in creating Spring application with GCP services. These are the notes that was created as part of coursework for the course titled Building Scalable Java Microservices with Spring Boot and Spring Cloud!
+
 Cloud Spanner is an enterprise-grade, globally distributed, strongly consistent database service built for the cloud specifically to combine the benefits of relational database structure with non-relational horizontal scale. This combination delivers high-performance transactions and strong consistency across rows, regions, and continents with enterprise-grade security.
 
 In this lab, you update your application to use the Spring Cloud GCP starter for Cloud Spanner, test the changes locally in Cloud Shell, and then redeploy the backend service to App Engine.
@@ -99,5 +101,5 @@ public interface GuestbookMessageRepository extends
 We now post some messages and check the spanner dashboard. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NTE0NTA2XX0=
+eyJoaXN0b3J5IjpbLTM3MjE2NTA0NCwyMDU1MTQ1MDZdfQ==
 -->
