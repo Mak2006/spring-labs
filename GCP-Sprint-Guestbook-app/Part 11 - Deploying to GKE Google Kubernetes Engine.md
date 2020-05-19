@@ -43,9 +43,10 @@ Insert dependency for the Google's Jib Maven plugin which we shall use to docker
 Our build now becomes
 `./mvnw clean compile jib:build`
 
-We now do the same for 
+We now do the same for the backend service. That is remove Tomcat `provided` scope, add the Jib plugin and fire jib target. 
 
-### Create a Kubernetes deployment for a containerized application
+This completes our dockerization and we now set up the service account to use GKE.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyOTg3NDgwMSwtMTkwMDU0OTg2Ml19
+eyJoaXN0b3J5IjpbLTE1NzI4MDc2NTQsLTE5MDA1NDk4NjJdfQ
+==
 -->
