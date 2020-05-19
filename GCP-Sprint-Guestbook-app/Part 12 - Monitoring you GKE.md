@@ -72,8 +72,12 @@ management.endpoints.web.exposure.include=*
 for both the frontend and services  application
 `./mvnw clean compile jib:build`
 
+### Rebuild the Kubernetes configuration to include prometheus.
+
+
 ### Explore live application metrics using Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNjE5MjEyMCwxMjAyMjUzOTQyLC0xNT
-IyNTAyODcyLC0xOTQxMjY4MDI0LDEzNDEwNjk2NzhdfQ==
+eyJoaXN0b3J5IjpbLTEwMjY0MTkwNCwtMzA2MTkyMTIwLDEyMD
+IyNTM5NDIsLTE1MjI1MDI4NzIsLTE5NDEyNjgwMjQsMTM0MTA2
+OTY3OF19
 -->
