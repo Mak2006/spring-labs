@@ -36,6 +36,8 @@ Verify if prometheus is running
 `kubectl get pods -n stackdriver`
 
 
+Here is the output 
+![Prometheus init](https://i.imgur.com/5d56NX7.png)
 ### Expose Prometheus metrics from inside a Spring Boot application
 Spring Boot can expose metrics information through Spring Boot Actuator. Micrometer is the metrics collection facility included in Spring Boot Actuator. Micrometer can expose all the metrics using the Prometheus format.
 
@@ -58,6 +60,6 @@ Add the following to the pom of the application for the integration
 ```
 ### Explore live application metrics using Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjI1MDI4NzIsLTE5NDEyNjgwMjQsMT
-M0MTA2OTY3OF19
+eyJoaXN0b3J5IjpbMTIwMjI1Mzk0MiwtMTUyMjUwMjg3MiwtMT
+k0MTI2ODAyNCwxMzQxMDY5Njc4XX0=
 -->
