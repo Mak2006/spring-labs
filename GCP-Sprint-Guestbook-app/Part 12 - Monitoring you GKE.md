@@ -9,11 +9,16 @@ In this lab, you enable Prometheus monitoring for Kubernetes and then modify the
 ### Enable Cloud Monitoring for Kubernetes Engine
 Load the Google Monitoring dashboard to create a monitoring workspace.  It shall take some time to load
 
+![enter image description here](https://i.imgur.com/szg09Bf.png)
+
+Once done we see a dashboard like as below
+![enter image description here](https://i.imgur.com/LOwCjNX.png)
+
 
 
 ### Enable Prometheus monitoring in a Kubernetes Engine cluster
 ### Expose Prometheus metrics from inside a Spring Boot application
 ### Explore live application metrics using Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzg5MjU3LDEzNDEwNjk2NzhdfQ==
+eyJoaXN0b3J5IjpbLTE5NDEyNjgwMjQsMTM0MTA2OTY3OF19
 -->
