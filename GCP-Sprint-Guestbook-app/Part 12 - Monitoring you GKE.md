@@ -18,10 +18,27 @@ Once done we see a dashboard like as below
 ### Enable Prometheus monitoring in a Kubernetes Engine cluster
 `gcloud container clusters get-credentials guestbook-cluster \ --zone=us-central1-a`
 
+Install role-based access control for the Prometheus agent.
+`kubectl apply -f \ https://storage.googleapis.com/stackdriver-prometheus-documentation/rbac-setup.yml \ --as=admin --as-group=system:masters`
+
+Install the Prometheus agent.
+```
+export PROJECT_ID=$(gcloud config list --format 'value(core.project)')
+curl -s \
+https://storage.googleapis.com/stackdriver-prometheus-documentation/prometheus-service.yml | \
+  sed -e "s/\(\s*_kubernetes_cluster_name:*\).*/\1 'guestbook-cluster'/g" | \
+  sed -e "s/\(\s*_kubernetes_location:*\).*/\1 'us-central1'/g" | \
+  sed -e "s/\(\s*_stackdriver_project_id:*\).*/\1 '${PROJECT_ID}'/g" | \
+  kubectl apply -f -
+```
+
+Verify if prometheus is running 
+`kubectl get pods -n stackdriver`
+
 
 ### Expose Prometheus metrics from inside a Spring Boot application
 ### Explore live application metrics using Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMyMDUxODEyLC0xOTQxMjY4MDI0LDEzND
-EwNjk2NzhdfQ==
+eyJoaXN0b3J5IjpbMTM2NTE2MDk0MiwtMTk0MTI2ODAyNCwxMz
+QxMDY5Njc4XX0=
 -->
