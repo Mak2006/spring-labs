@@ -4,11 +4,24 @@ Kubernetes Engine is Google's managed, production-ready environment for deployin
 
 In this lab, you build the application into a container and then deploy the containerized application to Kubernetes Engine.
 
-### Create a Kubernetes Engine cluster
+###  Enable and create Google Kubernetes Engine 
+`gcloud services enable container.googleapis.com`
+
+Create a Kubernetes Engine cluster
+```
+gcloud container clusters create guestbook-cluster \
+    --zone=us-central1-a \
+    --num-nodes=2 \
+    --machine-type=n1-standard-2 \
+    --enable-autorepair \
+    --enable-cloud-monitoring \
+    --enable-cloud-logging
+```
 
 ### Create a containerized version of a Java application
-
+Enable container registry
+`gcloud services enable containerregistry.googleapis.com`
 ### Create a Kubernetes deployment for a containerized application
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQyNjkyMTQ5XX0=
+eyJoaXN0b3J5IjpbMTQ1MjMyNTI2M119
 -->
