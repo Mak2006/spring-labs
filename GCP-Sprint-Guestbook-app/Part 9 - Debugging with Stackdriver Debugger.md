@@ -28,12 +28,13 @@ This is done below
 ![Source code capture](https://i.imgur.com/ASrNkFB.png)
 
 
-W
+We are now in a position to use the debugger 
+
 ### Configure Cloud Debugger logpoints and snapshots
     
 ### Enable Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MDY3NjExOCwtMTc4MjYwNDUxMiwtMT
+eyJoaXN0b3J5IjpbMjA5NDc4ODU4NCwtMTc4MjYwNDUxMiwtMT
 Y3Nzg1ODQ4OCwtOTQ2NTU0Mjg3LDE1NjUyOTUzOCwxNzE0NjI2
 Mzg4LDMxNDEwMTY0NSwtMjA4ODc0NjYxMl19
 -->
