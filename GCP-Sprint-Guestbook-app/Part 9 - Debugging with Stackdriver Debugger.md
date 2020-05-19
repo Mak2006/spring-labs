@@ -44,10 +44,12 @@ The new logs are in blue.
 We find our log 
 ![Log](https://i.imgur.com/kRHdSoJ.png)
 
-this tells us the application is indeed receiving the file.  A
+this tells us the application is indeed receiving the file.  A bad example however, it helps, in this case it is evident that the application accepts only jpeg and we are uploading a png. 
+We upload a jpeg. 
+
 ### Enable Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNDY1MDA4MiwtMTMwNTEyMTUzNSwtMT
+eyJoaXN0b3J5IjpbLTEwMTI3NzkyNCwtMTMwNTEyMTUzNSwtMT
 c4MjYwNDUxMiwtMTY3Nzg1ODQ4OCwtOTQ2NTU0Mjg3LDE1NjUy
 OTUzOCwxNzE0NjI2Mzg4LDMxNDEwMTY0NSwtMjA4ODc0NjYxMl
 19
