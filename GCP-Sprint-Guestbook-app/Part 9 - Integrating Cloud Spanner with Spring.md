@@ -82,9 +82,18 @@ public class GuestbookMessage {
 ```
  At this stage it is more like ORM db manipulation and is not so much Spanner specific.  Spring Data Spanner implements many commonly used Spring Data patterns, such as creating simple methods that can be automatically translated to corresponding SQL queries.
 
+As an example , we update the `GuestbookMessageRepository.java` file to use `String` as the ID type.
+```
+import java.util.List;
 
+public interface GuestbookMessageRepository extends
+        PagingAndSortingRepository<GuestbookMessage, String> {
+        List<GuestbookMessage> findByName(String name);
+}
+```
  
+ ### Testing the app
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NDU1MjM4NCwtMTEzMTU4NDE4OCwtMT
-gzNDQ5Nzc1MSwtMjkyNDU5MTQ0XX0=
+eyJoaXN0b3J5IjpbMzIzNzAyMTk5LC0xMTMxNTg0MTg4LC0xOD
+M0NDk3NzUxLC0yOTI0NTkxNDRdfQ==
 -->
