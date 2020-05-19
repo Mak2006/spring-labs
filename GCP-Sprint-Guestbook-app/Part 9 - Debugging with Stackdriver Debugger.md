@@ -18,7 +18,7 @@ Launch a web browser from the shell and load the front end application
 
 ### Examine the cloud logs
 This is found in the Logging > Logs Viewer
-
+![Logs](https://i.imgur.com/oeORLPn.png)
 ### Configure the cloud debugger
 
 
@@ -29,7 +29,7 @@ This is found in the Logging > Logs Viewer
     
 ### Enable Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0ODYxMzc1MywtOTQ2NTU0Mjg3LDE1Nj
-UyOTUzOCwxNzE0NjI2Mzg4LDMxNDEwMTY0NSwtMjA4ODc0NjYx
-Ml19
+eyJoaXN0b3J5IjpbLTE2Nzc4NTg0ODgsLTk0NjU1NDI4NywxNT
+Y1Mjk1MzgsMTcxNDYyNjM4OCwzMTQxMDE2NDUsLTIwODg3NDY2
+MTJdfQ==
 -->
