@@ -23,9 +23,10 @@ Enable container registry
 `gcloud services enable containerregistry.googleapis.com`
 `gcloud config list --format 'value(core.project)'`
 
-Since the app was running on Tomcat 
+During the creation of the build we had marked Tomcat as provided. We want to package it along the application hence we remove `<scope>provided</scope>`
+
 
 ### Create a Kubernetes deployment for a containerized application
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MjYyODE3LC0xOTAwNTQ5ODYyXX0=
+eyJoaXN0b3J5IjpbLTE5MjM3NTI3NiwtMTkwMDU0OTg2Ml19
 -->
