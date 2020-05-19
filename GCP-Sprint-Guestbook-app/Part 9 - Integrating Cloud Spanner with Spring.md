@@ -34,11 +34,17 @@ Run the ddl
 
 Open Spanner Dashboard, check Guestbook messages,  and table. There is no data yet. 
 
-### Use the data definition language (DDL) to create a Cloud Spanner table
-    
-### Use Spring to add support for Cloud Spanner to an application
+### Add Cloud Spanner to our app using Spring Starter
+We add this to the backend as it is where app would talk tothe DB
+```
+<dependency>
+     <groupId>org.springframework.cloud</groupId>
+     <artifactId>spring-cloud-gcp-starter-data-spanner</artifactId>
+</dependency>
+
+```
     
 ### Modify a Java application to use Cloud Spanner instead of Cloud SQL
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMjE0MjU4NiwtMjkyNDU5MTQ0XX0=
+eyJoaXN0b3J5IjpbLTE5MTAxNDA0ODMsLTI5MjQ1OTE0NF19
 -->
