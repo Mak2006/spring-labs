@@ -48,10 +48,11 @@ Configure the profile to be used by the application. Open ~/`guestbook-service/s
 ```
 spring.cloud.gcp.spanner.instance-id=guestbook spring.cloud.gcp.spanner.database=messages
 ```
-
+All set we now create the 
+### 
     
 ### Modify a Java application to use Cloud Spanner instead of Cloud SQL
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1ODI2MjM5MSwtMTgzNDQ5Nzc1MSwtMj
+eyJoaXN0b3J5IjpbLTQ4Njg1NDM3NCwtMTgzNDQ5Nzc1MSwtMj
 kyNDU5MTQ0XX0=
 -->
