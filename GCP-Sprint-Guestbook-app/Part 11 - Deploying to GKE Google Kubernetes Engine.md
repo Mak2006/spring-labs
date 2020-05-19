@@ -81,11 +81,67 @@ All goes well
 ### Change the Yaml def for deploying the containers
 // Create the yaml
 // the file we modify is `~/kubernetes/guestbook-frontend-deployment.yaml`. 
-// Replace the project id. 
-the yaml now looks like below  for the front end
+
+Replace the line `image: saturnism/spring-gcp-guestbook-frontend:latest` with the line `image: gcr.io/[PROJECT_ID]/guestbook-frontend` below the line specifying the container name.
+
+The yaml now looks like below  for the front end
 ```
-
-
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: guestbook-frontend
+  name: guestbook-frontend
+spec:
+  type: LoadBalancer
+  ports:
+  - name: http
+    port: 8080
+    targetPort: 8080
+  selector:
+    app: guestbook-frontend
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: guestbook-frontend
+  name: guestbook-frontend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: guestbook-frontend
+  template:
+    metadata:
+      labels:
+        app: guestbook-frontend
+    spec:
+      volumes:
+      - name: credentials
+        secret:
+          secretName: guestbook-service-account
+      containers:
+      - name: guestbook-frontend
+        image: gcr.io/[PROJECT_ID]/guestbook-frontend
+        volumeMounts:
+        - name: credentials 
+          mountPath: "/etc/credentials"
+          readOnly: true
+        env:
+        - name: SPRING_CLOUD_CONFIG_ENABLED
+          value: "false"
+        - name: SPRING_CLOUD_GCP_CONFIG_ENABLED
+          value: "false"
+        - name: MESSAGES_ENDPOINT
+          value: http://guestbook-service:8080/guestbookMessages
+        - name: SPRING_PROFILES_ACTIVE
+          value: cloud
+        - name: GOOGLE_APPLICATION_CREDENTIALS
+          value: /etc/credentials/service-account.json
+        ports:
+        - name: http
+          containerPort: 8080
 
 ```
 
@@ -100,7 +156,7 @@ get the external IP and launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNTY0MTI4MSw0NTA4MDc0MjMsMTkyMj
-E2MTAzNCwyMTE5NTc1MTksLTgyODE0MDIxMSwtNDcyNDA5ODU1
-LC0xOTAwNTQ5ODYyXX0=
+eyJoaXN0b3J5IjpbNjE4MTk0NDc0LC00MzU2NDEyODEsNDUwOD
+A3NDIzLDE5MjIxNjEwMzQsMjExOTU3NTE5LC04MjgxNDAyMTEs
+LTQ3MjQwOTg1NSwtMTkwMDU0OTg2Ml19
 -->
