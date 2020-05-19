@@ -1,4 +1,6 @@
 # Spring Runtime Configurations
+This series is a 12 part series in creating Spring application with GCP services. These are the notes that was created as part of coursework for the course titled Building Scalable Java Microservices with Spring Boot and Spring Cloud!
+Repo - https://github.com/saturnism/spring-cloud-gcp-guestbook.git
 
 1. In a production environment, you need a robust mechanism to store and update configuration values that might change dynamically. Typically, you end up with additional configuration servers that you have to make highly available and manage yourself. Cloud Runtime Configuration API enables you to define and store data as a hierarchy of key-value pairs in Google Cloud Platform (GCP). You can use these key-value pairs to dynamically configure services, communicate service states, send notification of changes to data, and share information between multiple tiers of service.
 2. Spring Cloud GCP has a configuration starter that interoperates well with the Spring Cloud Config facility. This starter enables you to integrate runtime configuration capabilities into your applications without having to manually build and manage your own configuration server.
@@ -137,5 +139,5 @@ gcloud beta runtime-config configs variables set greeting \
 Snippet in action
 ![enter image description here](https://i.imgur.com/0Flx6ld.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMTE3MDUxXX0=
+eyJoaXN0b3J5IjpbLTEwNjk5MjIxMV19
 -->
