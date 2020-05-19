@@ -1,7 +1,7 @@
 # Creating a Spring based Guestbook application
-This series is a 12 part series in creating Spring application with GCP services. This forms t
+This series is a 12 part series in creating Spring application with GCP services. These are the notes that was created as part of coursework for the course titled Building Scalable Java Microservices with Spring Boot and Spring Cloud!
 Repo - https://github.com/saturnism/spring-cloud-gcp-guestbook.git
-Series
+
 
 ## Stack 
 1. Microservices communication - Rabbit MQ. 
@@ -271,6 +271,6 @@ qwiklabs-gcp-04-94261e73db16:us-central1:guestbook
 Had to change the jvm, as the project was created in java 8 while the shell was different. 
 sudo update-java-alternatives -s java-1.8.0-openjdk-amd64 && export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDY4Mjc5MywtMTUxNDMwMzkxOSwxMT
-YxMjY3ODc5LC00MjgyODU3NTYsNjE3NjI0MzgyXX0=
+eyJoaXN0b3J5IjpbLTIwNDg2NjUxOTcsLTE1MTQzMDM5MTksMT
+E2MTI2Nzg3OSwtNDI4Mjg1NzU2LDYxNzYyNDM4Ml19
 -->
