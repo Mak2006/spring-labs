@@ -7,9 +7,9 @@ In this lab, you update your application to use the Spring Cloud GCP starter for
     
 ### Use the data definition language (DDL) to create a Cloud Spanner table
     
--   Use Spring to add support for Cloud Spanner to an application
+### Use Spring to add support for Cloud Spanner to an application
     
--   Modify a Java application to use Cloud Spanner instead of Cloud SQL
+### Modify a Java application to use Cloud Spanner instead of Cloud SQL
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNzI5NjM5Nl19
+eyJoaXN0b3J5IjpbMTE0MTc1OTk0OF19
 -->
