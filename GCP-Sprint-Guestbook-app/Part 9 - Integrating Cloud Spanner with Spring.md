@@ -21,13 +21,22 @@ Create a table in the  `messages`  database by creating a file that contains a D
 cd ~/guestbook-service 
 mkdir db
 vi spanner.ddl
-
+# Add the following ddl
+CREATE TABLE guestbook_message (
+    id STRING(36) NOT NULL,
+    name STRING(255) NOT NULL,
+    image_uri STRING(255),
+    message STRING(255)
+) PRIMARY KEY (id);
 ``` 
+Run the ddl
+`gcloud spanner databases ddl update messages \ --instance=guestbook --ddl="$(<db/spanner.ddl)"`
+
 ### Use the data definition language (DDL) to create a Cloud Spanner table
     
 ### Use Spring to add support for Cloud Spanner to an application
     
 ### Modify a Java application to use Cloud Spanner instead of Cloud SQL
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NjcwMzA1XX0=
+eyJoaXN0b3J5IjpbLTI5MjQ1OTE0NF19
 -->
