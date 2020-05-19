@@ -1,3 +1,5 @@
+This series is a 12 part series in creating Spring application with GCP services. These are the notes that was created as part of coursework for the course titled Building Scalable Java Microservices with Spring Boot and Spring Cloud!
+
 Google Cloud Platform (GCP) offers many other APIs that you can use directly from your Java applications.  In this lab, we integrate our Spring applications with GCP API's, in particular, use Cloud Vision API to analyze the images uploaded by the users.
 
 Vision API enables developers to understand the content of an image by encapsulating powerful machine-learning models in an easy-to-use REST API. Vision API quickly classifies images into thousands of categories, detects individual objects and faces within images, and reads printed words contained in images. You can build metadata on your image catalog, moderate offensive content, or enable new marketing scenarios through image sentiment analysis. Vision API enables your applications to easily detect broad sets of objects in your images, from flowers, animals, or transportation to thousands of other object categories commonly found in images.
@@ -104,6 +106,7 @@ Run the app.  Upload some images and check the caterogy of the image in the log.
 ./mvnw spring-boot:run -Dspring.profiles.active=cloud \ -Dspring.cloud.gcp.credentials.location=file:///$HOME/service-account.json
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjczMzY3OTI3LC0xNDA5MTE0MTU1LDIwMz
-I3NTA0MTEsLTIwMzczMzQ1MjcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTgwMzk0ODkxLDY3MzM2NzkyNywtMTQwOT
+ExNDE1NSwyMDMyNzUwNDExLC0yMDM3MzM0NTI3LDczMDk5ODEx
+Nl19
 -->
