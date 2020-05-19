@@ -62,7 +62,7 @@ gcloud iam service-accounts keys create \ ~/service-account.json \ --iam-account
 
 ```
 
-### Check the GKE
+### Check and prepare the GKE
 Check the Kubectl version 
 `kubectl version`
 
@@ -72,7 +72,14 @@ Check the Kubectl version
 //Check if the secret is available
 `kubectl describe secret guestbook-service-account`
 
+### Deploy the containers
+// Create the yaml
+// the file we modify is `~/kubernetes/guestbook-frontend-deployment.yaml`. 
+// Replace the project id. 
+the yaml now looks li
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NzgxNTg2LC00NzI0MDk4NTUsLTE5MD
+eyJoaXN0b3J5IjpbNDE2NjI5NTI5LC00NzI0MDk4NTUsLTE5MD
 A1NDk4NjJdfQ==
 -->
