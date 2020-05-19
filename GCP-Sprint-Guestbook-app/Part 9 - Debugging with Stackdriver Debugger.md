@@ -23,6 +23,7 @@ This is found in the Logging > Logs Viewer
 Navigate to debugger, select the application, select the source code
 ![Cloud debugger](https://i.imgur.com/q7SXzM8.png)
 
+### Creating the Source Code Capture
 
 
 
@@ -33,7 +34,7 @@ Navigate to debugger, select the application, select the source code
     
 ### Enable Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODI2MDQ1MTIsLTE2Nzc4NTg0ODgsLT
-k0NjU1NDI4NywxNTY1Mjk1MzgsMTcxNDYyNjM4OCwzMTQxMDE2
-NDUsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTEzNDk0NjkxNjcsLTE3ODI2MDQ1MTIsLT
+E2Nzc4NTg0ODgsLTk0NjU1NDI4NywxNTY1Mjk1MzgsMTcxNDYy
+NjM4OCwzMTQxMDE2NDUsLTIwODg3NDY2MTJdfQ==
 -->
