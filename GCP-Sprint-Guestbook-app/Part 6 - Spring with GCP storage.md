@@ -1,3 +1,5 @@
+This series is a 12 part series in creating Spring application with GCP services. These are the notes that was created as part of coursework for the course titled Building Scalable Java Microservices with Spring Boot and Spring Cloud!
+
 In this lab we create a form and upload an image, which gets stored in Cloud storage. Later we read it from there and display it. 
 
 Google Cloud Platform (GPC) has a bucket-based object storage solution called Cloud Storage. Cloud Storage provides fast, low-cost, highly durable, global object storage for developers and enterprises that need to manage unstructured file data. In Cloud Storage, the consistent API, low latency, and speed across storage classes simplify development integration and reduce code complexity.
@@ -116,7 +118,7 @@ So we now see the upload in our page
 ![enter image description here](https://i.imgur.com/L3XDwab.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzIyNTk0NjUsNjY2MTYwMjY0LC05OT
-IzNDY0MTMsLTEwNjA1NzgxMjcsLTE2NTc3NjA3MywtMTgxMzQ1
-NzE2OV19
+eyJoaXN0b3J5IjpbOTk3NjgyMjMzLC0xMDcyMjU5NDY1LDY2Nj
+E2MDI2NCwtOTkyMzQ2NDEzLC0xMDYwNTc4MTI3LC0xNjU3NzYw
+NzMsLTE4MTM0NTcxNjldfQ==
 -->
