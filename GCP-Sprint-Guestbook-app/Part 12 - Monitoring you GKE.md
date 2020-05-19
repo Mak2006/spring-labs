@@ -12,13 +12,16 @@ Load the Google Monitoring dashboard to create a monitoring workspace.  It shall
 ![enter image description here](https://i.imgur.com/szg09Bf.png)
 
 Once done we see a dashboard like as below
-![enter image description here](https://i.imgur.com/LOwCjNX.png)
-
+![Sample monitoring dashboard](https://i.imgur.com/LOwCjNX.png)
 
 
 ### Enable Prometheus monitoring in a Kubernetes Engine cluster
+`gcloud container clusters get-credentials guestbook-cluster \ --zone=us-central1-a`
+
+
 ### Expose Prometheus metrics from inside a Spring Boot application
 ### Explore live application metrics using Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDEyNjgwMjQsMTM0MTA2OTY3OF19
+eyJoaXN0b3J5IjpbNzMyMDUxODEyLC0xOTQxMjY4MDI0LDEzND
+EwNjk2NzhdfQ==
 -->
