@@ -23,8 +23,9 @@ Enable container registry
 `gcloud services enable containerregistry.googleapis.com`
 `gcloud config list --format 'value(core.project)'`
 
+Since the app was running on Tomcat 
 
 ### Create a Kubernetes deployment for a containerized application
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDA1NDk4NjJdfQ==
+eyJoaXN0b3J5IjpbMTY0MjYyODE3LC0xOTAwNTQ5ODYyXX0=
 -->
