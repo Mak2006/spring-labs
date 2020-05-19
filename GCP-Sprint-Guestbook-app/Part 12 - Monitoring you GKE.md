@@ -68,8 +68,12 @@ In the Cloud Shell code editor, open  `~/guestbook-frontend/src/main/resources/a
 management.server.port=8081
 management.endpoints.web.exposure.include=*
 ``` 
+### Rebuild
+for both the frontend and services  application
+`./mvnw clean compile jib:build`
+
 ### Explore live application metrics using Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMTkwODI5OCwxMjAyMjUzOTQyLC0xNT
+eyJoaXN0b3J5IjpbLTMwNjE5MjEyMCwxMjAyMjUzOTQyLC0xNT
 IyNTAyODcyLC0xOTQxMjY4MDI0LDEzNDEwNjk2NzhdfQ==
 -->
