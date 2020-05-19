@@ -50,10 +50,13 @@ We can see our image this time  -
 ![Screw driver](https://i.imgur.com/RO4juLF.png)
 
 ### Enable Cloud Monitoring
+Go to monitoring, wait for it to finish
+![Monitoring provisioning](https://i.imgur.com/szg09Bf.png)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NjQwNzQ5MSwtMTAxMjc3OTI0LC0xMz
-A1MTIxNTM1LC0xNzgyNjA0NTEyLC0xNjc3ODU4NDg4LC05NDY1
-NTQyODcsMTU2NTI5NTM4LDE3MTQ2MjYzODgsMzE0MTAxNjQ1LC
-0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMjc0MzMwODg2LC0xMDEyNzc5MjQsLTEzMD
+UxMjE1MzUsLTE3ODI2MDQ1MTIsLTE2Nzc4NTg0ODgsLTk0NjU1
+NDI4NywxNTY1Mjk1MzgsMTcxNDYyNjM4OCwzMTQxMDE2NDUsLT
+IwODg3NDY2MTJdfQ==
 -->
