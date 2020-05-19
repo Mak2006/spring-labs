@@ -41,9 +41,13 @@ Note - a log has a validity period ! .  This is a nice feature.
 ![Logging](https://i.imgur.com/v9T88Gb.png)
 The new logs are in blue. 
 
+We find our log 
+![Log](https://i.imgur.com/kRHdSoJ.png)
+
+this tells us the application is indeed receiving the file.  A
 ### Enable Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NDU2ODA3MywtMTMwNTEyMTUzNSwtMT
+eyJoaXN0b3J5IjpbMjAwNDY1MDA4MiwtMTMwNTEyMTUzNSwtMT
 c4MjYwNDUxMiwtMTY3Nzg1ODQ4OCwtOTQ2NTU0Mjg3LDE1NjUy
 OTUzOCwxNzE0NjI2Mzg4LDMxNDEwMTY0NSwtMjA4ODc0NjYxMl
 19
