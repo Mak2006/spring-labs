@@ -144,6 +144,11 @@ spec:
           containerPort: 8080
 
 ```
+The service yaml is 
+
+```
+
+```
 
 ### Apply the yaml 
 `kubectl apply -f ~/kubernetes/`
@@ -156,7 +161,7 @@ get the external IP and launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE4MTk0NDc0LC00MzU2NDEyODEsNDUwOD
-A3NDIzLDE5MjIxNjEwMzQsMjExOTU3NTE5LC04MjgxNDAyMTEs
-LTQ3MjQwOTg1NSwtMTkwMDU0OTg2Ml19
+eyJoaXN0b3J5IjpbLTE3MTAwNDMyNzcsLTQzNTY0MTI4MSw0NT
+A4MDc0MjMsMTkyMjE2MTAzNCwyMTE5NTc1MTksLTgyODE0MDIx
+MSwtNDcyNDA5ODU1LC0xOTAwNTQ5ODYyXX0=
 -->
