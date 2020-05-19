@@ -93,7 +93,12 @@ public interface GuestbookMessageRepository extends
 ```
  
  ### Testing the app
+ Run
+ `./mvnw spring-boot:run -Dserver.port=8081 -Dspring.profiles.active=cloud`
+
+We now post some messages and check the spanner dashboard. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIzNzAyMTk5LC0xMTMxNTg0MTg4LC0xOD
+eyJoaXN0b3J5IjpbMjA1NTE0NTA2LC0xMTMxNTg0MTg4LC0xOD
 M0NDk3NzUxLC0yOTI0NTkxNDRdfQ==
 -->
