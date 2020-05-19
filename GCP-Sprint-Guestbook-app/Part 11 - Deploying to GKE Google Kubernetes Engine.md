@@ -72,7 +72,7 @@ Check the Kubectl version
 //Check if the secret is available
 `kubectl describe secret guestbook-service-account`
 
-### Deploy the containers
+### Change the Yaml def for deploying the containers
 // Create the yaml
 // the file we modify is `~/kubernetes/guestbook-frontend-deployment.yaml`. 
 // Replace the project id. 
@@ -84,9 +84,16 @@ the yaml now looks like below
 ```
 
 ### Apply the yaml 
+`kubectl apply -f ~/kubernetes/`
+
+### Test 
+`kubectl get svc guestbook-frontend`
+`kubectl get svc`
+get the external IP and launch
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MDg4MjcyLC04MjgxNDAyMTEsLTQ3Mj
+eyJoaXN0b3J5IjpbMjExOTU3NTE5LC04MjgxNDAyMTEsLTQ3Mj
 QwOTg1NSwtMTkwMDU0OTg2Ml19
 -->
