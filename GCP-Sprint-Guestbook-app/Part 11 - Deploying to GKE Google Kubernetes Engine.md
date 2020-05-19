@@ -49,8 +49,15 @@ This completes our dockerization and we now set up the service account to use GK
 
 ### Set up service account to use GKE
 ```
+# Set up service account
+gcloud iam service-accounts create guestbook
+
+export PROJECT_ID=$(gcloud config list --format 'value(core.project)')
+gcloud projects add-iam-policy-binding ${PROJECT_ID} \
+  --member serviceAccount:guestbook@${PROJECT_ID}.iam.gserviceaccount.com \
+  --role roles/editor
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzQzNzUyNzcsLTQ3MjQwOTg1NSwtMT
-kwMDU0OTg2Ml19
+eyJoaXN0b3J5IjpbMTQwNDU2NjU4LC00NzI0MDk4NTUsLTE5MD
+A1NDk4NjJdfQ==
 -->
