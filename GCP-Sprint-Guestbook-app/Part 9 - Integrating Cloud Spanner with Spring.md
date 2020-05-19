@@ -16,13 +16,18 @@ Create a `messages` database in the Cloud Spanner instance.
 Confirm that the database exists by listing the databases of the Cloud Spanner instance.
 `gcloud spanner databases list --instance=guestbook`
 
+Create a table in the  `messages`  database by creating a file that contains a DDL statement and then running the command.
+```
+cd ~/guestbook-service 
+mkdir db
+vi spanner.ddl
 
-    
+``` 
 ### Use the data definition language (DDL) to create a Cloud Spanner table
     
 ### Use Spring to add support for Cloud Spanner to an application
     
 ### Modify a Java application to use Cloud Spanner instead of Cloud SQL
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MDk5NDQxN119
+eyJoaXN0b3J5IjpbMTA2NjcwMzA1XX0=
 -->
