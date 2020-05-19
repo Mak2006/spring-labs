@@ -49,7 +49,7 @@ This completes our dockerization and we now set up the service account to use GK
 
 ### Set up service account to use GKE
 ```
-# Set up service account
+// Set up service account
 gcloud iam service-accounts create guestbook
 
 export PROJECT_ID=$(gcloud config list --format 'value(core.project)')
@@ -57,11 +57,22 @@ gcloud projects add-iam-policy-binding ${PROJECT_ID} \
   --member serviceAccount:guestbook@${PROJECT_ID}.iam.gserviceaccount.com \
   --role roles/editor
 
-# Generate JSon key
+// Generate JSon key
 gcloud iam service-accounts keys create \ ~/service-account.json \ --iam-account guestbook@${PROJECT_ID}.iam.gserviceaccount.com
 
-###```
+```
+
+### Check the GKE
+Check the Kubectl version 
+`kubectl version`
+
+// Add the secret
+`kubectl create secret generic guestbook-service-account \ --from-file=$HOME/service-account.json`
+
+//Check if the secret is available
+`kubectl describe secret guestbook-service-account`
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMwNzI1Njc1LC00NzI0MDk4NTUsLTE5MD
+eyJoaXN0b3J5IjpbMTg3NzgxNTg2LC00NzI0MDk4NTUsLTE5MD
 A1NDk4NjJdfQ==
 -->
