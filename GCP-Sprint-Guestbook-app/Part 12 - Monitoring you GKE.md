@@ -103,9 +103,9 @@ Test using curl
 ![enter image description here](https://i.imgur.com/O7PovTz.png)
 
 Now open metrics dashboard to see more information.
-
+![Sample](https://i.imgur.com/kXPk9Hv.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMDg3OTQxOSw0Mjc1MDg1MTIsMTI4MD
+eyJoaXN0b3J5IjpbLTE4MzE5MzI5OSw0Mjc1MDg1MTIsMTI4MD
 kxNTYyMSwxMzMzMzMzNjk0LDE2ODI3Nzk3NTAsMTEzOTgyMDE1
 OCwtMzA2MTkyMTIwLDEyMDIyNTM5NDIsLTE1MjI1MDI4NzIsLT
 E5NDEyNjgwMjQsMTM0MTA2OTY3OF19
