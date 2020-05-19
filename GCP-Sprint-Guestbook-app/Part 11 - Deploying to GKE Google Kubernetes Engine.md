@@ -201,6 +201,7 @@ spec:
 
 ### Apply the yaml 
 `kubectl apply -f ~/kubernetes/`
+![enter image description here](https://i.imgur.com/S0uaVnS.png)
 
 ### Test 
 `kubectl get svc guestbook-frontend`
@@ -210,7 +211,7 @@ get the external IP and launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjU5OTc4MDUsLTQzNTY0MTI4MSw0NT
-A4MDc0MjMsMTkyMjE2MTAzNCwyMTE5NTc1MTksLTgyODE0MDIx
-MSwtNDcyNDA5ODU1LC0xOTAwNTQ5ODYyXX0=
+eyJoaXN0b3J5IjpbMTUyMTk1MTY2MywtNDM1NjQxMjgxLDQ1MD
+gwNzQyMywxOTIyMTYxMDM0LDIxMTk1NzUxOSwtODI4MTQwMjEx
+LC00NzI0MDk4NTUsLTE5MDA1NDk4NjJdfQ==
 -->
