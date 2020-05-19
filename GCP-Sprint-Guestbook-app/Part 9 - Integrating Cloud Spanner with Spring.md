@@ -3,7 +3,10 @@ Cloud Spanner is an enterprise-grade, globally distributed, strongly consistent 
 
 In this lab, you update your application to use the Spring Cloud GCP starter for Cloud Spanner, test the changes locally in Cloud Shell, and then redeploy the backend service to App Engine.
 
-### Create a Cloud Spanner instance and database
+### Enable cloud spanner
+`gcloud services enable spanner.googleapis.com`
+
+Create a Cloud Spanner instance and database
     
 ### Use the data definition language (DDL) to create a Cloud Spanner table
     
@@ -11,5 +14,5 @@ In this lab, you update your application to use the Spring Cloud GCP starter for
     
 ### Modify a Java application to use Cloud Spanner instead of Cloud SQL
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTc1OTk0OF19
+eyJoaXN0b3J5IjpbLTEzNDIxMzY3MDJdfQ==
 -->
