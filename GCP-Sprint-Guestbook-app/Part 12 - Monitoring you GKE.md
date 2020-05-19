@@ -1,4 +1,5 @@
 # Monitoring the Google Kubernetics Engine with Prometheus
+This series is a 12 part series in creating Spring application with GCP services. These are the notes that was created as part of coursework for the course titled Building Scalable Java Microservices with Spring Boot and Spring Cloud!
 
 In tradtional Java world, for monitoring JMX, JProfiler etc were used. In the cloud centric world, tools like Prometheus is used. 
 
@@ -105,8 +106,8 @@ Test using curl
 Now open metrics dashboard to see more information.
 ![Sample](https://i.imgur.com/kXPk9Hv.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzE5MzI5OSw0Mjc1MDg1MTIsMTI4MD
-kxNTYyMSwxMzMzMzMzNjk0LDE2ODI3Nzk3NTAsMTEzOTgyMDE1
-OCwtMzA2MTkyMTIwLDEyMDIyNTM5NDIsLTE1MjI1MDI4NzIsLT
-E5NDEyNjgwMjQsMTM0MTA2OTY3OF19
+eyJoaXN0b3J5IjpbMTcxMDI3ODY4MSwtMTgzMTkzMjk5LDQyNz
+UwODUxMiwxMjgwOTE1NjIxLDEzMzMzMzM2OTQsMTY4Mjc3OTc1
+MCwxMTM5ODIwMTU4LC0zMDYxOTIxMjAsMTIwMjI1Mzk0MiwtMT
+UyMjUwMjg3MiwtMTk0MTI2ODAyNCwxMzQxMDY5Njc4XX0=
 -->
