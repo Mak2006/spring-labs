@@ -76,10 +76,15 @@ Check the Kubectl version
 // Create the yaml
 // the file we modify is `~/kubernetes/guestbook-frontend-deployment.yaml`. 
 // Replace the project id. 
-the yaml now looks li
+the yaml now looks like below 
+```
+# get the yaml
+
+```
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2NjI5NTI5LC00NzI0MDk4NTUsLTE5MD
-A1NDk4NjJdfQ==
+eyJoaXN0b3J5IjpbLTgyODE0MDIxMSwtNDcyNDA5ODU1LC0xOT
+AwNTQ5ODYyXX0=
 -->
