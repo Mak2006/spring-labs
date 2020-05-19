@@ -58,8 +58,18 @@ Add the following to the pom of the application for the integration
 </dependency>
 
 ```
+Below we incorporated the dependency
+![Micrometer](https://i.imgur.com/FfkznPo.png)
+
+
+In the Cloud Shell code editor, open  `~/guestbook-frontend/src/main/resources/application.properties`.
+
+```
+management.server.port=8081
+management.endpoints.web.exposure.include=*
+``` 
 ### Explore live application metrics using Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMjI1Mzk0MiwtMTUyMjUwMjg3MiwtMT
-k0MTI2ODAyNCwxMzQxMDY5Njc4XX0=
+eyJoaXN0b3J5IjpbLTczMTkwODI5OCwxMjAyMjUzOTQyLC0xNT
+IyNTAyODcyLC0xOTQxMjY4MDI0LDEzNDEwNjk2NzhdfQ==
 -->
