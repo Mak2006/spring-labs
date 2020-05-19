@@ -79,11 +79,19 @@ You update the Kubernetes deployment to specify the Prometheus metrics endpoint.
 
 You add Prometheus annotations to the  `deployment.spec.template.metadata.annotation`  section of the build YAML file for the frontend application.
 
+```
+annotations:
+   prometheus.io/scrape: 'true'
+   prometheus.io/path: '/actuator/prometheus'
+   prometheus.io/port: '8081'
 
+```
+We are good to go now and applyt the configurATION. 
+### 
 
 ### Explore live application metrics using Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzOTgyMDE1OCwtMzA2MTkyMTIwLDEyMD
-IyNTM5NDIsLTE1MjI1MDI4NzIsLTE5NDEyNjgwMjQsMTM0MTA2
-OTY3OF19
+eyJoaXN0b3J5IjpbMTY4Mjc3OTc1MCwxMTM5ODIwMTU4LC0zMD
+YxOTIxMjAsMTIwMjI1Mzk0MiwtMTUyMjUwMjg3MiwtMTk0MTI2
+ODAyNCwxMzQxMDY5Njc4XX0=
 -->
