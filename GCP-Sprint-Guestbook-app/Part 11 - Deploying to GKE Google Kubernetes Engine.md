@@ -75,6 +75,9 @@ Check the Kubectl version
 //Check if the secret is available
 `kubectl describe secret guestbook-service-account`
 
+All goes well
+![Kubectl init](https://i.imgur.com/pKkXuJR.png)
+
 ### Change the Yaml def for deploying the containers
 // Create the yaml
 // the file we modify is `~/kubernetes/guestbook-frontend-deployment.yaml`. 
@@ -97,7 +100,7 @@ get the external IP and launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwODA3NDIzLDE5MjIxNjEwMzQsMjExOT
-U3NTE5LC04MjgxNDAyMTEsLTQ3MjQwOTg1NSwtMTkwMDU0OTg2
-Ml19
+eyJoaXN0b3J5IjpbMTg2NDYzNzEwNCw0NTA4MDc0MjMsMTkyMj
+E2MTAzNCwyMTE5NTc1MTksLTgyODE0MDIxMSwtNDcyNDA5ODU1
+LC0xOTAwNTQ5ODYyXX0=
 -->
