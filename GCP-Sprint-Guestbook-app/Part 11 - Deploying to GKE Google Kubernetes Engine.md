@@ -42,6 +42,8 @@ Insert dependency for the Google's Jib Maven plugin which we shall use to docker
 </plugin>
 
 ```
+
+![enter image description here](https://i.imgur.com/SvI6eoy.png)
 Our build now becomes
 `./mvnw clean compile jib:build`
 
@@ -96,6 +98,7 @@ get the external IP and launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMjE2MTAzNCwyMTE5NTc1MTksLTgyOD
-E0MDIxMSwtNDcyNDA5ODU1LC0xOTAwNTQ5ODYyXX0=
+eyJoaXN0b3J5IjpbMTYzNTgwMjgxNywxOTIyMTYxMDM0LDIxMT
+k1NzUxOSwtODI4MTQwMjExLC00NzI0MDk4NTUsLTE5MDA1NDk4
+NjJdfQ==
 -->
