@@ -25,6 +25,8 @@ Enable container registry
 
 During the creation of the build we had marked Tomcat as provided. We want to package it along the application hence we remove `<scope>provided</scope>`
 
+![REMOVE provided](https://i.imgur.com/XTmkHkT.png)
+
 Insert dependency for the Google's Jib Maven plugin which we shall use to dockerise the applicaition. Google publishes **Jib** as both a **Maven** and a Gradle **plugin**. This **is** nice because it means that **Jib will** catch any changes we make to our application each time we build. This saves us separate docker build/push commands and simplifies adding this to a CI pipeline.
 
 ```
@@ -94,6 +96,6 @@ get the external IP and launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExOTU3NTE5LC04MjgxNDAyMTEsLTQ3Mj
-QwOTg1NSwtMTkwMDU0OTg2Ml19
+eyJoaXN0b3J5IjpbMTkyMjE2MTAzNCwyMTE5NTc1MTksLTgyOD
+E0MDIxMSwtNDcyNDA5ODU1LC0xOTAwNTQ5ODYyXX0=
 -->
