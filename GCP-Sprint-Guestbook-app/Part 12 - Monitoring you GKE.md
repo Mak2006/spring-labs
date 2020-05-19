@@ -37,8 +37,27 @@ Verify if prometheus is running
 
 
 ### Expose Prometheus metrics from inside a Spring Boot application
+Spring Boot can expose metrics information through Spring Boot Actuator. Micrometer is the metrics collection facility included in Spring Boot Actuator. Micrometer can expose all the metrics using the Prometheus format.
+
+If you are not using Spring Boot, you can expose JMX metrics through Prometheus by using a  [Prometheus JMX Exporter agent](https://github.com/prometheus/jmx_exporter).
+
+In this task, you add the Spring Boot Actuator starter and Micrometer dependencies to the guestbook frontend application.
+
+Add the following to the pom of the application for the integration
+```
+<dependency>
+     <groupId>org.springframework.boot</groupId>
+     <artifactId>spring-boot-starter-actuator</artifactId>
+</dependency>
+<dependency>
+     <groupId>io.micrometer</groupId>
+     <artifactId>micrometer-registry-prometheus</artifactId>
+     <scope>runtime</scope>
+</dependency>
+
+```
 ### Explore live application metrics using Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTE2MDk0MiwtMTk0MTI2ODAyNCwxMz
-QxMDY5Njc4XX0=
+eyJoaXN0b3J5IjpbLTE1MjI1MDI4NzIsLTE5NDEyNjgwMjQsMT
+M0MTA2OTY3OF19
 -->
