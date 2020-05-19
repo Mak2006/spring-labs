@@ -21,7 +21,9 @@ This is found in the Logging > Logs Viewer
 ![Logs](https://i.imgur.com/oeORLPn.png)
 ### Configure the cloud debugger
 Navigate to debugger, select the application, select the source code
-![enter image description here](https://i.imgur.com/xBIIzR2.png)
+![Cloud debugger](https://i.imgur.com/q7SXzM8.png)
+
+
 
 
 
@@ -31,7 +33,7 @@ Navigate to debugger, select the application, select the source code
     
 ### Enable Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODA4NTM3OTcsLTE2Nzc4NTg0ODgsLT
+eyJoaXN0b3J5IjpbLTE3ODI2MDQ1MTIsLTE2Nzc4NTg0ODgsLT
 k0NjU1NDI4NywxNTY1Mjk1MzgsMTcxNDYyNjM4OCwzMTQxMDE2
 NDUsLTIwODg3NDY2MTJdfQ==
 -->
