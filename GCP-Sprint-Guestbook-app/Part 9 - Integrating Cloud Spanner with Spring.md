@@ -48,11 +48,40 @@ Configure the profile to be used by the application. Open ~/`guestbook-service/s
 ```
 spring.cloud.gcp.spanner.instance-id=guestbook spring.cloud.gcp.spanner.database=messages
 ```
-All set we now create the 
-### 
+All set we now create the ORM parts
+###  Backend ORM part
+Create file `~/guestbook-service/src/main/java/com/example/guestbook/GuestbookMessage.java`.
+
+Add the following 
+
+```
+package com.example.guestbook;
+
+import lombok.*;
+import org.springframework.cloud.gcp.data.spanner.core.mapping.*;
+import org.springframework.data.annotation.Id;
+
+@Data
+@Table(name = "guestbook_message")
+public class GuestbookMessage {
+        @PrimaryKey
+        @Id
+        private String id;
+
+        private String name;
+
+        private String message;
+
+        @Column(name = "image_uri")
+        private String imageUri;
+
+        public GuestbookMessage() {
+                this.id = java.util.UUID.randomUUID().toString();
+        }
+}
+```
     
-### Modify a Java application to use Cloud Spanner instead of Cloud SQL
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4Njg1NDM3NCwtMTgzNDQ5Nzc1MSwtMj
-kyNDU5MTQ0XX0=
+eyJoaXN0b3J5IjpbLTExMzE1ODQxODgsLTE4MzQ0OTc3NTEsLT
+I5MjQ1OTE0NF19
 -->
