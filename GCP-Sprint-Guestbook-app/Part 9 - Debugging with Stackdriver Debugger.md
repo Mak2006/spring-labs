@@ -28,13 +28,14 @@ This is done below
 ![Source code capture](https://i.imgur.com/ASrNkFB.png)
 
 
-We are now in a position to use the debugger 
+We are now in a position to use the debugger . The source code capture now appears in the debugger
+![enter image description here](https://i.imgur.com/nvbPZx5.png)
 
 ### Configure Cloud Debugger logpoints and snapshots
     
 ### Enable Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NDc4ODU4NCwtMTc4MjYwNDUxMiwtMT
-Y3Nzg1ODQ4OCwtOTQ2NTU0Mjg3LDE1NjUyOTUzOCwxNzE0NjI2
-Mzg4LDMxNDEwMTY0NSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTEzMDUxMjE1MzUsLTE3ODI2MDQ1MTIsLT
+E2Nzc4NTg0ODgsLTk0NjU1NDI4NywxNTY1Mjk1MzgsMTcxNDYy
+NjM4OCwzMTQxMDE2NDUsLTIwODg3NDY2MTJdfQ==
 -->
