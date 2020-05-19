@@ -7,9 +7,13 @@ Cloud Kubernetes Monitoring aggregates logs, events, and metrics from your Kuber
 In this lab, you enable Prometheus monitoring for Kubernetes and then modify the demo application to expose Prometheus metrics from within the application and its backend service. You can then use Cloud Monitoring to monitor internal performance metrics from your application while it is running on Kubernetes Engine.
 
 ### Enable Cloud Monitoring for Kubernetes Engine
+Load the Google Monitoring dashboard to create a monitoring workspace.  It shall take some time to load
+
+
+
 ### Enable Prometheus monitoring in a Kubernetes Engine cluster
 ### Expose Prometheus metrics from inside a Spring Boot application
 ### Explore live application metrics using Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MzkzMTQ3NiwxMzQxMDY5Njc4XX0=
+eyJoaXN0b3J5IjpbLTExMzg5MjU3LDEzNDEwNjk2NzhdfQ==
 -->
