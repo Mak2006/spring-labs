@@ -50,17 +50,7 @@ gcloud beta runtime-config configs variables set messages.endpoint \
 ### Deploy the application to App Engine
 This is the frontend applicaiton
 `./mvnw appengine:deploy -DskipTests`
-There was couple of settings that were missing, that was done and the following is the output
-![Build Success](https://i.imgur.com/r4PDWCf.png)
 
-Next we find the URL
-`gcloud app browse`
-
-The app link 
-![Front end app link](https://i.imgur.com/bFCUL3T.png)
-
-Launch a web browser from the shell and load the front end application
-![The frontend app](https://i.imgur.com/UOL5jx1.png)
 
 Note we have to make the back end service also App friendly and deploy it to the Google App Engine.  So we repeat the steps for the back end services
 
@@ -99,8 +89,8 @@ Add the plug in
 Open Google App Engine and both of them must be now deployed on the google App engine. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDUzMjE4NTEsODg5MTYzMjksLTk5NT
-g2MDkxLDY2Mjk3NzA2NCw4MjQzOTk2MjYsLTE4NTI0NjY3ODgs
-LTUxNTMzNTA3NCwxMjYyNTcyMTUyLC0yMDg4NzQ2NjEyLDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTE2MTQ3NTIzMzcsLTEzMDUzMjE4NTEsOD
+g5MTYzMjksLTk5NTg2MDkxLDY2Mjk3NzA2NCw4MjQzOTk2MjYs
+LTE4NTI0NjY3ODgsLTUxNTMzNTA3NCwxMjYyNTcyMTUyLC0yMD
+g4NzQ2NjEyLDczMDk5ODExNl19
 -->
