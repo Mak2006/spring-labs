@@ -1,4 +1,5 @@
 # Deploying to Google Kubernetes Engine
+This series is a 12 part series in creating Spring application with GCP services. These are the notes that was created as part of coursework for the course titled Building Scalable Java Microservices with Spring Boot and Spring Cloud!
 
 Kubernetes Engine is Google's managed, production-ready environment for deploying containerized applications. Kubernetes Engine enables rapid application development and iteration by making it easy to deploy, update, and manage your applications and services. Kubernetes Engine enables you to quickly get up and running with Kubernetes by eliminating the need to install, manage, and operate your own Kubernetes clusters.
 
@@ -213,7 +214,8 @@ get the external IP and launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNjc5OTc3MSwtNDM1NjQxMjgxLDQ1MD
-gwNzQyMywxOTIyMTYxMDM0LDIxMTk1NzUxOSwtODI4MTQwMjEx
-LC00NzI0MDk4NTUsLTE5MDA1NDk4NjJdfQ==
+eyJoaXN0b3J5IjpbLTIwNzkyMzcyNTUsLTYxNjc5OTc3MSwtND
+M1NjQxMjgxLDQ1MDgwNzQyMywxOTIyMTYxMDM0LDIxMTk1NzUx
+OSwtODI4MTQwMjExLC00NzI0MDk4NTUsLTE5MDA1NDk4NjJdfQ
+==
 -->
