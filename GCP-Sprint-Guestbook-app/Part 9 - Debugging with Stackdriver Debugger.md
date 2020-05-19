@@ -28,14 +28,12 @@ This is done below
 ![Source code capture](https://i.imgur.com/ASrNkFB.png)
 
 
-
-### Configure Cloud Debugger source content for App Engine debugging
-    
+W
 ### Configure Cloud Debugger logpoints and snapshots
     
 ### Enable Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM5NDk3MzAwLC0xNzgyNjA0NTEyLC0xNj
-c3ODU4NDg4LC05NDY1NTQyODcsMTU2NTI5NTM4LDE3MTQ2MjYz
-ODgsMzE0MTAxNjQ1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTE0MDY3NjExOCwtMTc4MjYwNDUxMiwtMT
+Y3Nzg1ODQ4OCwtOTQ2NTU0Mjg3LDE1NjUyOTUzOCwxNzE0NjI2
+Mzg4LDMxNDEwMTY0NSwtMjA4ODc0NjYxMl19
 -->
