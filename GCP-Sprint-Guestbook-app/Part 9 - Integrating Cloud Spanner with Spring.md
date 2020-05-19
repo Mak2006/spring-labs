@@ -80,8 +80,11 @@ public class GuestbookMessage {
         }
 }
 ```
-    
+ At this stage it is more like ORM db manipulation and is not so much Spanner specific.  Spring Data Spanner implements many commonly used Spring Data patterns, such as creating simple methods that can be automatically translated to corresponding SQL queries.
+
+
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzE1ODQxODgsLTE4MzQ0OTc3NTEsLT
-I5MjQ1OTE0NF19
+eyJoaXN0b3J5IjpbLTI0NDU1MjM4NCwtMTEzMTU4NDE4OCwtMT
+gzNDQ5Nzc1MSwtMjkyNDU5MTQ0XX0=
 -->
