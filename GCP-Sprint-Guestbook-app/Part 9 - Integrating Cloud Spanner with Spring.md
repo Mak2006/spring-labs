@@ -46,13 +46,12 @@ We add this to the backend as it is where app would talk tothe DB
 Configure the profile to be used by the application. Open ~/`guestbook-service/src/main/resources/application-cloud.properties`. Add
 
 ```
-spring.cloud.gcp.sql.enabled=true
-spring.cloud.gcp.sql.database-name=messages
-spring.cloud.gcp.sql.instance-connection-name=...
+spring.cloud.gcp.spanner.instance-id=guestbook spring.cloud.gcp.spanner.database=messages
 ```
 
     
 ### Modify a Java application to use Cloud Spanner instead of Cloud SQL
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzQ0OTc3NTEsLTI5MjQ1OTE0NF19
+eyJoaXN0b3J5IjpbMTg1ODI2MjM5MSwtMTgzNDQ5Nzc1MSwtMj
+kyNDU5MTQ0XX0=
 -->
