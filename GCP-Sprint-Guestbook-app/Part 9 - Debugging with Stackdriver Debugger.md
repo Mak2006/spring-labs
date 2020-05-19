@@ -33,12 +33,13 @@ We are now in a position to use the debugger . The source code capture now appea
 
 ### Configure Cloud Debugger logpoints and snapshots
 We can now add tons of log as much we want to. At this point we say we want to investigate why the files uploaded are not being shown. For this we set a log point as below 
-
-    
+![enter image description here](https://i.imgur.com/Lmd2q5s.png)
+   
+Note - a log has a validity period ! .  This is a nice feature. 
 ### Enable Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MTQ4MTMwNCwtMTMwNTEyMTUzNSwtMT
-c4MjYwNDUxMiwtMTY3Nzg1ODQ4OCwtOTQ2NTU0Mjg3LDE1NjUy
-OTUzOCwxNzE0NjI2Mzg4LDMxNDEwMTY0NSwtMjA4ODc0NjYxMl
-19
+eyJoaXN0b3J5IjpbOTA4MDEwNTI1LC0xMzA1MTIxNTM1LC0xNz
+gyNjA0NTEyLC0xNjc3ODU4NDg4LC05NDY1NTQyODcsMTU2NTI5
+NTM4LDE3MTQ2MjYzODgsMzE0MTAxNjQ1LC0yMDg4NzQ2NjEyXX
+0=
 -->
