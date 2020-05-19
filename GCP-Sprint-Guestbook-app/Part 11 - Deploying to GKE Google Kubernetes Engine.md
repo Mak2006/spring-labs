@@ -48,7 +48,9 @@ We now do the same for the backend service. That is remove Tomcat `provided` sco
 This completes our dockerization and we now set up the service account to use GKE.
 
 ### Set up service account to use GKE
-
+```
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MjQwOTg1NSwtMTkwMDU0OTg2Ml19
+eyJoaXN0b3J5IjpbLTE0MzQzNzUyNzcsLTQ3MjQwOTg1NSwtMT
+kwMDU0OTg2Ml19
 -->
