@@ -1,4 +1,5 @@
 # Cloud Pub/Sub integration
+This series is a 12 part series in creating Spring application with GCP services. These are the notes that was created as part of coursework for the course titled Building Scalable Java Microservices with Spring Boot and Spring Cloud!
 
 In this part of the series we integrate our application with Cloud Pub Sub
 
@@ -95,7 +96,7 @@ To test the code, we introduce themessages via the app and it gets pushed to the
  
 ![Running the Demo application](https://i.imgur.com/AwLyOL3.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMzc4NjU1NSwtNzEyOTEzODcwLDQyNT
-UzOTgxMywtMTk0MzkwNDU4OCwtOTQ0Njc4NzYwLDkwNTc3MDU4
-MCw5NjI1OTA3NDVdfQ==
+eyJoaXN0b3J5IjpbNTc1Njk0Mzc1LC03MTI5MTM4NzAsNDI1NT
+M5ODEzLC0xOTQzOTA0NTg4LC05NDQ2Nzg3NjAsOTA1NzcwNTgw
+LDk2MjU5MDc0NV19
 -->
