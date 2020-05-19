@@ -25,8 +25,10 @@ Enable container registry
 
 During the creation of the build we had marked Tomcat as provided. We want to package it along the application hence we remove `<scope>provided</scope>`
 
+Insert dependency for the Jib Maven plugin which
+
 
 ### Create a Kubernetes deployment for a containerized application
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjM3NTI3NiwtMTkwMDU0OTg2Ml19
+eyJoaXN0b3J5IjpbOTcwOTQxMDgyLC0xOTAwNTQ5ODYyXX0=
 -->
