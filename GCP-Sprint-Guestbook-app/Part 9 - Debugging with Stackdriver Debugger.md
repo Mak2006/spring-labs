@@ -46,11 +46,14 @@ We find our log
 
 this tells us the application is indeed receiving the file.  A bad example however, it helps, in this case it is evident that the application accepts only jpeg and we are uploading a png. 
 We upload a jpeg. 
+We can see our image this time  - 
+![Screw driver](https://i.imgur.com/RO4juLF.png)
 
 ### Enable Cloud Monitoring
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTI3NzkyNCwtMTMwNTEyMTUzNSwtMT
-c4MjYwNDUxMiwtMTY3Nzg1ODQ4OCwtOTQ2NTU0Mjg3LDE1NjUy
-OTUzOCwxNzE0NjI2Mzg4LDMxNDEwMTY0NSwtMjA4ODc0NjYxMl
-19
+eyJoaXN0b3J5IjpbMjE0NjQwNzQ5MSwtMTAxMjc3OTI0LC0xMz
+A1MTIxNTM1LC0xNzgyNjA0NTEyLC0xNjc3ODU4NDg4LC05NDY1
+NTQyODcsMTU2NTI5NTM4LDE3MTQ2MjYzODgsMzE0MTAxNjQ1LC
+0yMDg4NzQ2NjEyXX0=
 -->
