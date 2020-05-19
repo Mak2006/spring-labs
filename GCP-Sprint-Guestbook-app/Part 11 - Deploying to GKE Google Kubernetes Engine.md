@@ -82,9 +82,9 @@ All goes well
 // Create the yaml
 // the file we modify is `~/kubernetes/guestbook-frontend-deployment.yaml`. 
 // Replace the project id. 
-the yaml now looks like below 
-# include the yaml
+the yaml now looks like below  for the front end
 ```
+
 
 
 ```
@@ -100,7 +100,7 @@ get the external IP and launch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDYzNzEwNCw0NTA4MDc0MjMsMTkyMj
+eyJoaXN0b3J5IjpbLTQzNTY0MTI4MSw0NTA4MDc0MjMsMTkyMj
 E2MTAzNCwyMTE5NTc1MTksLTgyODE0MDIxMSwtNDcyNDA5ODU1
 LC0xOTAwNTQ5ODYyXX0=
 -->
