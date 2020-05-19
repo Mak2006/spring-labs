@@ -25,7 +25,7 @@ Navigate to debugger, select the application, select the source code
 
 ### Creating the Source Code Capture
 This is done below 
-![Source cod](https://i.imgur.com/ASrNkFB.png)
+![Source code capture](https://i.imgur.com/ASrNkFB.png)
 
 
 
@@ -35,7 +35,7 @@ This is done below
     
 ### Enable Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNzE4NjI1NSwtMTc4MjYwNDUxMiwtMT
-Y3Nzg1ODQ4OCwtOTQ2NTU0Mjg3LDE1NjUyOTUzOCwxNzE0NjI2
-Mzg4LDMxNDEwMTY0NSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNTM5NDk3MzAwLC0xNzgyNjA0NTEyLC0xNj
+c3ODU4NDg4LC05NDY1NTQyODcsMTU2NTI5NTM4LDE3MTQ2MjYz
+ODgsMzE0MTAxNjQ1LC0yMDg4NzQ2NjEyXX0=
 -->
