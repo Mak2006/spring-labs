@@ -72,12 +72,18 @@ management.endpoints.web.exposure.include=*
 for both the frontend and services  application
 `./mvnw clean compile jib:build`
 
-### Rebuild the Kubernetes configuration to include prometheus.
+### Update Kubernetes configurations to include prometheus.
+Open `~/kubernetes/guestbook-frontend-deployment.yaml`
+
+You update the Kubernetes deployment to specify the Prometheus metrics endpoint. With this configuration, Spring Boot Actuator exposes the Prometheus metrics on port 8081, under the path of  `/actuator/prometheus`.
+
+You add Prometheus annotations to the  `deployment.spec.template.metadata.annotation`  section of the build YAML file for the frontend application.
+
 
 
 ### Explore live application metrics using Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjY0MTkwNCwtMzA2MTkyMTIwLDEyMD
+eyJoaXN0b3J5IjpbMTEzOTgyMDE1OCwtMzA2MTkyMTIwLDEyMD
 IyNTM5NDIsLTE1MjI1MDI4NzIsLTE5NDEyNjgwMjQsMTM0MTA2
 OTY3OF19
 -->
