@@ -1,4 +1,6 @@
 # Using the GCP Cloud debugger
+This series is a 12 part series in creating Spring application with GCP services. These are the notes that was created as part of coursework for the course titled Building Scalable Java Microservices with Spring Boot and Spring Cloud!
+
 Cloud Debugger is a feature of Google Cloud Platform (GCP) that enables you to inspect the state of an application at any code location, without stopping or slowing down the running app. Cloud Debugger makes it easier to view the application state without adding logging statements.
 
 You can use Cloud Debugger with any deployment of your application, including test, development, and production. Cloud Debugger adds less than 10 milliseconds to the request latency only when the application state is captured. In most cases, this additional latency is not noticeable by users.
@@ -58,8 +60,8 @@ We can see extensive monitoring now, those that are enabled by default.
 That completes the lab. 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDUwMDMwOTQsLTEwMTI3NzkyNCwtMT
-MwNTEyMTUzNSwtMTc4MjYwNDUxMiwtMTY3Nzg1ODQ4OCwtOTQ2
-NTU0Mjg3LDE1NjUyOTUzOCwxNzE0NjI2Mzg4LDMxNDEwMTY0NS
-wtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTU2NzYyMjAwLC0yMDQ1MDAzMDk0LC0xMD
+EyNzc5MjQsLTEzMDUxMjE1MzUsLTE3ODI2MDQ1MTIsLTE2Nzc4
+NTg0ODgsLTk0NjU1NDI4NywxNTY1Mjk1MzgsMTcxNDYyNjM4OC
+wzMTQxMDE2NDUsLTIwODg3NDY2MTJdfQ==
 -->
