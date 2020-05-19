@@ -56,6 +56,10 @@ There was couple of settings that were missing, that was done and the following 
 Next we find the URL
 `gcloud app browse`
 
+The app link 
+![Front end app link](https://i.imgur.com/bFCUL3T.png)
+
+A web
 Note we have to make the back end service also App friendly and deploy it to the Google App Engine.  So we repeat the steps for the back end services
 
 In the `~/guestbook-service/pom.xml` we add
@@ -93,8 +97,8 @@ Add the plug in
 Open Google App Engine and both of them must be now deployed on the google App engine. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDIyODI1MCw4ODkxNjMyOSwtOTk1OD
-YwOTEsNjYyOTc3MDY0LDgyNDM5OTYyNiwtMTg1MjQ2Njc4OCwt
-NTE1MzM1MDc0LDEyNjI1NzIxNTIsLTIwODg3NDY2MTIsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE5OTQyMTE1ODYsODg5MTYzMjksLTk5NT
+g2MDkxLDY2Mjk3NzA2NCw4MjQzOTk2MjYsLTE4NTI0NjY3ODgs
+LTUxNTMzNTA3NCwxMjYyNTcyMTUyLC0yMDg4NzQ2NjEyLDczMD
+k5ODExNl19
 -->
