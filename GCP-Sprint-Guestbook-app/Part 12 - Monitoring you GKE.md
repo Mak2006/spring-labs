@@ -102,11 +102,10 @@ Test using curl
 
 ![enter image description here](https://i.imgur.com/O7PovTz.png)
 
-Open metrics dashboard
-search for `jvm_memory`
+Now open metrics dashboard to see more information.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI3NTA4NTEyLDEyODA5MTU2MjEsMTMzMz
-MzMzY5NCwxNjgyNzc5NzUwLDExMzk4MjAxNTgsLTMwNjE5MjEy
-MCwxMjAyMjUzOTQyLC0xNTIyNTAyODcyLC0xOTQxMjY4MDI0LD
-EzNDEwNjk2NzhdfQ==
+eyJoaXN0b3J5IjpbOTk1NzA3NTk3LDQyNzUwODUxMiwxMjgwOT
+E1NjIxLDEzMzMzMzM2OTQsMTY4Mjc3OTc1MCwxMTM5ODIwMTU4
+LC0zMDYxOTIxMjAsMTIwMjI1Mzk0MiwtMTUyMjUwMjg3MiwtMT
+k0MTI2ODAyNCwxMzQxMDY5Njc4XX0=
 -->
