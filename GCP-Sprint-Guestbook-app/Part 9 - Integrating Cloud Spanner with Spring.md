@@ -32,11 +32,13 @@ CREATE TABLE guestbook_message (
 Run the ddl
 `gcloud spanner databases ddl update messages \ --instance=guestbook --ddl="$(<db/spanner.ddl)"`
 
+Open Spanner Dashboard, check Guestbook messages,  and table. There is no data yet. 
+
 ### Use the data definition language (DDL) to create a Cloud Spanner table
     
 ### Use Spring to add support for Cloud Spanner to an application
     
 ### Modify a Java application to use Cloud Spanner instead of Cloud SQL
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MjQ1OTE0NF19
+eyJoaXN0b3J5IjpbMTEyMjE0MjU4NiwtMjkyNDU5MTQ0XX0=
 -->
