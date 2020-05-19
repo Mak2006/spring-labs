@@ -9,8 +9,11 @@ We have now
 the app was available at  [https://qwiklabs-gcp-00-ad39112fdf80.uc.r.appspot.com](https://qwiklabs-gcp-00-ad39112fdf80.uc.r.appspot.com/ "https://qwiklabs-gcp-00-ad39112fdf80.uc.r.appspot.com") as shown above
 
 
+### Examine the cloud logs
+This is found in the Logging > Logs Viewer
 
-### Configure Cloud Logging for an App Engine application
+### Configure the cloud debugger
+
 
 
 ### Configure Cloud Debugger source content for App Engine debugging
@@ -19,6 +22,6 @@ the app was available at  [https://qwiklabs-gcp-00-ad39112fdf80.uc.r.appspot.com
     
 ### Enable Cloud Monitoring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NTI5NTM4LDE3MTQ2MjYzODgsMzE0MT
-AxNjQ1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTk0NjU1NDI4NywxNTY1Mjk1MzgsMTcxND
+YyNjM4OCwzMTQxMDE2NDUsLTIwODg3NDY2MTJdfQ==
 -->
