@@ -46,7 +46,9 @@ Our build now becomes
 We now do the same for the backend service. That is remove Tomcat `provided` scope, add the Jib plugin and fire jib target. 
 
 This completes our dockerization and we now set up the service account to use GKE.
+
+### Set up service account to use GKE
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzI4MDc2NTQsLTE5MDA1NDk4NjJdfQ
-==
+eyJoaXN0b3J5IjpbLTQ3MjQwOTg1NSwtMTkwMDU0OTg2Ml19
 -->
